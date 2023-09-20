@@ -1,0 +1,61 @@
+[
+  {
+    "question": "43",
+    "answers": [
+      {"text": "Dieciocho", "score": 0},
+      {"text": "Cuarenta y tres", "score": 1},
+      {"text": "Cincuenta y cuatro", "score": 0},
+      {"text": "Treinta y cuatro", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "180",
+    "answers": [
+      {"text": "Ochocientos", "score": 0},
+      {"text": "Veinte", "score": 0},
+      {"text": "Setenta", "score": 0},
+      {"text": "Ciento ochenta", "score": 1}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Sesenta y siete",
+    "answers": [
+      {"text": "67", "score": 1},
+      {"text": "56", "score": 0},
+      {"text": "43", "score": 0},
+      {"text": "31", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "256",
+    "answers": [
+      {"text": "Mil", "score": 0},
+      {"text": "Doscientos treinta y seis", "score": 0},
+      {"text": "Doscientos cincuenta y seis", "score": 1},
+      {"text": "Ochocientos cincuenta y nueve", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Dos mil noventa y siete",
+    "answers": [
+      {"text": "2097", "score": 1},
+      {"text": "3005", "score": 0},
+      {"text": "2021", "score": 0},
+      {"text": "1847", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },{
+    "question": "1873",
+    "answers": [
+      {"text": "Dos mil setenta y cinco", "score": 1},
+      {"text": "Trescientos", "score": 0},
+      {"text": "Mil novecientos y uno", "score": 0},
+      {"text": "Mil ochocientos setenta y tres", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  }
+]

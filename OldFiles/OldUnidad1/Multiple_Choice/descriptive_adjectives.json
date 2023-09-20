@@ -1,0 +1,464 @@
+[
+    {
+      "question": "Fill in the blanks:\n _____ botella _____ blanco/a",
+      "answers": [
+        {"text": "la, es", "score": 1},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ bandera _____ blanco/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ bolígrafo _____ blanco/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ nubes _____ azul",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 1},
+          {"text": "los, son", "score": 0},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ olas _____ azul",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 1},
+          {"text": "los, son", "score": 0},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ ojo _____ azul",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ avión _____ amarillo/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ automóvil _____ amarillo/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ bananas _____ amarillo/a",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 1},
+          {"text": "los, son", "score": 0},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ gato _____ gris",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 1},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ gorra _____ gris",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ guitarra _____ gris",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ maleta _____ morado/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ manta _____ morado/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ mesa _____ morado/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ calabaza _____ anaranjado/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ naranjas _____ anaranjado/a",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 1},
+          {"text": "los, son", "score": 0},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ queso _____ anaranjado/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ zapatos _____ negro/a",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 1},
+          {"text": "los, son", "score": 0},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ cintuón _____ negro/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ corbata _____ negro/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ labios _____ rojo/a",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 0},
+          {"text": "los, son", "score": 1},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ rosas _____ rojo/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 1},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ corazón _____ rojo/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ vasos _____ verde",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 0},
+          {"text": "los, son", "score": 1},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ vela _____ verde",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ vestido _____ verde",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ cerdos _____ rosado/a",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 0},
+          {"text": "los, son", "score": 1},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ regalo _____ rosado/a",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ ropa _____ rosado/a",
+        "answers": [
+          {"text": "la, es", "score": 1},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ chocolate _____ marron",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ caramelos _____ marron",
+        "answers": [
+          {"text": "las, es", "score": 0},
+          {"text": "las, son", "score": 0},
+          {"text": "los, son", "score": 1},
+          {"text": "los, es", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ oso _____ marron",
+        "answers": [
+          {"text": "la, es", "score": 0},
+          {"text": "la, son", "score": 0},
+          {"text": "el, son", "score": 0},
+          {"text": "el, es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n La silla _____ marrón.",
+        "answers": [
+          {"text": "es", "score": 1},
+          {"text": "son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n _____ niño es lindo.",
+        "answers": [
+            {"text": "El", "score": 1},
+            {"text": "La", "score": 0},
+            {"text": "Los", "score": 0},
+            {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ cocina es modern__.",
+        "answers": [
+            {"text": "El/e", "score": 0},
+            {"text": "La/a", "score": 1},
+            {"text": "Los/e", "score": 0},
+            {"text": "Las/a", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n Los baños _____ blancos.",
+        "answers": [
+            {"text": "son", "score": 0},
+            {"text": "es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ mano es pequeñ__.",
+        "answers": [
+            {"text": "El/e", "score": 0},
+            {"text": "La/a", "score": 1},
+            {"text": "Los/e", "score": 0},
+            {"text": "Las/a", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n La luna _____ bonita.",
+        "answers": [
+            {"text": "son", "score": 0},
+            {"text": "es", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n _____ velas son artificiales.",
+        "answers": [
+            {"text": "El", "score": 0},
+            {"text": "La", "score": 0},
+            {"text": "Los", "score": 0},
+            {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blank:\n La musica _____ buena.",
+        "answers": [
+            {"text": "es", "score": 1},
+            {"text": "son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ papá _____ protector.",
+        "answers": [
+            {"text": "El/es", "score": 1},
+            {"text": "La/es", "score": 0},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ carro _____ rojo.",
+        "answers": [
+            {"text": "El/es", "score": 1},
+            {"text": "La/es", "score": 0},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ lámparas _____ verdes.",
+        "answers": [
+            {"text": "El/es", "score": 0},
+            {"text": "La/es", "score": 0},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ amor _____ real.",
+        "answers": [
+            {"text": "El/es", "score": 1},
+            {"text": "La/es", "score": 0},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ foto _____ grande.",
+        "answers": [
+            {"text": "El/es", "score": 0},
+            {"text": "La/es", "score": 1},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Fill in the blanks:\n _____ gato _____ gordo.",
+        "answers": [
+            {"text": "El/es", "score": 1},
+            {"text": "La/es", "score": 0},
+            {"text": "Los/son", "score": 0},
+            {"text": "Las/son", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }
+]

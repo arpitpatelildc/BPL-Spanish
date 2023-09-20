@@ -1,0 +1,83 @@
+[
+  {
+    "question": "¿Cómo se llama la esposa de Marcos?",
+    "answers": [
+      {"text": "Carmen", "score": 0},
+      {"text": "Ana", "score": 1},
+      {"text": "Amor", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cómo va el día de Ana en el trabajo?",
+    "answers": [
+      {"text": "Estresado", "score": 0},
+      {"text": "Muy malo", "score": 0},
+      {"text": "Bastante bien", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es la fiesta de cumpleaños?",
+    "answers": [
+      {"text": "viernes a las 7:00", "score": 1},
+      {"text": "lunes a las 7:00", "score": 0},
+      {"text": "viernes a las 6:30", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿De quién es el cumpleaños?",
+    "answers": [
+      {"text": "la hermana de Marco", "score": 0},
+      {"text": "la hermana de Ana", "score": 1},
+      {"text": "la hermana de Carmen", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es la fecha del cumpleaños?",
+    "answers": [
+      {"text": "viernes 17 de julio", "score": 0},
+      {"text": "lunes 17 de julio", "score": 0},
+      {"text": "lunes 17 de junio", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Por qué no van a llegar a tiempo? (on time)",
+    "answers": [
+      {"text": "no tienen un regalo y necesitan comprarlo", "score": 0},
+      {"text": "Marco está trabajando hasta las 6:30 el mismo día", "score": 1},
+      {"text": "van a comer una sorpresa", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Van muchas personas a la fiesta de cumpleaños? ¿Quiénes?",
+    "answers": [
+      {"text": "no, solo Marco y Ana", "score": 0},
+      {"text": "sí, todos los amigos de Carmen, los amigos de su esposo, y los tíos y primos de Marco y Ana", "score": 1},
+      {"text": "sí, Marco y Ana y todos de sus amigos", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué van a comer Marcos y Ana esta noche?",
+    "answers": [
+      {"text": "un regalo", "score": 0},
+      {"text": "pollo con arroz", "score": 0},
+      {"text": "una sorpresa", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿A qué hora va a regresar Ana a la casa?",
+    "answers": [
+      {"text": "a las 6:00", "score": 1},
+      {"text": "a las 6:30", "score": 0},
+      {"text": "a las 7:00", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

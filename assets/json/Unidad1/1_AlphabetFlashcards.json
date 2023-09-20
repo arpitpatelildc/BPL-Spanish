@@ -1,0 +1,212 @@
+[
+  {
+    "Text": "a (a)",
+    "Click": "See example word",
+    "Example": "agua",
+    "Path": "assets/audio/alphabet-letters/4 A.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Agua.m4a"
+  },
+  {
+    "Text": "b (be)",
+    "Click": "See example word",
+    "Example": "bota",
+    "Path": "assets/audio/alphabet-letters/5 B.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Bota.m4a"
+  },
+  {
+    "Text": "c (ce)",
+    "Click": "See example word",
+    "Example": "casa",
+    "Path": "assets/audio/alphabet-letters/6 C.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Casa.m4a"
+  },
+  {
+    "Text": "ch (che)",
+    "Click": "See example word",
+    "Example": "chico",
+    "Path": "assets/audio/alphabet-letters/7 Ch.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Chico.m4a"
+  },
+  {
+    "Text": "d (de)",
+    "Click": "See example word",
+    "Example": "dinero",
+    "Path": "assets/audio/alphabet-letters/8 D.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Dinero.m4a"
+  },
+  {
+    "Text": "e (e)",
+    "Click": "See example word",
+    "Example": "elefante",
+    "Path": "assets/audio/alphabet-letters/9 E.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Elefante.m4a"
+  },
+  {
+    "Text": "f (efe)",
+    "Click": "See example word",
+    "Example": "foto",
+    "Path": "assets/audio/alphabet-letters/10 F.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Foto.m4a"
+  },
+  {
+    "Text": "g (ge)",
+    "Click": "See example word",
+    "Example": "gato",
+    "Path": "assets/audio/alphabet-letters/11 G.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Gato.m4a"
+  },
+  {
+    "Text": "h (ache)",
+    "Click": "See example word",
+    "Example": "hola",
+    "Path": "assets/audio/alphabet-letters/12 H.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Hola.m4a"
+  },
+  {
+    "Text": "i (i)",
+    "Click": "See example word",
+    "Example": "iguana",
+    "Path": "assets/audio/alphabet-letters/13 I.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Iguana.m4a"
+  },
+  {
+    "Text": "j (jota)",
+    "Click": "See example word",
+    "Example": "jefe",
+    "Path": "assets/audio/alphabet-letters/14 J.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Jefe.m4a"
+  },
+  {
+    "Text": "k (ca)",
+    "Click": "See example word",
+    "Example": "kilo",
+    "Path": "assets/audio/alphabet-letters/15 K.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Kilo.m4a"
+  },
+  {
+    "Text": "l (ele)",
+    "Click": "See example word",
+    "Example": "luna",
+    "Path": "assets/audio/alphabet-letters/16 L.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Luna.m4a"
+  },
+  {
+    "Text": "ll (elle)",
+    "Click": "See example word",
+    "Example": "llama",
+    "Path": "assets/audio/alphabet-letters/17 LL.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Llama.m4a"
+  },
+  {
+    "Text": "m (eme)",
+    "Click": "See example word",
+    "Example": "mano",
+    "Path": "assets/audio/alphabet-letters/18 M.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Mano.m4a"
+  },
+  {
+    "Text": "n (ene)",
+    "Click": "See example word",
+    "Example": "niño",
+    "Path": "assets/audio/alphabet-letters/19 N.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Niño.m4a"
+  },
+  {
+    "Text": "ñ (eñe)",
+    "Click": "See example word",
+    "Example": "español",
+    "Path": "assets/audio/alphabet-letters/20_N.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Español.m4a"
+  },
+  {
+    "Text": "o (o)",
+    "Click": "See example word",
+    "Example": "oso",
+    "Path": "assets/audio/alphabet-letters/21 O.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Oso.m4a"
+  },
+  {
+    "Text": "p (p)",
+    "Click": "See example word",
+    "Example": "pelo",
+    "Path": "assets/audio/alphabet-letters/22 P.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Pelo.m4a"
+  },
+  {
+    "Text": "q (cu)",
+    "Click": "See example word",
+    "Example": "queso",
+    "Path": "assets/audio/alphabet-letters/23 Q.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Queso.m4a"
+  },
+  {
+    "Text": "r (ere)",
+    "Click": "See example word",
+    "Example": "ratón",
+    "Path": "assets/audio/alphabet-letters/24 R.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Ratón.m4a"
+  },
+  {
+    "Text": "rr (erre)",
+    "Click": "See example word",
+    "Example": "carro",
+    "Path": "assets/audio/alphabet-letters/25 RR.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Carro.m4a"
+  },
+  {
+    "Text": "s (ese)",
+    "Click": "See example word",
+    "Example": "silla",
+    "Path": "assets/audio/alphabet-letters/26 S.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Silla.m4a"
+  },
+  {
+    "Text": "t (te)",
+    "Click": "See example word",
+    "Example": "taza",
+    "Path": "assets/audio/alphabet-letters/27 T.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Taza.m4a"
+  },
+  {
+    "Text": "u (u)",
+    "Click": "See example word",
+    "Example": "uva",
+    "Path": "assets/audio/alphabet-letters/28 U.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Uva.m4a"
+  },
+  {
+    "Text": "v (ve)",
+    "Click": "See example word",
+    "Example": "vaso",
+    "Path": "assets/audio/alphabet-letters/29 V.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Vaso.m4a"
+  },
+  {
+    "Text": "w (doble ve)",
+    "Click": "See example word",
+    "Example": "whiskey",
+    "Path": "assets/audio/alphabet-letters/30 WW.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Whiskey.m4a"
+  },
+  {
+    "Text": "x (equis)",
+    "Click": "See example word",
+    "Example": "examen",
+    "Path": "assets/audio/alphabet-letters/31 X.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Examen.m4a"
+  },
+  {
+    "Text": "y (ye or i griega)",
+    "Click": "See example word",
+    "Example": "yo",
+    "Path": "assets/audio/alphabet-letters/32 Y.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Yo.m4a"
+  },
+  {
+    "Text": "z (zeta)",
+    "Click": "See example word",
+    "Example": "zapato",
+    "Path": "assets/audio/alphabet-letters/33 Z.mp3",
+    "ExamplePath": "assets/audio/alphabet-words/Zapato.m4a"
+  }
+]

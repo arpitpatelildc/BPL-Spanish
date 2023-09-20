@@ -1,0 +1,62 @@
+[
+    {
+       "Question":"avión",
+       "Answer":"airplane",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/airplane_avion.png"
+    },
+    {
+        "Question":"aeropuerto",
+        "Answer":"airport",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/airport_aeropuerto.png"
+    },
+    {
+        "Question":"autobús",
+        "Answer":"bus",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/bus_autobus.png"
+    },
+    {
+        "Question":"automóvil",
+        "Answer":"car",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/car_automovil.png"
+    },
+    {
+        "Question":"gato",
+        "Answer":"cat",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/cat_gato.png"
+    },
+    {
+        "Question":"perro",
+        "Answer":"dog",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/dog_perro.png"
+    },
+    {
+        "Question":"casa",
+        "Answer":"house",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/house_casa.png"
+    },
+    {
+        "Question":"hombre",
+        "Answer":"man",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/man_hombre.png"
+    },
+    {
+        "Question":"oficina",
+        "Answer":"office",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/office_oficina.png"
+    },
+    {
+        "Question":"parque",
+        "Answer":"park",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/park_parque.png"
+    },
+    {
+        "Question":"tortuga",
+        "Answer":"turtle",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/turtle_tortuga.png"
+    },
+    {
+        "Question":"mujer",
+        "Answer":"woman",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/woman_mujer.png"
+    }
+]

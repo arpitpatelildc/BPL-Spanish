@@ -1,0 +1,79 @@
+[
+  {
+    "question": "En punto",
+    "answers": [
+      {"text": "Time", "score": 0},
+      {"text": "O'clock", "score": 1},
+      {"text": "Oranges", "score": 0},
+      {"text": "In truth", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "De la mañana",
+    "answers": [
+      {"text": "A.M.", "score": 1},
+      {"text": "P.M.", "score": 0},
+      {"text": "P.M. (after sunset)", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "De la tarde",
+    "answers": [
+      {"text": "A.M.", "score": 0},
+      {"text": "P.M.", "score": 1},
+      {"text": "P.M. (after sunset)", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "De la noche",
+    "answers": [
+      {"text": "A.M.", "score": 0},
+      {"text": "P.M.", "score": 0},
+      {"text": "P.M. (after sunset)", "score": 1}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "It's 5 o'clock.",
+    "answers": [
+      {"text": "Son las cinco en punto.", "score": 1},
+      {"text": "Es la cinco en punto.", "score": 0},
+      {"text": "Son las tarde.", "score": 0},
+      {"text": "Es cinco.", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "It's 8:30 P.M.",
+    "answers": [
+      {"text": "Son las ocho y media de la tarde.", "score": 0},
+      {"text": "Son las ocho y media de la noche.", "score": 1},
+      {"text": "Son las tres da la tarde.", "score": 0},
+      {"text": "Es la ocho de la noche.", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "It's 7:00 A.M.",
+    "answers": [
+      {"text": "Son las siete en punto.", "score": 0},
+      {"text": "Es la cinco en punto.", "score": 0},
+      {"text": "Está mañana.", "score": 0},
+      {"text": "Son las siete de la mañana.", "score": 1}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Es la uno de la tarde.",
+    "answers": [
+      {"text": "It's one o'clock.", "score": 0},
+      {"text": "It's 1:00 A.M.", "score": 0},
+      {"text": "It's 1:00 P.M.", "score": 1},
+      {"text": "It's the first of the evening.", "score": 0}
+    ],
+      "path": "assets/images/cerebrillo.png"
+  }
+]

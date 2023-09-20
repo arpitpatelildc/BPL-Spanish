@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (masculine) are Colombian.",
+    "answers": [
+      {"text": "Ellos son colombiano.", "score": 0},
+      {"text": "Ellas son colombianos.", "score": 0},
+      {"text": "Ellos son colombianos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nHe is Argentinean.",
+    "answers": [
+      {"text": "Él es argentino.", "score": 1},
+      {"text": "Ella es argentino.", "score": 0},
+      {"text": "Usted es argentino.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nShe is Ecuadorian.",
+    "answers": [
+      {"text": "Él es ecuatoriana.", "score": 0},
+      {"text": "Tú es ecuatoriana.", "score": 0},
+      {"text": "Ella es ecuatoriana.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (feminine) are Bolivian.",
+    "answers": [
+      {"text": "Ellas son boliviana.", "score": 0},
+      {"text": "Ellas son bloivianos.", "score": 0},
+      {"text": "Ellas son bolivianas.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nI (feminine) am Chilean.",
+    "answers": [
+      {"text": "Yo soy chilenas.", "score": 0},
+      {"text": "Yo soy chilena.", "score": 1},
+      {"text": "Yo soy chilenos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nHe is Costa Rican.",
+    "answers": [
+      {"text": "Él es costarricense.", "score": 1},
+      {"text": "Él es chileno.", "score": 0},
+      {"text": "Él es cubano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (formal) (feminine) are Dominican.",
+    "answers": [
+      {"text": "Tú eres dominicana.", "score": 0},
+      {"text": "Usted es dominicana.", "score": 1},
+      {"text": "Ustedes son dominicana.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (feminine) are Cuban.",
+    "answers": [
+      {"text": "Ellos son cubanos.", "score": 0},
+      {"text": "Ellas son cubanas.", "score": 1},
+      {"text": "Ella son cubanas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nY'all (masculine) are Mexican.",
+    "answers": [
+      {"text": "Tú son mexicanos.", "score": 0},
+      {"text": "Usted son mexicanos.", "score": 0},
+      {"text": "Ustedes son mexicanos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (informal) (masculine) are El Salvadorian.",
+    "answers": [
+      {"text": "Usted eres salvadoreño.", "score": 0},
+      {"text": "Tú eres salvadoreño.", "score": 1},
+      {"text": "Ustedes eres salvadoreño.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nI (feminine) am Hondurian.",
+    "answers": [
+      {"text": "Yo soy hondureña.", "score": 1},
+      {"text": "Yo soy hondureño.", "score": 0},
+      {"text": "Yo soy hondureñas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nShe is Guatemalan.",
+    "answers": [
+      {"text": "Ella es guatemalteca.", "score": 1},
+      {"text": "Ella eres guatemalteca.", "score": 0},
+      {"text": "Ella es quatemalteco.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nY'all (feminine) are Nicaraguan.",
+    "answers": [
+      {"text": "Usted es nicaraguense.", "score": 0},
+      {"text": "Ustedes son nicaraguenses.", "score": 1},
+      {"text": "Ustedes eres nicaraguenses.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (informal) (masculine) are Peruvian.",
+    "answers": [
+      {"text": "Usted eres peruana.", "score": 0},
+      {"text": "Tú eres peruano.", "score": 1},
+      {"text": "Usted eres peruano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nHe is Panamanian.",
+    "answers": [
+      {"text": "Ella es panameño.", "score": 0},
+      {"text": "Él es panameña.", "score": 0},
+      {"text": "Él es panameño.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (feminine) are Paraguayans.",
+    "answers": [
+      {"text": "Ellas son paraguayas.", "score": 1},
+      {"text": "Ellas son paraguaya.", "score": 0},
+      {"text": "Ellas es paraguaya.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nI (feminine) am El Salvadorian.",
+    "answers": [
+      {"text": "Él es salvadoreña.", "score": 0},
+      {"text": "Yo soy salvadoreña.", "score": 1},
+      {"text": "Usted es salvadoreña.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (formal) (feminine) are Peruvian.",
+    "answers": [
+      {"text": "Ustedes es peruana.", "score": 0},
+      {"text": "Usted es peruano.", "score": 0},
+      {"text": "Usted es peruana.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (masculine) are Ecuadorians.",
+    "answers": [
+      {"text": "Ellas son ecuatorianas.", "score": 0},
+      {"text": "Ellos son ecuatorianos.", "score": 1},
+      {"text": "Ellos son ecuatorianas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (informal) (feminine) are Argentinean.",
+    "answers": [
+      {"text": "Tú eres angentinas.", "score": 0},
+      {"text": "Tú eres angentino.", "score": 0},
+      {"text": "Tú eres angentina.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nShe is Chilean.",
+    "answers": [
+      {"text": "Ella es chilena.", "score": 1},
+      {"text": "Ellos es chilenos.", "score": 0},
+      {"text": "Ellas son chilenas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (feminine) are Colombians.",
+    "answers": [
+      {"text": "Ellas son colombianas.", "score": 1},
+      {"text": "Ella son colombiana.", "score": 0},
+      {"text": "Ellos son colombianas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nY'all are Costa Ricans.",
+    "answers": [
+      {"text": "Ustedes son costarricenses.", "score": 1},
+      {"text": "Ustedes eres costarricenses.", "score": 0},
+      {"text": "Usted es costarricense.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nHe is Dominican.",
+    "answers": [
+      {"text": "Ella es dominicano.", "score": 0},
+      {"text": "Él es dominicano.", "score": 1},
+      {"text": "Ellos es dominicano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nI am North American.",
+    "answers": [
+      {"text": "Tú eres estadounidense.", "score": 0},
+      {"text": "Yo soy estadounidense.", "score": 1},
+      {"text": "Ustedes son estadounidenses.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

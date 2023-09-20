@@ -1,0 +1,322 @@
+[
+  {
+    "question": "yo ",
+    "answers": [
+      {"text": "soy", "score": 1},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "ella",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las nubes ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el gato ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tú y tus amigos ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "sois", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "nosotros ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 1},
+      {"text": "sois", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los perros ",
+    "answers": [
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "yo y mis amigos ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tú ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 1},
+      {"text": "es", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "él ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los estudiantes",
+    "answers": [
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el empleado ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "yo y mi familia ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "somos", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "ella y sus amigas",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tú y tu papá ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "usted ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Directora Velez ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la profesora ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "vosotros ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mi nombre ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la clase ",
+    "answers": [
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los chicos ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el presidente ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el oso ",
+    "answers": [
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mis amigos ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los libros ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mi familia ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tu familia ",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": " la mesa",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "sois", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los plátanos",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mi cuadro ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "ustedes ",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

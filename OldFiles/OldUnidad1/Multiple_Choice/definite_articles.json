@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the definite article for 'avión'?",
+    "answers":[
+      {"text": "El","score": 1},
+      {"text": "La","score": 0},
+      {"text": "Los","score": 0},
+      {"text": "Las","score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "What is the definite article for 'autobús'?",
+    "answers":[
+      {"text": "El","score": 1},
+      {"text": "La","score": 0},
+      {"text": "Los","score": 0},
+      {"text": "Las","score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "What is the definite article for 'oficina'?",
+    "answers":[
+      {"text": "El","score": 0},
+      {"text": "La","score": 1},
+      {"text": "Los","score": 0},
+      {"text": "Las","score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

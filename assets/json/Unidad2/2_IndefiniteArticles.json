@@ -1,0 +1,136 @@
+[
+    {
+      "question": "Choose the indefinite article:\n_____ libro",
+      "answers": [
+        {"text": "unos", "score": 0},
+        {"text": "un", "score": 1},
+        {"text": "una", "score": 0},
+        {"text": "unas", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Choose the indefinite article:\n _____ mesa",
+        "answers": [
+          {"text": "una", "score": 1},
+          {"text": "unos", "score": 0},
+          {"text": "un", "score": 0},
+          {"text": "unas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Choose the indefinite article:\n _____ escritorio",
+        "answers": [
+          {"text": "una", "score": 0},
+          {"text": "unas", "score": 0},
+          {"text": "un", "score": 1},
+          {"text": "unos", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "Choose the indefinite article:\n _____ reloj",
+        "answers": [
+          {"text": "una", "score": 0},
+          {"text": "un", "score": 1},
+          {"text": "unas", "score": 0},
+          {"text": "unos", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }, {
+        "question": "Choose the indefinite article:\n _____ profesor",
+        "answers": [
+          {"text": "una", "score": 0},
+          {"text": "unas", "score": 0},
+          {"text": "un", "score": 1},
+          {"text": "unos", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }, {
+        "question": "Choose the indefinite article:\n _____ perro",
+        "answers": [
+          {"text": "un", "score": 1},
+          {"text": "unos", "score": 0},
+          {"text": "unas", "score": 0},
+          {"text": "una", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }, {
+        "question": "Choose the indefinite article:\n _____ lámpara",
+        "answers": [
+          {"text": "unas", "score": 0},
+          {"text": "una", "score": 1},
+          {"text": "unos", "score": 0},
+          {"text": "un", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Choose the indefinite article:\n_____ libros",
+      "answers": [
+        {"text": "unos", "score": 1},
+        {"text": "un", "score": 0},
+        {"text": "una", "score": 0},
+        {"text": "unas", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Choose the indefinite article:\n _____ mesas",
+      "answers": [
+        {"text": "una", "score": 0},
+        {"text": "unos", "score": 0},
+        {"text": "un", "score": 0},
+        {"text": "unas", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Choose the indefinite article:\n _____ escritorios",
+      "answers": [
+        {"text": "una", "score": 0},
+        {"text": "unas", "score": 0},
+        {"text": "un", "score": 0},
+        {"text": "unos", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Choose the indefinite article:\n _____ relojes",
+      "answers": [
+        {"text": "una", "score": 0},
+        {"text": "un", "score": 0},
+        {"text": "unas", "score": 0},
+        {"text": "unos", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    }, {
+    "question": "Choose the indefinite article:\n _____ profesores",
+    "answers": [
+      {"text": "una", "score": 0},
+      {"text": "unas", "score": 0},
+      {"text": "un", "score": 0},
+      {"text": "unos", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }, {
+    "question": "Choose the indefinite article:\n _____ perros",
+    "answers": [
+      {"text": "un", "score": 0},
+      {"text": "unos", "score": 1},
+      {"text": "unas", "score": 0},
+      {"text": "una", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }, {
+    "question": "Choose the indefinite article:\n _____ lámparas",
+    "answers": [
+      {"text": "unas", "score": 1},
+      {"text": "una", "score": 0},
+      {"text": "unos", "score": 0},
+      {"text": "un", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

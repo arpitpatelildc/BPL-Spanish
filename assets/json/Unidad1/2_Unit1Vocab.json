@@ -1,0 +1,1483 @@
+[
+  {
+    "Question":"el nombre",
+    "Answer":"name",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/01 - name el nombre.mp3"
+  },
+  {
+    "Question":"el apellido",
+    "Answer":"last name",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/02 - last name el apellido.mp3"
+  },
+  {
+    "Question":"la dirección",
+    "Answer":"address",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/03 - address la direccion.mp3"
+  },
+  {
+    "Question":"el código postal",
+    "Answer":"zip code",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/04 - zip code el codigo postal.mp3"
+  },
+  {
+    "Question":"el número de teléfono",
+    "Answer":"phone number",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/05 - phone number numero telefonico.mp3"
+  },
+  {
+    "Question":"el correo electrónico",
+    "Answer":"email",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/06 - email el correo electronico.mp3"
+  },
+  {
+    "Question":"el estado civil",
+    "Answer":"marital status",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/07 - marital status el estado civil.mp3"
+  },
+  {
+    "Question":"la profesión",
+    "Answer":"occupation",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/08 - occupation la profesion.mp3"
+  },
+  {
+    "Question":"el agua",
+    "Answer":"water",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/09 - water el agua.mp3"
+  },
+  {
+    "Question":"la bota",
+    "Answer":"boot",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/10 - boot la bota.mp3"
+  },
+  {
+    "Question":"la casa",
+    "Answer":"house",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/11 - house la casa.mp3"
+  },
+  {
+    "Question":"el/la chico/a",
+    "Answer":"boy/girl",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/12 - boy girl el chico la chica.mp3"
+  },
+  {
+    "Question":"el elefante",
+    "Answer":"elephant",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/13 - elephant el elefante.mp3"
+  },
+  {
+    "Question":"la foto",
+    "Answer":"photograph",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/14 - photograph la foto.mp3"
+  },
+  {
+    "Question":"el gato",
+    "Answer":"cat",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/15 - cat el gato.mp3"
+  },
+  {
+    "Question":"hola",
+    "Answer":"hello",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/16 - hello hola.mp3"
+  },
+  {
+    "Question":"la iguana",
+    "Answer":"iguana",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/17 - iguana la iguana.mp3"
+  },
+  {
+    "Question": "el/la jefe",
+    "Answer": "boss",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/18 - boss el jefe la jefa.mp3"
+  },
+  {
+    "Question": "el kilo",
+    "Answer": "kilogram",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/19 - kilogram el kilo.mp3"
+  },
+  {
+    "Question": "la luna",
+    "Answer": "moon",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/20 - moon la luna .mp3"
+  },
+  {
+    "Question": "la llama",
+    "Answer": "llama",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/21 - llama la llama.mp3"
+  },
+  {
+    "Question": "la mano",
+    "Answer": "hand",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/22 - hand la mano.mp3"
+  },
+  {
+    "Question": "el/la niño/a",
+    "Answer": "little boy/girl",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/23 - liitle boy girl el nino la nina.mp3"
+  },
+  {
+    "Question": "el español",
+    "Answer": "Spanish",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/24 - spanish el espanol.mp3"
+  },
+  {
+    "Question": "el oso",
+    "Answer": "bear",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/25 - bear el oso.mp3"
+  },
+  {
+    "Question": "el pelo",
+    "Answer": "hair",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/26 - hair el pelo.mp3"
+  },
+  {
+    "Question": "el queso",
+    "Answer": "cheese",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/28 - cheese el queso.mp3"
+  },
+  {
+    "Question": "el ratón",
+    "Answer": "mouse",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/29 - mouse el raton.mp3"
+  },
+  {
+    "Question": "el carro",
+    "Answer": "car",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/30 - car el carro.mp3"
+  },
+  {
+    "Question": "la silla",
+    "Answer": "chair",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/31 - chair la silla.mp3"
+  },
+  {
+    "Question": "la taza",
+    "Answer": "cup",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/32 - cup la taza.mp3"
+  },
+  {
+    "Question": "la uva",
+    "Answer": "grape",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/33 - grape la uva.mp3"
+  },
+  {
+    "Question": "el vaso",
+    "Answer": "glass",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/34 - glass el vaso.mp3"
+  },
+  {
+    "Question": "el whisky",
+    "Answer": "whiskey",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/35 - whiskey el whisky.mp3"
+  },
+  {
+    "Question": "el examen",
+    "Answer": "exam",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/36 - exam el examen.mp3"
+  },
+  {
+    "Question": "yo",
+    "Answer": "I",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/37 - I yo.mp3"
+  },
+  {
+    "Question": "el zapato",
+    "Answer": "shoe",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/38 - shoe el zapato.mp3"
+  },
+  {
+    "Question": "la ciudad",
+    "Answer": "city",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/39 - city la ciudad.mp3"
+  },
+  {
+    "Question": "lunes",
+    "Answer": "Monday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/40 - monday lunes.mp3"
+  },
+  {
+    "Question": "martes",
+    "Answer": "Tuesday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/41 - tuesday martes.mp3"
+  },
+  {
+    "Question": "miércoles",
+    "Answer": "Wednesday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/42 - wednesday miercoles.mp3"
+  },
+  {
+    "Question": "jueves",
+    "Answer": "Thursday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/43 - thurday jueves.mp3"
+  },
+  {
+    "Question": "viernes",
+    "Answer": "Friday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/44 - friay viernes.mp3"
+  },
+  {
+    "Question": "sábado",
+    "Answer": "Saturday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/45 - saturday sabado.mp3"
+  },
+  {
+    "Question": "domingo",
+    "Answer": "Sunday",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/46 - sunday domingo.mp3"
+  },
+  {
+    "Question": "enero",
+    "Answer": "January",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/47 - january enero.mp3"
+  },
+  {
+    "Question": "febrero",
+    "Answer": "February",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/48 - february febrero.mp3"
+  },
+  {
+    "Question": "marzo",
+    "Answer": "March",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/49 - march marzo.mp3"
+  },
+  {
+    "Question": "abril",
+    "Answer": "April",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/50 - april abril.mp3"
+  },
+  {
+    "Question": "mayo",
+    "Answer": "May",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/51 - may mayo.mp3"
+  },
+  {
+    "Question": "junio",
+    "Answer": "June",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/52 - june junio.mp3"
+  },
+  {
+    "Question": "julio",
+    "Answer": "July",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/53 - july julio.mp3"
+  },{
+  "Question": "agosto",
+  "Answer": "August",
+  "Path": "assets/images/bpl_Logo.png",
+  "Audio": "assets/audio/unit1-vocab/54 - august agosto.mp3"
+},
+  {
+    "Question": "septiembre",
+    "Answer": "September",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/55 - september septiembre.mp3"
+  },
+  {
+    "Question": "octubre",
+    "Answer": "October",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/56 - october octubre.mp3"
+  },
+  {
+    "Question": "noviembre",
+    "Answer": "November",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/57 - november noviembre .mp3"
+  },
+  {
+    "Question": "diciembre",
+    "Answer": "December",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/58 - december diciembre.mp3"
+  },
+  {
+    "Question": "el avión",
+    "Answer": "airplane",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/59 - airplane el avion.mp3"
+  },
+  {
+    "Question": "el autobús",
+    "Answer": "bus",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/60 - bus el autobus.mp3"
+  },
+  {
+    "Question": "el automóvil",
+    "Answer": "car",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/61 - car el automovil.mp3"
+  },
+  {
+    "Question": "el aeropuerto ",
+    "Answer": "airport",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/62 - airport el aeropuerto.mp3"
+  },
+  {
+    "Question": "el parque",
+    "Answer": "park",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/63 - park el parque.mp3"
+  },
+  {
+    "Question": "la oficina",
+    "Answer": "office",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/64 - office la oficina.mp3"
+  },
+  {
+    "Question": "el edificio",
+    "Answer": "building",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/65 - building el edificio.mp3"
+  },
+  {
+    "Question": "la habitación",
+    "Answer": "room",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/66 - room la habitacion.mp3"
+  },
+  {
+    "Question": "el hombre",
+    "Answer": "man",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/67 - man el hombre.mp3"
+  },
+  {
+    "Question": "la mujer",
+    "Answer": "woman",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/68 - woman la mujer .mp3"
+  },
+  {
+    "Question": "el perro",
+    "Answer": "dog",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/69 - dog el perro.mp3"
+  },
+  {
+    "Question": "la tortuga",
+    "Answer": "turtle",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/70 - turtle la tortuga.mp3"
+  },
+  {
+    "Question": "el sombrero",
+    "Answer": "hat",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/71 - hat el sombero.mp3"
+  },
+  {
+    "Question": "el huevo",
+    "Answer": "egg",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/72 - egg el huevo.mp3"
+  },
+  {
+    "Question": "el tesoro",
+    "Answer": "treasure",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/73 - treasure el tesoro.mp3"
+  },
+  {
+    "Question": "el cerebro",
+    "Answer": "brain",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/74 - brain el cerebro.mp3"
+  },
+  {
+    "Question": "el plato",
+    "Answer": "plate",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/75 - plate el plato.mp3"
+  },
+  {
+    "Question": "el cuaderno",
+    "Answer": "notebook",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/76 - notebook el cuaderno.mp3"
+  },
+  {
+    "Question": "el cuadro",
+    "Answer": "painting, square",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/77 - painting square el cuadro.mp3"
+  },
+  {
+    "Question": "la radio",
+    "Answer": "radio broadcast",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/78 - radio broadcast la radio.mp3"
+  },
+  {
+    "Question": "la moto, la motocicleta",
+    "Answer": "motorcylce",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/79 - motorcycle la moto.mp3"
+  },
+  {
+    "Question": "la mariposa",
+    "Answer": "butterfly",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/80 - butterfly la mariposa.mp3"
+  },
+  {
+    "Question": "la cartera",
+    "Answer": "wallet",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/81 - wllet la cartera.mp3"
+  },
+  {
+    "Question": "la mesa",
+    "Answer": "table",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/82 - table la mesa.mp3"
+  },
+  {
+    "Question": "la ventana",
+    "Answer": "window",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/83 - window la ventana.mp3"
+  },
+  {
+    "Question": "la camiseta",
+    "Answer": "T-shirt",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/84 - t shirt la camiseta.mp3"
+  },
+  {
+    "Question": "la bandera",
+    "Answer": "flag",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/85 - flag la bandera.mp3"
+  },
+  {
+    "Question": "la camioneta",
+    "Answer": "truck",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/86 - truck la camioneta.mp3"
+  },
+  {
+    "Question": "el día",
+    "Answer": "day",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/87 - day el dia.mp3"
+  },
+  {
+    "Question": "el mediodía",
+    "Answer": "noon",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/88 - noon el mediodia.mp3"
+  },
+  {
+    "Question": "el mapa",
+    "Answer": "map",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/89 - map el mapa.mp3"
+  },
+  {
+    "Question": "el sofá",
+    "Answer": "sofa",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/90 - sofa el sofa.mp3"
+  },
+  {
+    "Question": "el planeta",
+    "Answer": "planet",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/91 - planet el planeta.mp3"
+  },
+  {
+    "Question": "el agua",
+    "Answer": "water",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/92 - water el agua.mp3"
+  },
+  {
+    "Question": "el cartel",
+    "Answer": "poster",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/93 - poster el cartel.mp3"
+  },
+  {
+    "Question": "el árbol",
+    "Answer": "tree",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/94 - tree el arbol.mp3"
+  },
+  {
+    "Question": "el computador",
+    "Answer": "computer",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/95 - computer el computador.mp3"
+  },
+  {
+    "Question": "el mostrador",
+    "Answer": "counter",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/96 - counter el mostrador.mp3"
+  },
+  {
+    "Question": "el hospital",
+    "Answer": "hospital",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/97 - hospita el hospital.mp3"
+  },
+  {
+    "Question": "el hotel",
+    "Answer": "hotel",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/98 - hotel el hotel.mp3"
+  },
+  {
+    "Question": "el aceite",
+    "Answer": "oil",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/99 - oil el aceite.mp3"
+  },
+  {
+    "Question": "el bate",
+    "Answer": "bat",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/100 - bat el bate.mp3"
+  },
+  {
+    "Question": "el agente",
+    "Answer": "agent",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/101 - agent el agente.mp3"
+  },
+  {
+    "Question": "el billete",
+    "Answer": "bill",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/102 - bill el billete.mp3"
+  },
+  {
+    "Question": "el arete",
+    "Answer": "earring",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/103 - earring el arete.mp3"
+  },
+  {
+    "Question": "el clima",
+    "Answer": "weather",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/104 - weather el clima.mp3"
+  },
+  {
+    "Question": "la cocina",
+    "Answer": "kitchen",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/105 - kitchen la cocina.mp3"
+  },
+  {
+    "Question": "el papá",
+    "Answer": "dad",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/106 - dad el papa.mp3"
+  },
+  {
+    "Question": "el problema",
+    "Answer": "problem",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/107 - problem el problema.mp3"
+  },
+  {
+    "Question": "el idioma, el lenguaje",
+    "Answer": "language",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/108 - language el idioma el lenguaje.mp3"
+  },
+  {
+    "Question": "la escalera",
+    "Answer": "stairs",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/109 - stairs la escalera.mp3"
+  },
+  {
+    "Question": "la lámpara",
+    "Answer": "lamp",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/110 - lamp lla lampara.mp3"
+  },
+  {
+    "Question": "la cama",
+    "Answer": "bed",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/111 - bed la cama.mp3"
+  },
+  {
+    "Question": "el escritorio",
+    "Answer": "desk",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/112 - desk el escritorio.mp3"
+  },
+  {
+    "Question": "el baño",
+    "Answer": "bathroom",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/113 - bathroom el bano.mp3"
+  },
+  {
+    "Question": "el libro",
+    "Answer": "book",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/114 - book el libro.mp3"
+  },
+  {
+    "Question": "la vela",
+    "Answer": "candle",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/115 - candle la vela.mp3"
+  },
+  {
+    "Question": "la música",
+    "Answer": "music",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/116 - music la musica.mp3"
+  },
+  {
+    "Question": "el teléfono",
+    "Answer": "phone",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/117 - phone el telefono.mp3"
+  },
+  {
+    "Question": "el camión",
+    "Answer": "big truck",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/118 - big truck el camion.mp3"
+  },
+  {
+    "Question": "la canción",
+    "Answer": "song",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/119 - song la cancion.mp3"
+  },
+  {
+    "Question": "el árbol",
+    "Answer": "tree",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/120 - tree el arbol.mp3"
+  },
+  {
+    "Question": "la pared",
+    "Answer": "wall",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/121 - wall la pared.mp3"
+  },
+  {
+    "Question": "la merienda",
+    "Answer": "snack",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/122 - snack la merienda.mp3"
+  },
+  {
+    "Question": "el peluche",
+    "Answer": "stuffed animal",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/123 - stuffed animal la peluche.mp3"
+  },
+  {
+    "Question": "la uña",
+    "Answer": "finger nail",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/124 - fingernail la una.mp3"
+  },
+  {
+    "Question": "la cabeza",
+    "Answer": "head",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/125 - head la cabeza.mp3"
+  },
+  {
+    "Question": "el papel",
+    "Answer": "paper, role",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/126 - paper role el papel.mp3"
+  },
+  {
+    "Question": "la campana",
+    "Answer": "bell",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/127 - bell la campana.mp3"
+  },
+  {
+    "Question": "el collar",
+    "Answer": "necklace",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/128 - necklace el collar.mp3"
+  },
+  {
+    "Question": "la tarjeta",
+    "Answer": "card",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/129 - card la tarjeta.mp3"
+  },
+  {
+    "Question": "el diploma",
+    "Answer": "diploma",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/130 - diploma el diploma.mp3"
+  },
+  {
+    "Question": "el carta",
+    "Answer": "letter",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/131 - letter la carta.mp3"
+  },
+  {
+    "Question": "el cargador",
+    "Answer": "charger",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/132 - charger el cargador.mp3"
+  },
+  {
+    "Question": "la cortina",
+    "Answer": "curtain",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/133 - curtain la dortina.mp3"
+  },
+  {
+    "Question": "el tenedor",
+    "Answer": "fork",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/134 - fork el tenedor.mp3"
+  },
+  {
+    "Question": "la cuchara",
+    "Answer": "spoon",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/135 - spoon la cuchara.mp3"
+  },
+  {
+    "Question": "la servilleta",
+    "Answer": "napkin",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/136 - napkin la servilleta.mp3"
+  },
+  {
+    "Question": "el cuchillo",
+    "Answer": "knife",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/137 - knife el cuchillo.mp3"
+  },
+  {
+    "Question": "la alfombra",
+    "Answer": "carpet",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/138 - carpet la alfombra.mp3"
+  },
+  {
+    "Question": "la piel",
+    "Answer": "skin",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/139 - skin la piel.mp3"
+  },
+  {
+    "Question": "el labial",
+    "Answer": "lipstick",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/140 - lipsdtick el labial.mp3"
+  },
+  {
+    "Question": "la mantequilla",
+    "Answer": "butter",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/141 - butter la mantequilla.mp3"
+  },
+  {
+    "Question": "el pan",
+    "Answer": "bread",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/142 - bread el pan.mp3"
+  },
+  {
+    "Question": "el tren",
+    "Answer": "train",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/143 - train el tren.mp3"
+  },
+  {
+    "Question": "la bicicleta",
+    "Answer": "bicycle",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/144 - bicycle la bicicleta.mp3"
+  },
+  {
+    "Question": "el restaurante",
+    "Answer": "restaurant",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/145 - restaurant el restaurante.mp3"
+  },
+  {
+    "Question": "el teatro",
+    "Answer": "theatre",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/146 - theatre el teatro.mp3"
+  },
+  {
+    "Question": "el museo",
+    "Answer": "museum",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/147 - museum el museo.mp3"
+  },
+  {
+    "Question": "la ducha",
+    "Answer": "shower",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/148 - shower la ducha.mp3"
+  },
+  {
+    "Question": "la piscina",
+    "Answer": "pool",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/149 - pool la piscina.mp3"
+  },
+  {
+    "Question": "el/la profesor/a",
+    "Answer": "professor",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/150 - profesor el la profesor profesoa.mp3"
+  },
+  {
+    "Question": "el/la estudiante",
+    "Answer": "student",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/151 - student el la estudiante.mp3"
+  },
+  {
+    "Question": "el/la empleado/a",
+    "Answer": "employee",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/152 - employee el la empleada.mp3"
+  },
+  {
+    "Question": "el ciervo",
+    "Answer": "deer",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/153 - deer el ciervo.mp3"
+  },
+  {
+    "Question": "la vaca",
+    "Answer": "cow",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/154 - cow la vaca.mp3"
+  },
+  {
+    "Question": "la gallina",
+    "Answer": "tree",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/155 - hen la gallina.mp3"
+  },
+  {
+    "Question": "pequeño/a",
+    "Answer": "small",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/156 - small pequeno pequena.mp3"
+  },
+  {
+    "Question": "feliz, alegre",
+    "Answer": "happy",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/157 - happy feliz alegre.mp3"
+  },
+  {
+    "Question": "el árbol",
+    "Answer": "tree",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/158 - tree el arbol.mp3"
+  },
+  {
+    "Question": "lindo/a",
+    "Answer": "cute",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/159 - cute lindo linda.mp3"
+  },
+  {
+    "Question": "cómico/a",
+    "Answer": "funny",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/160 - funny comico comica.mp3"
+  },
+  {
+    "Question": "alto/a",
+    "Answer": "tall",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/161 - tall alto alta.mp3"
+  },
+  {
+    "Question": "bajo/a",
+    "Answer": "short",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/162 - short bajo baja.mp3"
+  },
+  {
+    "Question": "blanco/a",
+    "Answer": "white",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/163 - white blanco blanca.mp3"
+  },
+  {
+    "Question": "azul",
+    "Answer": "blue",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/164 - blue azul.mp3"
+  },
+  {
+    "Question": "amarillo/a",
+    "Answer": "yellow",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/165 - yellow amarillo amarilla.mp3"
+  },
+  {
+    "Question": "gris",
+    "Answer": "grey",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/166 - grer gris.mp3"
+  },
+  {
+    "Question": "morado/a",
+    "Answer": "purple",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/167 - purple morado morada.mp3"
+  },
+  {
+    "Question": "anaranjado/a",
+    "Answer": "orange (colour)",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/168 - orange anaranjado anaranjada.mp3"
+  },
+  {
+    "Question": "negro/a",
+    "Answer": "black",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/169 - black negro negra.mp3"
+  },
+  {
+    "Question": "rojo/a",
+    "Answer": "red",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/170 - red rojo roja.mp3"
+  },
+  {
+    "Question": "verde",
+    "Answer": "green",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/171 - green verde.mp3"
+  },
+  {
+    "Question": "marrón",
+    "Answer": "brown",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/172 - brown marron.mp3"
+  },
+  {
+    "Question": "la botella",
+    "Answer": "bottle",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/173 - bottle la botella.mp3"
+  },
+  {
+    "Question": "el bolígrafo",
+    "Answer": "pen",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/174 - pen el boligrafo.mp3"
+  },
+  {
+    "Question": "la nube",
+    "Answer": "cloud",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/175 - cloud la nube.mp3"
+  },
+  {
+    "Question": "la ola",
+    "Answer": "wave",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/176 - wave la ola.mp3"
+  },
+  {
+    "Question": "el ojo",
+    "Answer": "eye",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/177 - eye el ojo.mp3"
+  },
+  {
+    "Question": "la banana, el plátano",
+    "Answer": "banana",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/178 - banana la banana el platano.mp3"
+  },
+  {
+    "Question": "la gorra",
+    "Answer": "cap",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/179 - cap la gorra.mp3"
+  },
+  {
+    "Question": "la guitarra",
+    "Answer": "guitar",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/180 - guitarra guitar.mp3"
+  },
+  {
+    "Question": "la maleta",
+    "Answer": "suitcase",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/181 - suitcase la maleta.mp3"
+  },
+  {
+    "Question": "la manta",
+    "Answer": "blanket",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/182 - blanket la manta.mp3"
+  },
+  {
+    "Question": "la calabaza",
+    "Answer": "pumpkin",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/183 - pumpkin la calabaza.mp3"
+  },
+  {
+    "Question": "la naranja",
+    "Answer": "orange (fruit)",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/184 - orange la naranja.mp3"
+  },
+  {
+    "Question": "el cinturón",
+    "Answer": "belt",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/185 - belt el cinturon.mp3"
+  },
+  {
+    "Question": "la corbata",
+    "Answer": "tie",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/186 - tie la corbata.mp3"
+  },
+  {
+    "Question": "el labio",
+    "Answer": "lip",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/187 - lip el labio.mp3"
+  },
+  {
+    "Question": "la rosa",
+    "Answer": "rose",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/188 - rose la rosa.mp3"
+  },
+  {
+    "Question": "el corazón",
+    "Answer": "heart",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/189 - heart el corazon.mp3"
+  },
+  {
+    "Question": "el vestido",
+    "Answer": "dress",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/190 - dress el vestido.mp3"
+  },
+  {
+    "Question": "el cerdo",
+    "Answer": "pig",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/191 - pig el cerdo.mp3"
+  },
+  {
+    "Question": "el regalo",
+    "Answer": "gift",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/192 - gift el regalo.mp3"
+  },
+  {
+    "Question": "la ropa",
+    "Answer": "clothes",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/193 - clothes la ropa.mp3"
+  },
+  {
+    "Question": "el chocolate",
+    "Answer": "chocolate",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/194 - chocolate el chocolate.mp3"
+  },
+  {
+    "Question": "el caramelo",
+    "Answer": "candy",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/195 - candy el caramelo.mp3"
+  },
+  {
+    "Question": "embarasada",
+    "Answer": "pregnant",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/196 - pregnant embarazada.mp3"
+  },
+  {
+    "Question": "amable",
+    "Answer": "embarassed",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/197 - kind amable.mp3"
+  },
+  {
+    "Question": "el radio/la radio",
+    "Answer": "radio device",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/198 - radio device el radio.mp3"
+  },
+  {
+    "Question": "el televisor, la televisión",
+    "Answer": "TV",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/199 - tv el televisor la television.mp3"
+  },
+  {
+    "Question": "el celular",
+    "Answer": "cellular device",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/200 - cellular device el celular.mp3"
+  },
+  {
+    "Question": "el color",
+    "Answer": "colour",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/201 - colour el color.mp3"
+  },
+  {
+    "Question": "la idea",
+    "Answer": "idea",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/202 - idea la idea .mp3"
+  },
+  {
+    "Question": "la plaza",
+    "Answer": "plaza",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/203 - p;aza la plaza.mp3"
+  },
+  {
+    "Question": "el calendario",
+    "Answer": "calendar",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/204 - calendar el calendario.mp3"
+  },
+  {
+    "Question": "la hamburguesa",
+    "Answer": "hamburger",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/205 - hambuger la hamburguesa.mp3"
+  },
+  {
+    "Question": "artificial",
+    "Answer": "artificial",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/206 - artificial.mp3"
+  },
+  {
+    "Question": "flexible",
+    "Answer": "flexible",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/207 - flexible.mp3"
+  },
+  {
+    "Question": "inteligente",
+    "Answer": "intelligent",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/208 - intelligent inteligente.mp3"
+  },
+  {
+    "Question": "moderno",
+    "Answer": "modern",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/209 - modern moderno.mp3"
+  },
+  {
+    "Question": "necesario",
+    "Answer": "necessary",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/210 - necessary necesario.mp3"
+  },
+  {
+    "Question": "delicioso",
+    "Answer": "delicious",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/211 - delicious delicioso.mp3"
+  },
+  {
+    "Question": "excelente",
+    "Answer": "excelent",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/212 - excelent excelente.mp3"
+  },
+  {
+    "Question": "importante",
+    "Answer": "important",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/213 - important importante.mp3"
+  },
+  {
+    "Question": "horrible",
+    "Answer": "horrible",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/214 - horrible.mp3"
+  },
+  {
+    "Question": "romántico",
+    "Answer": "romantic",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/215 - romantic romantico.mp3"
+  },
+  {
+    "Question": "tímido",
+    "Answer": "shy",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/216 - shy timido.mp3"
+  },
+  {
+    "Question": "cruel",
+    "Answer": "cruel",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/217 - cruel.mp3"
+  },
+  {
+    "Question": "adorable",
+    "Answer": "adorable",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/218 - adorable.mp3"
+  },
+  {
+    "Question": "sociable",
+    "Answer": "sociable",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/219 - sociable.mp3"
+  },
+  {
+    "Question": "tropical",
+    "Answer": "tropical",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/220 - tropical.mp3"
+  },
+  {
+    "Question": "protector",
+    "Answer": "protector",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/221 - protector.mp3"
+  },
+  {
+    "Question": "simple",
+    "Answer": "simple",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/222 - simple.mp3"
+  },
+  {
+    "Question": "real",
+    "Answer": "real",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/223 - real.mp3"
+  },
+  {
+    "Question": "grande",
+    "Answer": "big (after noun), grand (before noun)",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/224 - big grand grande.mp3"
+  },
+  {
+    "Question": "gordo",
+    "Answer": "fat",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/225 - fat gordo.mp3"
+  },
+  {
+    "Question": "la fiesta",
+    "Answer": "party",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/226 - party la fiesta.mp3"
+  },
+  {
+    "Question": "la clase",
+    "Answer": "class",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/227 - class la clase.mp3"
+  },
+  {
+    "Question": "el concierto",
+    "Answer": "concert",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/228 - concert el concierto.mp3"
+  },
+  {
+    "Question": "el/la director/a",
+    "Answer": "cruel",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/229 - director el director la directora.mp3"
+  },
+  {
+    "Question": "el/la presidente/a",
+    "Answer": "president",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/230 - president el la presidente.mp3"
+  },
+  {
+    "Question": "el/la esposo/a",
+    "Answer": "spouse",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/231 - spouse el esposo la esposa.mp3"
+  },
+  {
+    "Question": "la esquina (street), el rincón (room)",
+    "Answer": "corner",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/232 - corner la esquina el rincon.mp3"
+  },
+  {
+    "Question": "el/la vecino/a",
+    "Answer": "neighbour",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/233 - neighbour el vecino la vecina.mp3"
+  },
+  {
+    "Question": "divertido/a",
+    "Answer": "fun",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/234 - fun divertido a.mp3"
+  },
+  {
+    "Question": "limpio/a",
+    "Answer": "clean",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/235 - clean limpio a.mp3"
+  },
+  {
+    "Question": "dedicado/a, trabajador/a",
+    "Answer": "dedicated, hard-working",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/236 - dedicated dedicado a trabajador a.mp3"
+  },
+  {
+    "Question": "tranquilo/a",
+    "Answer": "quiet, calm",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/237 - quiet calm tranquilo a.mp3"
+  },
+  {
+    "Question": "útil",
+    "Answer": "useful",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/238 - usseful uitl.mp3"
+  },
+  {
+    "Question": "rápido/a",
+    "Answer": "fast",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/239 - fast rapido a.mp3"
+  },
+  {
+    "Question": "bonito/a, hermoso/a",
+    "Answer": "pretty, beautiful",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/240 - pretty bautiful bonito a hermoso a.mp3"
+  },
+  {
+    "Question": "largo/a",
+    "Answer": "long",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/241 - long largo a.mp3"
+  },
+  {
+    "Question": "caliente",
+    "Answer": "hot",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/242 - hot caliente.mp3"
+  },
+  {
+    "Question": "pesado/a",
+    "Answer": "heavy",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/243 - heavy pesado a.mp3"
+  },
+  {
+    "Question": "lento/a",
+    "Answer": "slow",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/244 - slow lento a.mp3"
+  },
+  {
+    "Question": "cariñoso/a",
+    "Answer": "caring",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/245 - caring carinoso a .mp3"
+  },
+  {
+    "Question": "el/la amigo/a",
+    "Answer": "friend",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/246 - friend amigo a.mp3"
+  },
+  {
+    "Question": "entusiasmado/a, emocionado/a",
+    "Answer": "excited",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/247 - excited entusiasmado a emocionado a.mp3"
+  },
+  {
+    "Question": "creativo/a",
+    "Answer": "creative",
+    "Path": "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-vocab/248 - creative creativo a.mp3"
+  }
+]

@@ -1,0 +1,562 @@
+[
+    {
+      "question": "Is the definite article for avión el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for autobús el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for automóvil el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for aeropuerto el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for parque el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for oficina el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for casa el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for edificio el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for habitación el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for niño el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for niña el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for hombre el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for mujer el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for perro el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for tortuga el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for gato el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for mano el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for clima el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cocina el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for papà el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for problema el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for idioma el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for escalera el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for mapa el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for sofá el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for lámpara el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cama el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for miño el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for casa el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for escritorio el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for vaso el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for baño el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for libro el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for vela el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for música el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for teléfono el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for pelo el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for camión el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for canción el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for árbol el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for lenguaje el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for pared el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for gato el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for merienda el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for foto el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for peluche el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for iguana el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for perro el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for uña el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cabeza el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for papel el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cuardro el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for campana el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for collar el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for tarjeta el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for diploma el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for carta el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cargador el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cortina el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for elefante el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for tenedor el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cuchara el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for servilleta el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for cuchillo el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for alfombra el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for piel el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for labial el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for mantequilla el or la?",
+      "answers": [
+        {"text": "El", "score": 0},
+        {"text": "La", "score": 1}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for pan el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+      "question": "Is the definite article for aceite el or la?",
+      "answers": [
+        {"text": "El", "score": 1},
+        {"text": "La", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    }
+  ]

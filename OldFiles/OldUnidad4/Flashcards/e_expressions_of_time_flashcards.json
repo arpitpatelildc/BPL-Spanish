@@ -1,0 +1,72 @@
+[
+  {
+    "Question":"Ahora",
+    "Answer":"Now",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Hoy",
+    "Answer":"Today",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Ayer",
+    "Answer":"Yesterday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Anoche",
+    "Answer":"Last night",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Mañana",
+    "Answer":"Tomorrow/Morning",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Anteayer",
+    "Answer":"Day before yesterday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Pasado mañana",
+    "Answer":"Day after tomorrow",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Por la mañana",
+    "Answer":"In the morning",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Por la tarde",
+    "Answer":"In the afternoon/evening",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Por la noche",
+    "Answer":"At night",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Mañana por la mañana",
+    "Answer":"Tomorrow morning",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"La próxima semana",
+    "Answer":"Next week",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El próximo año",
+    "Answer":"Next year",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"Hace",
+    "Answer":"Time ago",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

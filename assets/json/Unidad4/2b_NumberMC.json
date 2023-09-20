@@ -1,0 +1,227 @@
+[
+  {
+    "question": "47",
+    "answers": [
+      {"text": "cuarenta y seis", "score": 0},
+      {"text": "cuarenta y siete", "score": 1},
+      {"text": "catorce y siete", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "53",
+    "answers": [
+      {"text": "cincuenta y tres", "score": 1},
+      {"text": "cincuenta y cinco", "score": 0},
+      {"text": "cuarenta y tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "42",
+    "answers": [
+      {"text": "cuarenta y dos", "score": 1},
+      {"text": "cuarenta y uno", "score": 0},
+      {"text": "cuarenta", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "12",
+    "answers": [
+      {"text": "catorce", "score": 0},
+      {"text": "once", "score": 0},
+      {"text": "doce", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "19",
+    "answers": [
+      {"text": "dieciocho", "score": 0},
+      {"text": "diecinueve", "score": 1},
+      {"text": "diez", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "102",
+    "answers": [
+      {"text": "diez y dos", "score": 0},
+      {"text": "ciento dos", "score": 1},
+      {"text": "mil dos", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "65",
+    "answers": [
+      {"text": "sesenta y cinco", "score": 1},
+      {"text": "setenta y cinco", "score": 0},
+      {"text": "ochenta y cinco", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "34",
+    "answers": [
+      {"text": "treinta y tres", "score": 0},
+      {"text": "trece y cuatro", "score": 0},
+      {"text": "treinta y cuatro", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "22",
+    "answers": [
+      {"text": "veintiuno", "score": 0},
+      {"text": "veintidós", "score": 1},
+      {"text": "veintidos", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "83",
+    "answers": [
+      {"text": "ochenta y uno", "score": 0},
+      {"text": "ochocientos uno", "score": 0},
+      {"text": "ochenta y tres", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "78",
+    "answers": [
+      {"text": "sesenta y ocho", "score": 0},
+      {"text": "setenta y ocho", "score": 1},
+      {"text": "setecientos ocho", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "99",
+    "answers": [
+      {"text": "novecientos nueve", "score": 0},
+      {"text": "noventa y nueve", "score": 1},
+      {"text": "noventa y ocho", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "1.034",
+    "answers": [
+      {"text": "mil treinta y cuatro", "score": 1},
+      {"text": "mil trescientos y catorce", "score": 0},
+      {"text": "mil trescientos y cuatro", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "156",
+    "answers": [
+      {"text": "ciento sesenta y cinco", "score": 0},
+      {"text": "ciento cincuenta y seis", "score": 1},
+      {"text": "mil setenta y cinco", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "16",
+    "answers": [
+      {"text": "diecisiete", "score": 0},
+      {"text": "dieciséis", "score": 1},
+      {"text": "diez", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "28",
+    "answers": [
+      {"text": "veintiocho", "score": 1},
+      {"text": "ochenta y dos", "score": 0},
+      {"text": "veinte y ocho", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "32",
+    "answers": [
+      {"text": "veinte y tres", "score": 0},
+      {"text": "treinta y tres", "score": 0},
+      {"text": "treinta y dos", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "65",
+    "answers": [
+      {"text": "cincuenta y cinco", "score": 0},
+      {"text": "setenta y cinco", "score": 0},
+      {"text": "sesenta y cinco", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "74",
+    "answers": [
+      {"text": "setenta y tres", "score": 0},
+      {"text": "setenta y cuatro", "score": 1},
+      {"text": "setenta y cinco", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "11",
+    "answers": [
+      {"text": "trece", "score": 0},
+      {"text": "once", "score": 1},
+      {"text": "diez", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "306",
+    "answers": [
+      {"text": "treinta y seis", "score": 0},
+      {"text": "trescientos seis", "score": 1},
+      {"text": "seiscientos tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "476",
+    "answers": [
+      {"text": "cuatrocientos setenta y seis", "score": 1},
+      {"text": "catorce y setenta", "score": 0},
+      {"text": "cuarenta y siete", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "192",
+    "answers": [
+      {"text": "ciento noventa y dos", "score": 1},
+      {"text": "mil noventa y dos", "score": 0},
+      {"text": "diez y nueve", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "2.089",
+    "answers": [
+      {"text": "doscientos ochenta y nueve", "score": 0},
+      {"text": "veinte y ochenta y nueve", "score": 0},
+      {"text": "dos mil ochenta y nueve", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "1.234",
+    "answers": [
+      {"text": "ciento veintitrés", "score": 0},
+      {"text": "mil doscientos treinta y cuatro", "score": 1},
+      {"text": "mil trescientos veinticuatro", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

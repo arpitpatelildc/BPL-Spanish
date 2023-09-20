@@ -1,0 +1,232 @@
+[
+  {
+    "question": "¿Cuál es este número?\n375",
+    "answers": [
+      {"text": "trescientos sesenta y siete", "score": 0},
+      {"text": "trescientos setenta y cinco", "score": 1},
+      {"text": "trescientos setenta y seis", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n59",
+    "answers": [
+      {"text": "sesenta y nueve", "score": 0},
+      {"text": "cincuenta y ocho", "score": 0},
+      {"text": "cincuenta y nueve", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n148",
+    "answers": [
+      {"text": "ciento cuarenta y ocho", "score": 1},
+      {"text": "ciento cuarenta ocho", "score": 0},
+      {"text": "cien cuarenta y ocho", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n295",
+    "answers": [
+      {"text": "dosciento noventa y cinco", "score": 0},
+      {"text": "doscientos noventa cinco", "score": 0},
+      {"text": "doscientos noventa y cinco", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué es este número?\n8.107",
+    "answers": [
+      {"text": "ocho mil ciento siete", "score": 1},
+      {"text": "ocho mil cien siete", "score": 0},
+      {"text": "ocho miles ciento siete", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n410",
+    "answers": [
+      {"text": "cuatrocientos diez", "score": 1},
+      {"text": "cuatrocientos y diez", "score": 0},
+      {"text": "cuatroscientos diez", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n792",
+    "answers": [
+      {"text": "setecientos noventa y dos", "score": 1},
+      {"text": "setescientos noventa y dos", "score": 0},
+      {"text": "setecientos noventa dos", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n6.524",
+    "answers": [
+      {"text": "seiscientos y quinientos y veinticuatro", "score": 0},
+      {"text": "seiscientos quinientos veinte y cuatro", "score": 0},
+      {"text": "Seis mil quinientos venticuatro", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n1.906",
+    "answers": [
+      {"text": "un mil novecientos seis", "score": 0},
+      {"text": "mil novecientos seis", "score": 1},
+      {"text": "uno mil novecientos seis", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n37",
+    "answers": [
+      {"text": "treintisiete", "score": 0},
+      {"text": "treinta y seis", "score": 0},
+      {"text": "treinta y siete", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n11:25 a.m.",
+    "answers": [
+      {"text": "Son las diez y uno y veinte y cinco de la mañana", "score": 0},
+      {"text": "Son las once y veinticinco de la mañana", "score": 1},
+      {"text": "Son las once y veinticinco de la tarde", "score": 0},
+      {"text": "Es la once y veinte y cinco de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las cuatro y doce de la tarde",
+    "answers": [
+      {"text": "4:12 p.m.", "score": 1},
+      {"text": "12:04 p.m.", "score": 0},
+      {"text": "3:48 p.m.", "score": 0},
+      {"text": "4:02 p.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las once y cuarto de la noche",
+    "answers": [
+      {"text": "11:15 a.m.", "score": 0},
+      {"text": "10:45 p.m.", "score": 0},
+      {"text": "11:15 p.m.", "score": 1},
+      {"text": "10:45 a.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n4:15 p.m.",
+    "answers": [
+      {"text": "Son las tres menos cuarto de la tarde", "score": 0},
+      {"text": "Son las cinco y cuarto de la tarde", "score": 0},
+      {"text": "Es la cuatro menos cuarto de la noche", "score": 0},
+      {"text": "Son las cuatro y cuarto de la tarde", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n1:15 a.m.",
+    "answers": [
+      {"text": "Es el uno y cuarto de la mañana", "score": 0},
+      {"text": "Es la una y cuarto de la mañana", "score": 1},
+      {"text": "Son las una y quince de la mañana", "score": 0},
+      {"text": "Son las una y cuarto de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n1:00 p.m.",
+    "answers": [
+      {"text": "Son las una de la tarde", "score": 0},
+      {"text": "Es la una de la noche", "score": 0},
+      {"text": "Es la una de la tarde", "score": 1},
+      {"text": "Son las una de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las siete menos cuarto de la noche",
+    "answers": [
+      {"text": "7:15 p.m.", "score": 0},
+      {"text": "7:15 a.m.", "score": 0},
+      {"text": "6:45 p.m.", "score": 1},
+      {"text": "6:45 a.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n29/05",
+    "answers": [
+      {"text": "Hoy es veintinueve mayo", "score": 0},
+      {"text": "Hoy es de mayo veintinueve", "score": 0},
+      {"text": "Hoy es el veintinueve mayo", "score": 0},
+      {"text": "Hoy es veintinueve de mayo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n09/08",
+    "answers": [
+      {"text": "Hoy es septiembre ocho", "score": 0},
+      {"text": "Hoy es ocho de septiembre", "score": 0},
+      {"text": "Hoy es agosto nueve", "score": 0},
+      {"text": "Hoy es nueve de agosto", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n01/03",
+    "answers": [
+      {"text": "Hoy es el primero del marzo", "score": 0},
+      {"text": "Hoy es primero del marzo", "score": 0},
+      {"text": "Hoy es el primero de marzo", "score": 1},
+      {"text": "Hoy es primero de marzo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu profesora?\n04/03",
+    "answers": [
+      {"text": "El cumpleaños de mi profesora es el tres del abril", "score": 0},
+      {"text": "El cumpleaños de mi profesora es tres de abril", "score": 0},
+      {"text": "El cumpleaños de mi profesora es cuatro de marzo", "score": 0},
+      {"text": "El cumpleaños de mi profesora es el cuatro de marzo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu mamá?\n28/10/2021",
+    "answers": [
+      {"text": "El cumpleaños de mi mamá es veintiocho de octubre", "score": 0},
+      {"text": "El cumpleaños de mi mamá es el veintiocho del octubre", "score": 0},
+      {"text": "El cumpleaños de mi mamá es el veintiocho de octubre", "score": 1},
+      {"text": "El cumpleaños de mi mamá es veintiocho del octubre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n07/08/1997, miércoles",
+    "answers": [
+      {"text": "Hoy es miércoles el siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto de mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es miércoles siete de agosto de mil novecientos noventa y siete", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n11/03/1853, jueves",
+    "answers": [
+      {"text": "Hoy es jueves once de marzo de mil ochocientos cincuenta y tres", "score": 1},
+      {"text": "Hoy es el jueves once de marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es jueves once del marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es el jueves once de marzo del mil ochocientos cincuenta y tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

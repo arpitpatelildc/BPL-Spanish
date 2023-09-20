@@ -1,0 +1,456 @@
+[
+    {
+       "Question":"agua",
+       "Answer":"water",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"bota",
+       "Answer":"boot",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"casa",
+       "Answer":"house",
+       "Path" : "assets/images/Chapter1_Flashcard_Images/house_casa.png"
+    },
+    {
+        "Question":"chico",
+        "Answer":"boy",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"dinero",
+       "Answer":"money",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"elefante",
+       "Answer":"elephant",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"foto",
+       "Answer":"picture",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"gato",
+       "Answer":"cat",
+       "Path" : "assets/images/Chapter1_Flashcard_Images/cat_gato.png"
+    },
+    {
+       "Question":"hola",
+       "Answer":"hello",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"jefe",
+       "Answer":"boss",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"kilo",
+       "Answer":"kilogram",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"luna",
+       "Answer":"moon",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"mano",
+       "Answer":"hand",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"niño",
+       "Answer":"boy",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"español",
+       "Answer":"spanish",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"oso",
+        "Answer":"bear",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"pelo",
+        "Answer":"hair",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"queso",
+        "Answer":"cheese",
+        "Path": "assets/images/Chapter1_Flashcard_Images/cheese_queso.png"
+    },
+    {
+        "Question":"ratón",
+        "Answer":"mouse",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"carro",
+        "Answer":"car",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/car_automovil.png"
+    },
+    {
+        "Question":"silla",
+        "Answer":"chair",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"taza",
+        "Answer":"cup",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"uva",
+        "Answer":"grape",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"vaso",
+        "Answer":"glass",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"examen",
+        "Answer":"exam",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"yo",
+        "Answer":"I",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"zapato",
+        "Answer":"shoe",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/shoe_zapato.png"
+    }, 
+    {
+        "Question":"avión",
+        "Answer":"airplane",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/airplane_avion.png"
+    },
+    {
+        "Question":"autobús",
+        "Answer":"bus",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/bus_autobus.png"
+    },
+    {
+        "Question":"automóvil",
+        "Answer":"car",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/car_automovil.png"
+    },
+    {
+        "Question":"aeropuerto",
+        "Answer":"airport",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/airport_aeropuerto.png"
+    },
+    {
+        "Question":"parque",
+        "Answer":"park",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/park_parque.png"
+    },
+    {
+        "Question":"oficina",
+        "Answer":"office",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/office_oficina.png"
+    },
+    {
+        "Question":"casa",
+        "Answer":"house",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/house_casa.png"
+    },
+    {
+        "Question":"edificio",
+        "Answer":"building",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/car_automovil.png"
+    },
+    {
+        "Question":"habitación",
+        "Answer":"bedroom",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/bedroom_habitacion.png"
+    },
+    {
+        "Question":"hombre",
+        "Answer":"man",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/man_hombre.png"
+    },
+    {
+        "Question":"mujer",
+        "Answer":"woman",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/woman_mujer.png"
+    },
+    {
+        "Question":"perro",
+        "Answer":"dog",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/dog_perro.png"
+    },
+    {
+        "Question":"tortuga",
+        "Answer":"turtle",
+        "Path" : "assets/images/Chapter1_Flashcard_Images/turtle_tortuga.png"
+    },
+    {
+        "Question":"mano",
+        "Answer":"hand",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"clima",
+        "Answer":"weather",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cocina",
+        "Answer":"kitchen",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"problema",
+        "Answer":"problem",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"idioma",
+        "Answer":"language",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"escalera",
+        "Answer":"stairs",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"mapa",
+        "Answer":"map",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"sofà",
+        "Answer":"sofa",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"lámpara",
+        "Answer":"lamp",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cama",
+        "Answer":"bed",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"escritorio",
+        "Answer":"desk",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"libro",
+        "Answer":"book",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"vela",
+        "Answer":"candle",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"musica",
+        "Answer":"music",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"teléfono",
+        "Answer":"telephone",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"pelo",
+        "Answer":"hair",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"camión",
+        "Answer":"big truck",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"canción",
+        "Answer":"song",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"árbol",
+        "Answer":"tree",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"lenguaje",
+        "Answer":"language",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"pared",
+        "Answer":"wall",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"merienda",
+        "Answer":"snack",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"peluche",
+        "Answer":"teddy",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"uña",
+        "Answer":"finger nail",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cabeza",
+        "Answer":"head",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"papel",
+        "Answer":"paper",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cuadro",
+        "Answer":"painting",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"campana",
+        "Answer":"bell",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"collar",
+        "Answer":"necklace",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"tarjeta",
+        "Answer":"card",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"carta",
+        "Answer":"letter",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cargador",
+        "Answer":"charger",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cortina",
+        "Answer":"curtain",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"tenedor",
+        "Answer":"fork",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"cuchara",
+        "Answer":"spoon",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"servilleta",
+        "Answer":"napkin",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"piel",
+        "Answer":"skin",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"labial",
+        "Answer":"lipstick",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"mantequilla",
+        "Answer":"butter",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"pan",
+        "Answer":"bread",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"aceite",
+        "Answer":"oil",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"trene",
+        "Answer":"train"
+    },
+    {
+        "Question":"bicicleta",
+        "Answer":"bike"
+    },
+    {
+        "Question":"motocicleta",
+        "Answer":"mopeds"
+    },
+    {
+        "Question":"restaurante",
+        "Answer":"restaurant"
+    },
+    {
+        "Question":"teatro",
+        "Answer":"theater"
+    },
+    {
+        "Question":"museo",
+        "Answer":"museum"
+    },
+    {
+        "Question":"ducha",
+        "Answer":"shower"
+    },
+    {
+        "Question":"piscina",
+        "Answer":"pool"
+    },
+    {
+        "Question":"empleados",
+        "Answer":"employer"
+    },
+    {
+        "Question":"ciervo",
+        "Answer":"deer"
+    },
+    {
+        "Question":"vaca",
+        "Answer":"cow"
+    },
+    {
+        "Question":"aceite",
+        "Answer":"oil"
+    }
+
+]

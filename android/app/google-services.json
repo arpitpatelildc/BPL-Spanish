@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852419135272",
+    "project_id": "easy-spanish-77a5e",
+    "storage_bucket": "easy-spanish-77a5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852419135272:android:a2ff8570e91fd846b4721d",
+        "android_client_info": {
+          "package_name": "com.sif.spanishbpl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4m4qQxRFIOCQ94dsxtXYv2iR2W-TTyPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

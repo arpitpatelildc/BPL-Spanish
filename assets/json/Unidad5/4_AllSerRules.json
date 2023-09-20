@@ -1,0 +1,292 @@
+[
+  {
+    "question": "you are smart",
+    "answers": [
+      {"text": "tú soy inteligentes", "score": 0},
+      {"text": "tú eres inteligente", "score": 1},
+      {"text": "tú es inteligentes", "score": 0},
+      {"text": "tú son inteligente", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "he is short",
+    "answers": [
+      {"text": "él soy bajo", "score": 0},
+      {"text": "él eres baja", "score": 0},
+      {"text": "él es bajo", "score": 1},
+      {"text": "él son baja", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the student are creative",
+    "answers": [
+      {"text": "los estudiantes somos creativos", "score": 0},
+      {"text": "los estudiantes sois creativas", "score": 0},
+      {"text": "los estudiantes es creativas", "score": 0},
+      {"text": "los estudiantes son creativos", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the employee is hard-working",
+    "answers": [
+      {"text": "la empleada soy trabajador", "score": 0},
+      {"text": "la empleada es trabajadora", "score": 1},
+      {"text": "la empleada somos trabajador", "score": 0},
+      {"text": "la empleada son trabajadora", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my family and I are happy",
+    "answers": [
+      {"text": "mi familia y yo soy alegres", "score": 0},
+      {"text": "mi familia y yo eres alegre", "score": 0},
+      {"text": "mi familia y yo somos alegres", "score": 1},
+      {"text": "mi familia y yo son alegre", ",score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú es guapo.", "score": 0},
+      {"text": "Ella es guapo.", "score": 0},
+      {"text": "Él es guapo.", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Él eres viejo", "score": 0},
+      {"text": "Eres viejo.", "score": 1},
+      {"text": "Ella eres viejo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es bonita.", "score": 1},
+      {"text": "Ellas son bonitos.", "score": 0},
+      {"text": "Ella es bonito.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellas es inteligentes.", "score": 0},
+      {"text": "Ellas es inteligente.", "score": 0},
+      {"text": "Ellas son inteligentes.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Él es simpático.", "score": 1},
+      {"text": "Ella es simpático.", "score": 0},
+      {"text": "Ellos son simpáticas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ agente inmobiliario.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0},
+      {"text": "soy un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ psicologo.",
+    "answers": [
+      {"text": "es una", "score": 0},
+      {"text": "eres una", "score": 0},
+      {"text": "eres un", "score": 0},
+      {"text": "es un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ piloto.",
+    "answers": [
+      {"text": "es un", "score": 0},
+      {"text": "es una", "score": 1},
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ constructor.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "es una", "score": 0},
+      {"text": "es un", "score": 1},
+      {"text": "soy un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ escritora.",
+    "answers": [
+      {"text": "soy una", "score": 1},
+      {"text": "soy un", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+  "question": "¿Qué hora es?\n4:30 p.m.",
+  "answers": [
+    {"text": "Son las cuatro y media de la tarde", "score": 1},
+    {"text": "Son las cuatro y treinta de la tarde", "score": 0},
+    {"text": "Son las cuatro y treinta de la mañana", "score": 0},
+    {"text": "Es la cuatro y media de la tarde", "score": 0}
+  ],
+  "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n6:45 a.m.",
+    "answers": [
+      {"text": "Son las seis y cuarenta y cinco de la mañana", "score": 1},
+      {"text": "Son las siete menos cuarto de la mañana", "score": 1},
+      {"text": "Es la siete menos cuarto de la mañana", "score": 0},
+      {"text": "Es la seis y cuarenta y cinco de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n1:00 p.m.",
+    "answers": [
+      {"text": "Son las una de la tarde", "score": 0},
+      {"text": "Es la una de la noche", "score": 0},
+      {"text": "Es la una de la tarde", "score": 1},
+      {"text": "Son las una de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n2:40 p.m.",
+    "answers": [
+      {"text": "Son las dos y cuarenta de la tarde", "score": 1},
+      {"text": "Es la tres menos veinte de la noche", "score": 0},
+      {"text": "Son las dos y cuarenta de la mañana", "score": 0},
+      {"text": "Son las tres menos veinte de la tarde", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n12:00 a.m.",
+    "answers": [
+      {"text": "Son las doce de la noche", "score": 0},
+      {"text": "Es el mediodía", "score": 0},
+      {"text": "Son las doce de la mañana", "score": 1},
+      {"text": "Es la medianoche", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (formal) (feminine) are Peruvian.",
+    "answers": [
+      {"text": "Ustedes es peruana.", "score": 0},
+      {"text": "Usted es peruano.", "score": 0},
+      {"text": "Usted es peruana.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (masculine) are Ecuadorians.",
+    "answers": [
+      {"text": "Ellas son ecuatorianas.", "score": 0},
+      {"text": "Ellos son ecuatorianos.", "score": 1},
+      {"text": "Ellos son ecuatorianas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nYou (informal) (feminine) are Argentinean.",
+    "answers": [
+      {"text": "Tú eres angentinas.", "score": 0},
+      {"text": "Tú eres angentino.", "score": 0},
+      {"text": "Tú eres angentina.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nShe is Chilean.",
+    "answers": [
+      {"text": "Ella es chilena.", "score": 1},
+      {"text": "Ellos es chilenos.", "score": 0},
+      {"text": "Ellas son chilenas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct translation of the sentence:\nThey (feminine) are Colombians.",
+    "answers": [
+      {"text": "Ellas son colombianas.", "score": 1},
+      {"text": "Ella son colombiana.", "score": 0},
+      {"text": "Ellos son colombianas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n07/08/1997, miércoles",
+    "answers": [
+      {"text": "Hoy es miércoles el siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto de mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es miércoles siete de agosto de mil novecientos noventa y siete", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n08/12/1984, sábado",
+    "answers": [
+      {"text": "Hoy es sábado doce del diciembre del mil novecientos ochenta y cuatro", "score": 0},
+      {"text": "Hoy es sábado doce de diciembre del mil novecientos ochenta y cuatro", "score": 0},
+      {"text": "Hoy es sábado doce de diciembre de mil novecientos ochenta y cuatro", "score": 1},
+      {"text": "Hoy es el sábado doce de diciembre de mil novecientos ochenta y cuatro", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n09/09/1976, martes",
+    "answers": [
+      {"text": "Hoy es martes el nueve del septiembre del mil novecientos setenta y seis", "score": 0},
+      {"text": "Hoy es martes nueve de septiembre de mil novecientos setenta y seis", "score": 1},
+      {"text": "Hoy es el martes nueve del septiembre de mil novecientos setenta y seis", "score": 0},
+      {"text": "Hoy es martes nueve del septiembre de mil novecientos setenta y seis", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n11/03/1853, jueves",
+    "answers": [
+      {"text": "Hoy es jueves once de marzo de mil ochocientos cincuenta y tres", "score": 1},
+      {"text": "Hoy es el jueves once de marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es jueves once del marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es el jueves once de marzo del mil ochocientos cincuenta y tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n05/12/1740, viernes",
+    "answers": [
+      {"text": "Hoy es viernes el cinco del diciembre de mil setecientos cuarenta", "score": 0},
+      {"text": "Hoy es viernes cinco del diciembre de mil setecientos cuarenta", "score": 0},
+      {"text": "Hoy es viernes cinco de diciembre de mil setecientos cuarenta", "score": 1},
+      {"text": "Hoy es el viernes cinco de diciembre de mil setecientos cuarenta", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I (boy) am tall",
+    "answers": [
+      {"text": "Yo soy alto", "score": 1},
+      {"text": "Yo eres alta", "score": 0},
+      {"text": "Yo es alto", "score": 0},
+      {"text": "Yo somos alta", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "she is funny",
+    "answers": [
+      {"text": "ella soy cómica", "score": 0},
+      {"text": "ella es cómica", "score": 1},
+      {"text": "ella sois cómico", "score": 0},
+      {"text": "ella son cómico", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the clouds are white",
+    "answers": [
+      {"text": "las nubes eres blancas", "score": 0},
+      {"text": "las nubes es blancos", "score": 0},
+      {"text": "las nubes somos blancos", "score": 0},
+      {"text": "las nubes son blancas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the cat is black",
+    "answers": [
+      {"text": "el gato soy negra", "score": 0},
+      {"text": "el gato eres negra", "score": 0},
+      {"text": "el gato es negro", "score": 1},
+      {"text": "el gato son negro", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "you and your friends are happy",
+    "answers": [
+      {"text": "vosotros sois felices", "score": 1},
+      {"text": "tú y tus amigos eres feliz", "score": 0},
+      {"text": "tú y tus amigos es feliz", "score": 0},
+      {"text": "Vosotros sois amigos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "we are affectione",
+    "answers": [
+      {"text": "nosotros eres cariñosos", "score": 0},
+      {"text": "nosotros es cariñosas", "score": 0},
+      {"text": "nosotros somos cariñosos", "score": 1},
+      {"text": "nosotros sois cariñosas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the dogs are brown",
+    "answers": [
+      {"text": "los perros es marrones", "score": 0},
+      {"text": "los perros somos marrón", "score": 0},
+      {"text": "los perros sois marrón", "score": 0},
+      {"text": "los perros son marrones", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my friends and I (girl) are friendly",
+    "answers": [
+      {"text": "mis amigas y yo soy amistosas", "score": 0},
+      {"text": "mis amigas y yo es amistosos", "score": 0},
+      {"text": "mis amigas y yo somos amistosas", "score": 1},
+      {"text": "mis amigas y yo son amistosos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "you are smart",
+    "answers": [
+      {"text": "tú soy inteligentes", "score": 0},
+      {"text": "tú eres inteligente", "score": 1},
+      {"text": "tú es inteligentes", "score": 0},
+      {"text": "tú son inteligente", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "he is short",
+    "answers": [
+      {"text": "él soy bajo", "score": 0},
+      {"text": "él eres baja", "score": 0},
+      {"text": "él es bajo", "score": 1},
+      {"text": "él son baja", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the student are creative",
+    "answers": [
+      {"text": "los estudiantes somos creativos", "score": 0},
+      {"text": "los estudiantes sois creativas", "score": 0},
+      {"text": "los estudiantes es creativas", "score": 0},
+      {"text": "los estudiantes son creativos", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the employee is hard-working",
+    "answers": [
+      {"text": "la empleada soy trabajador", "score": 0},
+      {"text": "la empleada es trabajadora", "score": 1},
+      {"text": "la empleada somos trabajador", "score": 0},
+      {"text": "la empleada son trabajadora", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my family and I are happy",
+    "answers": [
+      {"text": "mi familia y yo soy alegres", "score": 0},
+      {"text": "mi familia y yo eres alegre", "score": 0},
+      {"text": "mi familia y yo somos alegres", "score": 1},
+      {"text": "mi familia y yo son alegre", ",score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "she and her friends are cute",
+    "answers": [
+      {"text": "ella y sus amigas eres lindos", "score": 0},
+      {"text": "ella y sus amigas es lindos", "score": 0},
+      {"text": "ella y sus amigas somos lindas", "score": 0},
+      {"text": "ella y sus amigas son lindas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "you and your dad are dedicated",
+    "answers": [
+      {"text": "tú y tu papá eres dedicado", "score": 0},
+      {"text": "tú y tu papá somos dedicados", "score": 0},
+      {"text": "tú y tu papá sois dedicados", "score": 1},
+      {"text": "tú y tu papá son dedicado", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "Director Velez is important",
+    "answers": [
+      {"text": "Directora Velez soy importantes", "score": 0},
+      {"text": "Directora Velez eres importantes", "score": 0},
+      {"text": "Directora Velez es importante", "score": 1},
+      {"text": "Directora Velez son importante", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the professor is excellent",
+    "answers": [
+      {"text": "la profesora soy excelente", "score": 0},
+      {"text": "la profesora eres excelentes", "score": 0},
+      {"text": "la profesora es excelente", "score": 1},
+      {"text": "la profesora son excelentes", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "y'all are flexible",
+    "answers": [
+      {"text": "vosotros eres flexible", "score": 0},
+      {"text": "vosotros es flexible", "score": 0},
+      {"text": "vosotros somos flexibles", "score": 0},
+      {"text": "vosotros sois flexibles", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my name is Maria",
+    "answers": [
+      {"text": "mi nombre soy Maria", "score": 0},
+      {"text": "mi nombre eres Maria", "score": 0},
+      {"text": "mi nombre es Maria", "score": 1},
+      {"text": "mi nombre somos Maria", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the class is necessary",
+    "answers": [
+      {"text": "la clase es necesaria", "score": 1},
+      {"text": "la clase somos necesarias", "score": 0},
+      {"text": "la clase sois necesaria", "score": 0},
+      {"text": "la clase son necesarias", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the boys are shy",
+    "answers": [
+      {"text": "los chicos soy tímido", "score": 0},
+      {"text": "los chicos es tímido", "score": 0},
+      {"text": "los chicos somos tímidos", "score": 0},
+      {"text": "los chicos son tímidos", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the bear is big",
+    "answers": [
+      {"text": "el oso es grande", "score": 1},
+      {"text": "el oso somos grandes", "score": 0},
+      {"text": "el oso sois grande", "score": 0},
+      {"text": "el oso son grandes", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my friends are sociable",
+    "answers": [
+      {"text": "mis amigos son sociables", "score": 1},
+      {"text": "mis amigos es sociable", "score": 0},
+      {"text": "mis amigos somos sociables", "score": 0},
+      {"text": "mis amigos son sociable", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the books are heavy",
+    "answers": [
+      {"text": "los libros eres pesado", "score": 0},
+      {"text": "los libros es pesado", "score": 0},
+      {"text": "los libros eres pesados", "score": 0},
+      {"text": "los libros son pesados", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "my family is flexible",
+    "answers": [
+      {"text": "mi familia soy flexible", "score": 0},
+      {"text": "mi familia es flexible", "score": 1},
+      {"text": "mi familia somos flexibles", "score": 0},
+      {"text": "mi familia son flexibles", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "your family is adorable",
+    "answers": [
+      {"text": "tu familia eres adorables", "score": 0},
+      {"text": "tu familia es adorable", "score": 1},
+      {"text": "vosotros sois adorables", "score": 0},
+      {"text": "tu familia son adorable", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the table is modern",
+    "answers": [
+      {"text": "la mesa soy moderno", "score": 0},
+      {"text": "la mesa eres moderna", "score": 0},
+      {"text": "la mesa es moderna", "score": 1},
+      {"text": "la mesa son moderno", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the bananas are green",
+    "answers": [
+      {"text": "los plátanos eres verde", "score": 0},
+      {"text": "los plátanos somos verde", "score": 0},
+      {"text": "los plátanos sois verdes", "score": 0},
+      {"text": "los plátanos son verdes", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "the painting is beautiful",
+    "answers": [
+      {"text": "el cuadro soy bello", "score": 0},
+      {"text": "el cuadro es bello", "score": 1},
+      {"text": "el cuadro somos bellos", "score": 0},
+      {"text": "el cuadro son bellos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

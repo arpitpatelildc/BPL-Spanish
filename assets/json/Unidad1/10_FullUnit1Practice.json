@@ -1,0 +1,272 @@
+[
+  {
+    "question": "__ silla ___ marrón",
+    "answers": [
+      {"text": "la silla es marrón", "score": 1},
+      {"text": "el silla es marrón", "score": 0},
+      {"text": "la silla son marrón", "score": 0},
+      {"text": "el silla son marrón", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ niño es lind_",
+    "answers": [
+      {"text": "la niño es lindo", "score": 0},
+      {"text": "el niño es lindo", "score": 1},
+      {"text": "la niño es linda", "score": 0},
+      {"text": "el niño es linda", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cocina es modern_",
+    "answers": [
+      {"text": "el cocina es moderno", "score": 0},
+      {"text": "el cocina es moderna", "score": 0},
+      {"text": "la cocina es moderno", "score": 0},
+      {"text": "la cocina es moderna", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los baños ___ blanco_",
+    "answers": [
+      {"text": "los baños somos blancos", "score": 0},
+      {"text": "los baños somos blanco", "score": 0},
+      {"text": "los baños son blancos", "score": 1},
+      {"text": "los baños son blanco", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mano es pequeña",
+    "answers": [
+      {"text": "el mano es pequeño", "score": 0},
+      {"text": "la mano es pequeño", "score": 0},
+      {"text": "el mano es pequeña", "score": 0},
+      {"text": "la mano es pequeña", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la luna ___ bonit_",
+    "answers": [
+      {"text": "la luna eres bonita", "score": 0},
+      {"text": "la luna eres bonitas", "score": 0},
+      {"text": "la luna es bonita", "score": 1},
+      {"text": "la luna es bonitas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "La música ___ buen_",
+    "answers": [
+      {"text": "La música soy bueno", "score": 0},
+      {"text": "La música soy buena", "score": 0},
+      {"text": "La música es bueno", ",score": 0},
+      {"text": "La música es buena", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ carro es roj_",
+    "answers": [
+      {"text": "el carro es roja", "score": 0},
+      {"text": "la carro es roja", "score": 0},
+      {"text": "el carro es rojo", "score": 1},
+      {"text": "la carro es rojo", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ amor ___ real",
+    "answers": [
+      {"text": "la amor es real", "score": 0},
+      {"text": "el amor es real", "score": 1},
+      {"text": "la amor eres real", "score": 0},
+      {"text": "el amor eres real", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ foto ___ grande",
+    "answers": [
+      {"text": "la foto soy grande", "score": 0},
+      {"text": "el foto soy grande", "score": 0},
+      {"text": "la foto es grande", "score": 1},
+      {"text": "el foto es grande", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el profesor (singular) = _____ (plural)",
+    "answers": [
+      {"text": "los profesors", "score": 0},
+      {"text": "las profesors", "score": 0},
+      {"text": "los profesores", "score": 1},
+      {"text": "las profesors", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la vaca (singular) = _____ (plural)",
+    "answers": [
+      {"text": "las vacas", "score": 1},
+      {"text": "los vacas", "score": 0},
+      {"text": "las vacs", "score": 0},
+      {"text": "las vaces", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el camión (singular) = _____ (plural)",
+    "answers": [
+      {"text": "los camiónes", "score": 0},
+      {"text": "los camiones", "score": 1},
+      {"text": "las camionas", "score": 0},
+      {"text": "las camiones", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el tenedor (singular) = _____ (plural)",
+    "answers": [
+      {"text": "los tenedors", "score": 0},
+      {"text": "las tenedors", "score": 0},
+      {"text": "los tenedores", "score": 1},
+      {"text": "las tenedores", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "_____ (singular) = los aceites (plural)",
+    "answers": [
+      {"text": "el aceit", "score": 0},
+      {"text": "la aceita", "score": 0},
+      {"text": "la aceite", "score": 0},
+      {"text": "el aceite", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "_____ (singular) = los diplomas (plural)",
+    "answers": [
+      {"text": "la diploma", "score": 0},
+      {"text": "el diplom", "score": 0},
+      {"text": "el diploma", "score": 1},
+      {"text": "la diplome", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la mano (singular) = _____ (plural)",
+    "answers": [
+      {"text": "los manos", "score": 0},
+      {"text": "las manos", "score": 1},
+      {"text": "los manes", "score": 0},
+      {"text": "los mans", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "_____ (singular) = los elefantes (plural)",
+    "answers": [
+      {"text": "la elefante", "score": 0},
+      {"text": "el elefante", "score": 1},
+      {"text": "la elefanta", "score": 0},
+      {"text": "el elefanto", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "_____ (singular) = las servilletas (plural)",
+    "answers": [
+      {"text": "la servillet", "score": 0},
+      {"text": "la servilleta", "score": 1},
+      {"text": "la servillete", "score": 0},
+      {"text": "el servilleta", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "_____ (singular) = los trenes (plural)",
+    "answers": [
+      {"text": "el trene", "score": 0},
+      {"text": "la trene", "score": 0},
+      {"text": "el tren", "score": 1},
+      {"text": "la tren", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "yo ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 1},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "yo y mis amigos ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 1},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tú y tu papá ___ (ser)",
+    "answers": [
+      {"text": "eres", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "sois", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mis amigos ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 0},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "tú ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 1},
+      {"text": "es", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la mesa ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "eres", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "sois", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "usted ___ (ser)",
+    "answers": [
+      {"text": "soy", "score": 0},
+      {"text": "es", "score": 1},
+      {"text": "somos", "score": 0},
+      {"text": "son", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

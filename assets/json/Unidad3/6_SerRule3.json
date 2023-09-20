@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ abogada.",
+    "answers": [
+      {"text": "soy una", "score": 1},
+      {"text": "eres un", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ dentista.",
+    "answers": [
+      {"text": "es un", "score": 0},
+      {"text": "eres un", "score": 0},
+      {"text": "es una", "score": 1},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nUsted _____ _____ ingeniero.",
+    "answers": [
+      {"text": "eres un", "score": 0},
+      {"text": "es una", "score": 0},
+      {"text": "es un", "score": 1},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ electricista.",
+    "answers": [
+      {"text": "es una", "score": 0},
+      {"text": "soy una", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "es un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nTú _____ _____ bailarín.",
+    "answers": [
+      {"text": "eres una", "score": 0},
+      {"text": "eres un", "score": 1},
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ enfermero.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "eres un", "score": 0},
+      {"text": "soy un", "score": 1},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ arquitecto.",
+    "answers": [
+      {"text": "es una", "score": 1},
+      {"text": "es un", "score": 0},
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nTú _____ _____ diseñadora.",
+    "answers": [
+      {"text": "eres una", "score": 1},
+      {"text": "soy un", "score": 0},
+      {"text": "soy una", "score": 0},
+      {"text": "eres un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ periodista.",
+    "answers": [
+      {"text": "es un", "score": 0},
+      {"text": "es una", "score": 1},
+      {"text": "eres un", "score": 0},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ agente inmobiliario.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0},
+      {"text": "soy un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ psicologo.",
+    "answers": [
+      {"text": "es una", "score": 0},
+      {"text": "eres una", "score": 0},
+      {"text": "eres un", "score": 0},
+      {"text": "es un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ piloto.",
+    "answers": [
+      {"text": "es un", "score": 0},
+      {"text": "es una", "score": 1},
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ constructor.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "es una", "score": 0},
+      {"text": "es un", "score": 1},
+      {"text": "soy un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ escritora.",
+    "answers": [
+      {"text": "soy una", "score": 1},
+      {"text": "soy un", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nUsted _____ _____ instructor",
+    "answers": [
+      {"text": "es un", "score": 1},
+      {"text": "es una", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ profesora.",
+    "answers": [
+      {"text": "es una", "score": 1},
+      {"text": "es un", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "son una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nTú _____ _____ actor.",
+    "answers": [
+      {"text": "eres una", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "eres un", "score": 1},
+      {"text": "soy una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ vendedor.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "soy un", "score": 1},
+      {"text": "eres una", "score": 0},
+      {"text": "eres un", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ policia.",
+    "answers": [
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "es un", "score": 0},
+      {"text": "es una", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ peluquero.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "es una", "score": 0},
+      {"text": "es un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "Question":"en punto",
+    "Answer":"O'clock",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/01 - en punto o clock.mp3"
+  },
+  {
+    "Question":"de la mañana",
+    "Answer":"A.M.",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/02 - de la manana am.mp3"
+  },
+  {
+    "Question":"de la tarde",
+    "Answer":"P.M.",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/03 - de la tarde pm.mp3"
+  },
+  {
+    "Question":"de la noche",
+    "Answer":"P.M.",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/04 - de la noche pm.mp3"
+  },
+  {
+    "Question":"medianoche",
+    "Answer":"midnight",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/05 - medianoche midnight.mp3"
+  },
+  {
+    "Question":"mediodía",
+    "Answer":"noon",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/06 - mediodia noon.mp3"
+  },
+  {
+    "Question":"El año",
+    "Answer":"year",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/07 - el año year.mp3"
+  },
+  {
+    "Question":"El mes",
+    "Answer":"month",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/08 - el mes month.mp3"
+  },
+  {
+    "Question":"La semana",
+    "Answer":"week",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/09 - la semana week.mp3"
+  },
+  {
+    "Question":"El día",
+    "Answer":"day",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/10 - el dia  day.mp3"
+  },
+  {
+    "Question":"La hora",
+    "Answer":"hour",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/11 - la hora hour.mp3"
+  },
+  {
+    "Question":"El minuto",
+    "Answer":"minute",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/12 - el minuto minute.mp3"
+  },
+  {
+    "Question":"El segundo",
+    "Answer":"second",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/13 - el segundo second.mp3"
+  },
+  {
+    "Question":"El lunes",
+    "Answer":"Monday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/14 -  el lunes monday.mp3"
+  },
+  {
+    "Question":"El martes",
+    "Answer":"Tuesday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/15 - el martes tuesday.mp3"
+  },
+  {
+    "Question":"El miércoles",
+    "Answer":"Wednesday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/16 - el miercoles wednesday.mp3"
+  },
+  {
+    "Question":"El jueves",
+    "Answer":"Thursday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/17 - el jueves thurday.mp3"
+  },
+  {
+    "Question":"El viernes",
+    "Answer":"Friday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/18 - el viernes friday.mp3"
+  },
+  {
+    "Question":"El sábado",
+    "Answer":"Saturday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/19 - el sabado saturday.mp3"
+  },
+  {
+    "Question":"El domingo",
+    "Answer":"Sunday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/20 - el domingo sunday.mp3"
+  },
+  {
+    "Question":"enero",
+    "Answer":"January",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/21 - enero january.mp3"
+  },
+  {
+    "Question":"febrero",
+    "Answer":"February",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/22 - febrero february.mp3"
+  },
+  {
+    "Question":"marzo",
+    "Answer":"March",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/23 - marzo march.mp3"
+  },
+  {
+    "Question":"abril",
+    "Answer":"April",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/24 - abril april.mp3"
+  },
+  {
+    "Question":"mayo",
+    "Answer":"May",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/25 - mayo may.mp3"
+  },
+  {
+    "Question":"junio",
+    "Answer":"June",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/26 - junio june.mp3"
+  },
+  {
+    "Question":"julio",
+    "Answer":"July",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/27 - julio july.mp3"
+  },
+  {
+    "Question":"agosto",
+    "Answer":"August",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/28 - agosto august .mp3"
+  },
+  {
+    "Question":"septiembre",
+    "Answer":"September",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/29 - septiembre september.mp3"
+  },
+  {
+    "Question":"octubre",
+    "Answer":"October",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/30 - octubre october.mp3"
+  },
+  {
+    "Question":"noviembre",
+    "Answer":"November",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/31 - noviembre november.mp3"
+  },
+  {
+    "Question":"diciembre",
+    "Answer":"December",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/32 - diciembre december.mp3"
+  },
+  {
+    "Question":"ahora",
+    "Answer":"now",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/33 - ahora now.mp3"
+  },
+  {
+    "Question":"hoy",
+    "Answer":"today",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/34 - hoy today.mp3"
+  },
+  {
+    "Question":"ayer",
+    "Answer":"yesterday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/35 - ayer yesterday.mp3"
+  },
+  {
+    "Question":"anoche",
+    "Answer":"last night",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/36 - anoche last night.mp3"
+  },
+  {
+    "Question":"mañana",
+    "Answer":"tomorrow",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/37 - mañana tomorrow.mp3"
+  },
+  {
+    "Question":"anteayer",
+    "Answer":"the day before yesterday",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/38 - anteayer the day before yesterday.mp3"
+  },
+  {
+    "Question":"pasado mañana",
+    "Answer":"the day after tomorrow",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/39 - pasado mañana.mp3"
+  },
+  {
+    "Question":"por la mañana",
+    "Answer":"in the morning",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/40 - por la manana in the morning.mp3"
+  },
+  {
+    "Question":"por la tarde",
+    "Answer":"in the afternoon",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/41 - por la tarde.mp3"
+  },
+  {
+    "Question":"por la noche",
+    "Answer":"in the evening",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/42 - por la noche in the evening.mp3"
+  },
+  {
+    "Question":"mañana por la mañana",
+    "Answer":"tomorrow morning",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/43 - mañana por la mañana tomorrow morning.mp3"
+  },
+  {
+    "Question":"la próxima semana",
+    "Answer":"next week",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/44 - la proxima semana next week.mp3"
+  },
+  {
+    "Question":"el próximo año",
+    "Answer":"next year",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/45 - el proximo año next year.mp3"
+  },
+  {
+    "Question":"hace 2 semanas",
+    "Answer":"2 weeks ago",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/46 - hace dos semanas 2 weeks ago.mp3"
+  },
+  {
+    "Question":"en el año 2000",
+    "Answer":"the year 2000",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit4-vocab/47 - en el año 2000 the year 2000.mp3"
+  }
+]

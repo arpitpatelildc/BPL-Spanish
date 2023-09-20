@@ -1,0 +1,77 @@
+[
+    {
+       "Question":"El abuelo",
+       "Answer":"Grandpa",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"La Abuela",
+       "Answer":"Grandma",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El niento / La nieta",
+       "Answer":"Grandson",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"El esposo",
+        "Answer":"Husband",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"La esposa",
+       "Answer":"Wife",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El hijo / La hija",
+       "Answer":"Son / Daughter",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El hermano",
+       "Answer":"Brother",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"La hermana",
+       "Answer":"Sister",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Los primos",
+       "Answer":"Cousins",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El tio",
+       "Answer":"Uncle",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"La tia",
+       "Answer":"Aunt",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El sobrino/ La sobrina",
+       "Answer":"Nephew / Niece",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El cuñado/ La cuñada",
+       "Answer":"Brother-in-law / Sister-in-law",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"El suegro",
+       "Answer":"Father-in-law",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"La suegra",
+       "Answer":"Mother-in-law",
+       "Path" : "assets/images/bpl_Logo.png"
+    }
+]

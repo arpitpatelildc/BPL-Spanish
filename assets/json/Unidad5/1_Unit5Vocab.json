@@ -1,0 +1,326 @@
+[
+  {
+    "Question":"Los Estados Unidos de America",
+    "Answer":"Dolar Americano",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/01 - Los estados unidos de america united states of america.mp3"
+  },
+  {
+    "Question":"estadounidense",
+    "Answer":"North American",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/02 - estadounidense.mp3"
+  },
+  {
+    "Question":"argentino/a",
+    "Answer":"Argentinean",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/03 - argentino a argentinian.mp3"
+  },
+  {
+    "Question":"boliviano/a",
+    "Answer":"Bolivian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/04 - boliviano a bolivian.mp3"
+  },
+  {
+    "Question":"chileno/a",
+    "Answer":"Chilean",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/05 - chileno a chilean.mp3"
+  },
+  {
+    "Question":"colombiano/a",
+    "Answer":"Colombian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/06 - colombiano a colombian.mp3"
+  },
+  {
+    "Question":"costarricense",
+    "Answer":"Costa Rican",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/07 - costaricense costarican.mp3"
+  },
+  {
+    "Question":"cubano/a",
+    "Answer":"Cuban",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/08 - cubano a cuban.mp3"
+  },
+  {
+    "Question":"dominicano/a",
+    "Answer":"Dominican",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/09 - dominicano a dominican.mp3"
+  },
+  {
+    "Question":"ecuatoriano/a",
+    "Answer":"Ecuadorian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/10 - ecuatoriano a ecuatorian.mp3"
+  },
+  {
+    "Question":"salvadoreño/a",
+    "Answer":"Salvadorian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/11 - salvadoreno a salvadorian.mp3"
+  },
+  {
+    "Question":"guatemalteco/a",
+    "Answer":"Guatemalan",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/12 - guatemalteco a guatemalean.mp3"
+  },
+  {
+    "Question":"hondureño/a",
+    "Answer":"Honduran",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/13 - hondureno a hondurian.mp3"
+  },
+  {
+    "Question":"mexicano/a",
+    "Answer":"Mexican",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/14 - mexicano a mexican.mp3"
+  },
+  {
+    "Question":"nicaraguense",
+    "Answer":"Nicaraguan",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/15 - nicaraguense nicaragean.mp3"
+  },
+  {
+    "Question":"panameño/a",
+    "Answer":"Panamanian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/16 - panameno a panamenian.mp3"
+  },
+  {
+    "Question":"paraguayo/a",
+    "Answer":"Paraguayan",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/17 - paraguayo a paraguayean.mp3"
+  },
+  {
+    "Question":"peruano/a",
+    "Answer":"Peruvian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/18 - peruano a peruvian.mp3"
+  },
+  {
+    "Question":"La maleta",
+    "Answer":"Suitcase",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/19 - la maleta suitcase.mp3"
+  },
+  {
+    "Question":"El taxi",
+    "Answer":"Taxi",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/20 - el taxi taxi.mp3"
+  },
+  {
+    "Question":"El boleto",
+    "Answer":"Ticket",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/21 - el boleto ticket.mp3"
+  },
+  {
+    "Question":"El hotel",
+    "Answer":"Hotel",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/22 - el hotel hotel.mp3"
+  },
+  {
+    "Question":"El puente",
+    "Answer":"Bridge",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/23 - el puente bridge .mp3"
+  },
+  {
+    "Question":"El centro",
+    "Answer":"Down Town",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/24 - el centro downtown.mp3"
+  },
+  {
+    "Question":"La comida",
+    "Answer":"Food",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/25 - la comida food.mp3"
+  },
+  {
+    "Question":"El agua",
+    "Answer":"Water",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/26 - water el agua.mp3"
+  },
+  {
+    "Question":"La cuenta",
+    "Answer":"The Bill",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/27 - la cuenta the bill.mp3"
+  },
+  {
+    "Question":"El vino tinto",
+    "Answer":"Red wine",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/28 - el vino tinto red wine.mp3"
+  },
+  {
+    "Question":"El vino blanco",
+    "Answer":"White wine",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/29 - el vino blanco white wine.mp3"
+  },
+  {
+    "Question":"La cerveza",
+    "Answer":"Beer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/30 - la cerveza beer.mp3"
+  },
+  {
+    "Question":"El trago",
+    "Answer":"A shot",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/31 - el trago drink.mp3"
+  },
+  {
+    "Question":"El café",
+    "Answer":"Coffee",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/32 - el cafe coffee.mp3"
+  },
+  {
+    "Question":"El postre",
+    "Answer":"Dessert",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/33 - el postre dessert.mp3"
+  },
+  {
+    "Question":"La propina",
+    "Answer":"Tip",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/34 - la propina tip.mp3"
+  },
+  {
+    "Question":"Dólar estadounidense",
+    "Answer":"Currency in the U.S.A.",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/35 - dolar estadounidense currency in usa.mp3"
+  },
+  {
+    "Question":"Peso argentino",
+    "Answer":"Currency in Argentina",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/36 - peso argentino currency in argentina.mp3"
+  },
+  {
+    "Question":"Boliviano",
+    "Answer":"Currency in Bolivia",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/37 - boliviano currency in bolivia.mp3"
+  },
+  {
+    "Question":"Peso chileno",
+    "Answer":"Currency in Chile",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/38 - peso chileno currency in chile.mp3"
+  },
+  {
+    "Question":"Peso colombiano",
+    "Answer":"Currency in Colombia",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/39 - peso colombiano currency in colombia.mp3"
+  },
+  {
+    "Question":"Colón costarricense",
+    "Answer":"Currency in Costa Rica",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/40 - colon costarricense currency in costa ria.mp3"
+  },
+  {
+    "Question":"Peso cubano",
+    "Answer":"Currency in Cuba",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/41 - peso cubano currency in cuba.mp3"
+  },
+  {
+    "Question":"Dólar estadounidense",
+    "Answer":"Currency in Ecuador",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/42 - dolar estodounidense currency in usa.mp3"
+  },
+  {
+    "Question":"El euro",
+    "Answer":"Currency in European Union (Spain)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/43 - el euro currency in europe.mp3"
+  },
+  {
+    "Question":"Dólar estadounidense",
+    "Answer":"United States Currency",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/44 - dolar estadounidense currency in usa.mp3"
+  },
+  {
+    "Question":"Quetzal",
+    "Answer":"Currency in Guatemala",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/45 - el quetzal currency in guatemala.mp3"
+  },
+  {
+    "Question":"Lempira",
+    "Answer":"Currency in Honduras",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/46 - lempira currency in honduras.mp3"
+  },
+  {
+    "Question":"Peso mexicano",
+    "Answer":"Currency in Mexico",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/47 - peso mexicano currency in mexico.mp3"
+  },
+  {
+    "Question":"Córdoba",
+    "Answer":"Currency in Nicaragua",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/48 - cordoba currency in nicaragua.mp3"
+  },
+  {
+    "Question":"Balboa y el dólar estadounidense",
+    "Answer":"Currency in Panama",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/49 - balboa y dolar estadounidense currency in panama.mp3"
+  },
+  {
+    "Question":"Guaraní",
+    "Answer":"Currency in Paraguay",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/50 - guarani currency in paraguay.mp3"
+  },
+  {
+    "Question":"Nuevo sol",
+    "Answer":"Currency in Peru",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/51 - nuevo sol currency in peru.mp3"
+  },
+  {
+    "Question":"Peso dominicano",
+    "Answer":"Currency in the Dominican Republic",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/52 - peso dominicano currency in domini9can republic.mp3"
+  },
+  {
+    "Question":"Peso uruguayo",
+    "Answer":"Currency in Uruguay",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/53 - peso uruguayo currency in uruguay.mp3"
+  },
+  {
+    "Question":"Bolívar",
+    "Answer":"Currency in Venezuela",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit5-vocab/54 - bolivar currency in venezuela.mp3"
+  }
+]

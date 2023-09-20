@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es su nombre?\"",
+    "answers": [
+      {"text": "Su nombre es Pedro.", "score": 0},
+      {"text": "Mi nombre es Pedro.", "score": 1},
+      {"text": "Tu nombre es Pedro.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es tu nombre?\"",
+    "answers": [
+      {"text": "Tu nombre es Mirabel.", "score": 0},
+      {"text": "Mi nombre es Mirabel.", "score": 1},
+      {"text": "Su nombre es Mirabel.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es el nombre de tu papá?\"",
+    "answers": [
+      {"text": "Su nombre es Bruno.", "score": 1},
+      {"text": "Tu nombre es Bruno.", "score": 0},
+      {"text": "Mi nombre es Bruno", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es el nombre de su mamá?\"",
+    "answers": [
+      {"text": "Mi nombre es Pepa.", "score": 0},
+      {"text": "Tu nombre es Pepa.", "score": 0},
+      {"text": "Su nombre es Pepa.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cómo se llama usted?\"",
+    "answers": [
+      {"text": "Se llama Serafina.", "score": 0},
+      {"text": "Te llamas Serafina.", "score": 0},
+      {"text": "Me llamo Serafina.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cómo te llamas tú?\"",
+    "answers": [
+      {"text": "Se llama Pepe.", "score": 0},
+      {"text": "Me llamo Pepe.", "score": 1},
+      {"text": "Te llamas Pepe.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cómo se llama su mamá?\"",
+    "answers": [
+      {"text": "Se llama Maria.", "score": 1},
+      {"text": "Te llamas Maria.", "score": 0},
+      {"text": "Me llamo Maria.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cómo se llama tu papá? \"",
+    "answers": [
+      {"text": "Me llamo Alejandro.", "score": 0},
+      {"text": "Se llama Alejandro.", "score": 1},
+      {"text": "Te llamas Alejandro.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

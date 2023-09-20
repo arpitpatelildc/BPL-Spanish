@@ -1,0 +1,47 @@
+[
+  {
+    "Question": "Mi amor",
+    "Answer": "My love",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "cariño",
+    "Answer": "dear",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "bastante _____",
+    "Answer": "quite _____",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Por supuesto!",
+    "Answer": "Of course!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "No te preocupes/\nNo se preocupe",
+    "Answer": "Don't worry (informal/formal)",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Perfecto!",
+    "Answer": "Perfect!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Gracias",
+    "Answer": "Thanks",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Lo sé/yo sé",
+    "Answer": "I know",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "No lo sé",
+    "Answer": "I don't know",
+    "Path": "assets/images/bpl_Logo.png"
+  }
+]

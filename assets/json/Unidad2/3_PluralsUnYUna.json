@@ -1,0 +1,200 @@
+[
+  {
+    "question": "Change to plural: \nun árbol",
+    "answers":[
+      {"text": "unas árboles", "score": 0},
+      {"text": "unos árboles", "score": 1},
+      {"text": "una árbol", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nuna mesa",
+    "answers": [
+      {"text": "unas mesas", "score": 1},
+      {"text": "unos mesas", "score": 0},
+      {"text": "un mesa", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nun escritorio",
+    "answers": [
+      {"text": "una escritorio", "score": 0},
+      {"text": "unas escritorios", "score": 0},
+      {"text": "unos escritorios", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nun reloj",
+    "answers": [
+      {"text": "unas relojas", "score": 0},
+      {"text": "unos relojes", "score": 1},
+      {"text": "una reloj", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nun profesor",
+    "answers":[
+      {"text": "unas profesoras", "score": 0},
+      {"text": "unos profesores", "score": 1},
+      {"text": "una profesora", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nun perro",
+    "answers": [
+      {"text": "unos perros", "score": 1},
+      {"text": "unas perras", "score": 0},
+      {"text": "una perra", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nun libro",
+    "answers": [
+      {"text": "una libro", "score": 0},
+      {"text": "unas libros", "score": 0},
+      {"text": "unos libros", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nuna puerta",
+    "answers": [
+      {"text": "unas puertas", "score": 1},
+      {"text": "unos puertas", "score": 0},
+      {"text": "un puerta", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nuna lámpara",
+    "answers": [
+      {"text": "unos lámparos", "score": 0},
+      {"text": "un lámpara", "score": 0},
+      {"text": "unas lámparas", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nuna nube",
+    "answers": [
+      {"text": "unos nubes", "score": 0},
+      {"text": "unas nubes", "score": 1},
+      {"text": "un nube", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to plural: \nuna manzana",
+    "answers":[
+      {"text": "unas manzanas", "score": 1},
+      {"text": "unos manzanas", "score": 0},
+      {"text": "un manzana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas mesas",
+    "answers": [
+      {"text": "una mesa", "score": 1},
+      {"text": "unos mesas", "score": 0},
+      {"text": "un mesa", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunos huevos",
+    "answers": [
+      {"text": "una huevo", "score": 0},
+      {"text": "unas huevos", "score": 0},
+      {"text": "un huevo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunos aviónes",
+    "answers": [
+      {"text": "un avión", "score": 1},
+      {"text": "unas aviónes", "score": 0},
+      {"text": "una avión", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas profesoras",
+    "answers":[
+      {"text": "un profesor", "score": 0},
+      {"text": "unos profesores", "score": 0},
+      {"text": "una profesora", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunos cerdos",
+    "answers": [
+      {"text": "un cerdo", "score": 1},
+      {"text": "unas cerdos", "score": 0},
+      {"text": "una cerdo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunos zapatos",
+    "answers": [
+      {"text": "una zapato", "score": 0},
+      {"text": "unas zapatos", "score": 0},
+      {"text": "un zapato", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas bananas",
+    "answers": [
+      {"text": "una banana", "score": 1},
+      {"text": "unos bananas", "score": 0},
+      {"text": "un banana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas corbatas",
+    "answers": [
+      {"text": "unos corbatas", "score": 0},
+      {"text": "un corbata", "score": 0},
+      {"text": "una corbata", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas rosas",
+    "answers": [
+      {"text": "unos rosas", "score": 0},
+      {"text": "una rosa", "score": 1},
+      {"text": "un rosa", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunos osos",
+    "answers": [
+      {"text": "unas osos", "score": 0},
+      {"text": "un oso", "score": 1},
+      {"text": "una oso", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Change to singular: \nunas banderas",
+    "answers": [
+      {"text": "un bandera", "score": 0},
+      {"text": "unos banderas", "score": 0},
+      {"text": "una bandera", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

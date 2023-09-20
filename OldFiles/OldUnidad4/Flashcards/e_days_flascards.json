@@ -1,0 +1,37 @@
+[
+  {
+    "Question":"El lunes",
+    "Answer":"Monday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El martes",
+    "Answer":"Tuesday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El miércoles",
+    "Answer":"Wednesday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El jueves",
+    "Answer":"Thursday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El viernes",
+    "Answer":"Friday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El sábado",
+    "Answer":"Saturday",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"El domingo",
+    "Answer":"Sunday",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

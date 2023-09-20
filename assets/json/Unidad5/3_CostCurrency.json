@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una habitaciòn en Chile?",
+    "answers": [
+      {"text": "Cuesta 100 pesos chilenos.", "score": 1},
+      {"text": "Cuestan 100 pesos chilenos.", "score": 0},
+      {"text": "Cuesta 100 peso chileno.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los taxis en Argentina?",
+    "answers": [
+      {"text": "Cuesta 30 pesos argentinos.", "score": 0},
+      {"text": "Cuestan 30 pesos argentinos.", "score": 1},
+      {"text": "Costar 30 pesos argentinos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta el boleto de tren en Colombia?",
+    "answers": [
+      {"text": "Cuesta 230 pesos colombianos.", "score": 1},
+      {"text": "Cuesto 230 pesos colombianos.", "score": 0},
+      {"text": "Cuesta 230 pesos colombianas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta la entrada al cine en Uruguay?",
+    "answers": [
+      {"text": "Cuesta 15 pesos argentinos.", "score": 0},
+      {"text": "Cuesta 15 pesos colombianos.", "score": 0},
+      {"text": "Cuesta 15 pesos uruguayos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta el vino en Perú?",
+    "answers": [
+      {"text": "Cuesta 18 nuevo sol.", "score": 0},
+      {"text": "Cuestan 18 nuevo sol.", "score": 0},
+      {"text": "Cuesta 18 nuevos soles.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan las bebidas en Guatemala?",
+    "answers": [
+      {"text": "Cuestan 5 quetzals.", "score": 0},
+      {"text": "Cuestan 5 quetzal.", "score": 0},
+      {"text": "Cuestan 5 quetzales.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta el bus en Republica Dominicana?",
+    "answers": [
+      {"text": "Cuesta 12 pesos dominicanos.", "score": 1},
+      {"text": "Cuestan 12 pesos dominicanos.", "score": 0},
+      {"text": "Cuesto 12 pesos dominicanos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los postres en Costa Rica?",
+    "answers": [
+      {"text": "Cuestan 9 colón costarricense.", "score": 0},
+      {"text": "Cuestan 9 colones costarricenses.", "score": 1},
+      {"text": "Cuestan 9 colones costarricense.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los pasteles en Bolivia?",
+    "answers": [
+      {"text": "Cuestan 4 bolivarianos.", "score": 1},
+      {"text": "Cuesta 4 bolivarianos.", "score": 0},
+      {"text": "Cuestan 4 bolivariano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una manzana en Cuba?",
+    "answers": [
+      {"text": "Cuesta 2 pesos cubanas.", "score": 0},
+      {"text": "Cuesta 2 pesos cubanos.", "score": 1},
+      {"text": "Cuesta 2 pesos cubano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan las cervezas en Ecuador?",
+    "answers": [
+      {"text": "Cuestan 8 dólares estadounidenses.", "score": 1},
+      {"text": "Cuesta 8 dólares estadounidenses.", "score": 0},
+      {"text": "Cuestan 8 dólar estadounidense.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta el café en España?",
+    "answers": [
+      {"text": "Cuesta 3 euros.", "score": 1},
+      {"text": "Cuesta 3 pesos.", "score": 0},
+      {"text": "Cuesta 3 dolares.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los clases de baile en México?",
+    "answers": [
+      {"text": "Cuesta 125 pesos argentinos.", "score": 0},
+      {"text": "Cuestan 125 peso.", "score": 0},
+      {"text": "Cuestan 125 pesos mexicanos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los coches en El Salvador?",
+    "answers": [
+      {"text": "Cuestan 1000 lempiras.", "score": 0},
+      {"text": "Cuestan 1000 bolivianos.", "score": 0},
+      {"text": "Cuestan 1000 dolares estadounidenses.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una naranja en Honduras?",
+    "answers": [
+      {"text": "Cuesta 1 lempiras.", "score": 0},
+      {"text": "Cuesta 1 lempira.", "score": 1},
+      {"text": "Cuestan 1 lempira.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una hamburguesa en Nicaragua?",
+    "answers": [
+      {"text": "Cuestan 5 córdobas.", "score": 0},
+      {"text": "Cuesta 5 córdobas.", "score": 1},
+      {"text": "Costar 5 córdobas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los gatos en Panamá?",
+    "answers": [
+      {"text": "Cuestan 50 balboa.", "score": 0},
+      {"text": "Cuestan 50 balboas.", "score": 1},
+      {"text": "Cuesta 50 balboas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los gatos en Panamá?",
+    "answers": [
+      {"text": "Cuestan 50 dolares estadounidenses.", "score": 1},
+      {"text": "Cuesta 50 pesos argentinos.", "score": 0},
+      {"text": "Cuestan 50 pesos mexicanos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta un perro en Paraguay?",
+    "answers": [
+      {"text": "Cuesta 95 lempiras.", "score": 0},
+      {"text": "Cuesta 95 quetzales.", "score": 0},
+      {"text": "Cuesta 95 guaranís.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una bicicleta en Venezuela?",
+    "answers": [
+      {"text": "Cuesta 15 bolívar.", "score": 0},
+      {"text": "Cuesta 15 bolívares.", "score": 1},
+      {"text": "Cuestan 15 bolívar.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan las motocicletas en Costa Rica?",
+    "answers": [
+      {"text": "Cuesta 1000 pesos costarricanses.", "score": 0},
+      {"text": "Cuesta 1000 colones costarricenses.", "score": 0},
+      {"text": "Cuestan 1000 colones costarricenses.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los libros en Argentina?",
+    "answers": [
+      {"text": "Cuestan 12 pesos argentinos.", "score": 1},
+      {"text": "Cuesta 12 pesos argentinos.", "score": 0},
+      {"text": "Cuestan 12 pesos dominicanos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una casa en Uruguay?",
+    "answers": [
+      {"text": "Cuesta 100.000 peso uruguayos.", "score": 0},
+      {"text": "Cuesta 100.000 pesos uruguayos.", "score": 1},
+      {"text": "Cuestan 100.000 pesos uruguayos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuestan los teléfonos en Colombia?",
+    "answers": [
+      {"text": "Cuestan 200 pesos colombianos.", "score": 1},
+      {"text": "Cuestan 200 pesos colombiana.", "score": 0},
+      {"text": "Cuestan 200 pesos colombiano.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best response to the following question:\n¿Cuánto cuesta una cámara en Venezuela?",
+    "answers": [
+      {"text": "Cuesta 25 euros.", "score": 0},
+      {"text": "Cuesta 25 bolivianos.", "score": 0},
+      {"text": "Cuesta 25 bolívares.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

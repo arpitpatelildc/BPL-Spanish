@@ -1,0 +1,97 @@
+[
+  {
+    "Question":"eleven",
+    "Answer":"once",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twelve",
+    "Answer":"doce",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-four",
+    "Answer":"veinticuatro",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"thirteen",
+    "Answer":"trece",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"seventeen",
+    "Answer":"diecisiete",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-two",
+    "Answer":"veintidós",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"catorce",
+    "Answer":"fourteen",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dieciocho",
+    "Answer":"eighteen",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-nine",
+    "Answer":"veintinueve",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-eight",
+    "Answer":"veintiocho",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintisiete",
+    "Answer":"twenty-seven",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintitrés",
+    "Answer":"twenty-three",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"fifteen",
+    "Answer":"quince",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dieciséis",
+    "Answer":"sixteen",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veinte",
+    "Answer":"twenty",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-five",
+    "Answer":"veinticinco",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"twenty-one",
+    "Answer":"veintiuno",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"diecinueve",
+    "Answer":"nineteen",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintiséis",
+    "Answer":"twenty-six",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

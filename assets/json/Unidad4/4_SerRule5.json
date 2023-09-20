@@ -1,0 +1,272 @@
+[
+  {
+    "question": "¿Qué día es hoy?\n03/10",
+    "answers": [
+      {"text": "Hoy es octubre tres", "score": 0},
+      {"text": "Hoy es el tres de octubre", "score": 0},
+      {"text": "Hoy es tres de octubre", "score": 1},
+      {"text": "Hoy es tres del octubre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n29/05",
+    "answers": [
+      {"text": "Hoy es veintinueve mayo", "score": 0},
+      {"text": "Hoy es de mayo veintinueve", "score": 0},
+      {"text": "Hoy es el veintinueve mayo", "score": 0},
+      {"text": "Hoy es veintinueve de mayo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n10/04",
+    "answers": [
+      {"text": "Hoy es diez de abril", "score": 1},
+      {"text": "Hoy es el diez del abril", "score": 0},
+      {"text": "Hoy es abril diez", "score": 1},
+      {"text": "Hoy es abril de diez", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n13/01",
+    "answers": [
+      {"text": "Hoy es trece del enero", "score": 0},
+      {"text": "Hoy es trece de enero", "score": 1},
+      {"text": "Hoy es de enero trece", "score": 0},
+      {"text": "Hoy es el enero trece", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n18/09/2022",
+    "answers": [
+      {"text": "Hoy es dieciocho del septiembre de 2022", "score": 0},
+      {"text": "Hoy es dieciocho de septiembre de 2022", "score": 0},
+      {"text": "Hoy es dieciocho de septiembre del 2022", "score": 1},
+      {"text": "Hoy es dieciocho del septiembre del 2022", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n15/06/2002 ",
+    "answers": [
+      {"text": "Hoy es junio quince de 2002", "score": 0},
+      {"text": "Hoy es quince de junio del 2002", "score": 1},
+      {"text": "Hoy es el quince de junio del 2002", "score": 0},
+      {"text": "Hoy es quince del junio el 2002", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n09/08",
+    "answers": [
+      {"text": "Hoy es septiembre ocho", "score": 0},
+      {"text": "Hoy es ocho de septiembre", "score": 0},
+      {"text": "Hoy es agosto nueve", "score": 0},
+      {"text": "Hoy es nueve de agosto", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n16/11/2001",
+    "answers": [
+      {"text": "Hoy es dieciseis de noviembre del 2001", "score": 1},
+      {"text": "Hoy es el dieciseis de noviembre del 2001", "score": 0},
+      {"text": "Hoy es dieciseis del noviembre de 2001", "score": 0},
+      {"text": "Hoy es el dieciseis de noviembre de 2001", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuál es este número?\n01/03",
+    "answers": [
+      {"text": "Hoy es el primero del marzo", "score": 0},
+      {"text": "Hoy es primero del marzo", "score": 0},
+      {"text": "Hoy es el primero de marzo", "score": 0},
+      {"text": "Hoy es primero de marzo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n14/02",
+    "answers": [
+      {"text": "Hoy es el catorce de febrero", "score": 0},
+      {"text": "Hoy es catorce de febrero", "score": 1},
+      {"text": "Hoy es el catorce del febrero", "score": 0},
+      {"text": "Hoy es catorce del febrero", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu amigo?\n21/05",
+    "answers": [
+      {"text": "El cumpleaños de mi amigo es el veintiuno de mayo", "score": 1},
+      {"text": "El cumpleaños de mi amigo es veintiuno de mayo", "score": 0},
+      {"text": "El cumpleaños de mi amigo es el veintiuno del mayo", "score": 0},
+      {"text": "El cumpleaños de mi amigo es veintiuno del mayo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu hermano?\n25/05",
+    "answers": [
+      {"text": "El cumpleaños de mi hermano es veinticinco de mayo", "score": 0},
+      {"text": "El cumpleaños de mi hermano es el veinticinco de mayo", "score": 1},
+      {"text": "El cumpleaños de mi hermano es veinticino del mayo", "score": 0},
+      {"text": "El cumpleaños de mi hermano es el veinticinco del mayo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu papá?\n08/04",
+    "answers": [
+      {"text": "El cumpleaños de mi papá es el cuatro de agosto", "score": 0},
+      {"text": "El cumpleaños de mi papá es ocho de abril", "score": 0},
+      {"text": "El cumpleaños de mi papá es cuatro de agosto", "score": 0},
+      {"text": "El cumpleaños de mi papá es el ocho de abril", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu amiga?\n31/12",
+    "answers": [
+      {"text": "El cumpleaños de mi amiga es el treinta y uno del diciembre", "score": 0},
+      {"text": "El cumpleaños de mi amiga es el treinta y uno de diciembre", "score": 1},
+      {"text": "El cumpleaños de mi amiga es treinta y uno de diciembre", "score": 0},
+      {"text": "El cumpleaños de mi amiga es treinta y uno del diciembre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu profesora?\n04/03",
+    "answers": [
+      {"text": "El cumpleanos de mi profesora es el cuatro de marzo", "score": 1},
+      {"text": "El cumpleaños de mi profesora es tres de abril", "score": 0},
+      {"text": "El cumpleaños de mi profesora es cuatro de marzo", "score": 0},
+      {"text": "El cumpleaños de mi profesora es el cuatro de marzo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu empleado?\n15/08/2003",
+    "answers": [
+      {"text": "El cumpleaños de mi empleado es quince del agosto de 2003", "score": 0},
+      {"text": "El cumpleaños de mi empleado es el quince de agosto del 2003", "score": 1},
+      {"text": "El cumpleaños de mi empleado es el quince de agosto de 2003", "score": 0},
+      {"text": "El cumpleaños de mi empleado es el quince del agosto de 2003", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu prima?\n05/09",
+    "answers": [
+      {"text": "El cumpleaños de mi prima es el cinco de septiembre", "score": 1},
+      {"text": "El cumpleaños de mi prima es el nueve de mayo", "score": 0},
+      {"text": "El cumpleaños de mi prima es cinco de septiembre", "score": 0},
+      {"text": "El cumpleaños de mi prima es nueve de mayo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu mamá?\n28/10/2021",
+    "answers": [
+      {"text": "El cumpleaños de mi mamá es veintiocho de octubre", "score": 0},
+      {"text": "El cumpleaños de mi mamá es el veintiocho del octubre", "score": 0},
+      {"text": "El cumpleaños de mi mamá es el veintiocho de octubre", "score": 1},
+      {"text": "El cumpleaños de mi mamá es veintiocho del octubre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu amigo?\n29/07",
+    "answers": [
+      {"text": "El cumpleaños de mi amigo es veintinueve del julio", "score": 0},
+      {"text": "El cumpleaños de mi amigo es el veintinueve del julio", "score": 0},
+      {"text": "El cumpleaños de mi amigo es veintinueve de julio", "score": 0},
+      {"text": "El cumpleaños de mi amigo es el veintinueve de julio", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Cuándo es el cumpleaños de tu tío?\n16/07",
+    "answers": [
+      {"text": "El cumpleaños de mi tío es el dieciséis de julio", "score": 1},
+      {"text": "El cumpleaños de mi tío es dieciséis de julio", "score": 0},
+      {"text": "El cumpleaños de mi tío es dieciséis del julio", "score": 0},
+      {"text": "El cumpleaños de mi tío es el dieciséis del julio", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n30/08/2003, domingo",
+    "answers": [
+      {"text": "Hoy es el domingo treinta del agosto de dos mil tres", "score": 0},
+      {"text": "Hoy es domingo treinta de agosto de dos mil tres", "score": 1},
+      {"text": "Hoy es domingo treinta del agosto de dos mil tres", "score": 0},
+      {"text": "Hoy es el domingo treinta de agosto de dos mil tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n04/10/2004, lunes",
+    "answers": [
+      {"text": "Hoy es lunes cuatro de octubre de dos mil cuatro", "score": 1},
+      {"text": "Hoy es el lunes cuatro de octubre de dos mil cuatro", "score": 0},
+      {"text": "Hoy es el lunes cuatro de octubre del dos mil cuatro", "score": 0},
+      {"text": "Hoy es lunes cuatro de octubre del dos mil cuatro", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n07/08/1997, miércoles",
+    "answers": [
+      {"text": "Hoy es miércoles el siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto del mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es el miércoles siete de agosto de mil novecientos noventa y siete", "score": 0},
+      {"text": "Hoy es miércoles siete de agosto de mil novecientos noventa y siete", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n08/12/1984, sábado",
+    "answers": [
+      {"text": "Hoy es sábado doce del diciembre del mil novecientos ochenta y cuatro", "score": 0},
+      {"text": "Hoy es sábado doce de diciembre del mil novecientos ochenta y cuatro", "score": 0},
+      {"text": "Hoy es sábado doce de diciembre de mil novecientos ochenta y cuatro", "score": 1},
+      {"text": "Hoy es el sábado doce de diciembre de mil novecientos ochenta y cuatro", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n09/09/1976, martes",
+    "answers": [
+      {"text": "Hoy es martes el nueve del septiembre del mil novecientos setenta y seis", "score": 0},
+      {"text": "Hoy es martes nueve de septiembre de mil novecientos setenta y seis", "score": 1},
+      {"text": "Hoy es el martes nueve del septiembre de mil novecientos setenta y seis", "score": 0},
+      {"text": "Hoy es martes nueve del septiembre de mil novecientos setenta y seis", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n11/03/1853, jueves",
+    "answers": [
+      {"text": "Hoy es jueves once de marzo de mil ochocientos cincuenta y tres", "score": 1},
+      {"text": "Hoy es el jueves once de marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es jueves once del marzo de mil ochocientos cincuenta y tres", "score": 0},
+      {"text": "Hoy es el jueves once de marzo del mil ochocientos cincuenta y tres", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué día es hoy?\n05/12/1740, viernes",
+    "answers": [
+      {"text": "Hoy es viernes el cinco del diciembre de mil setecientos cuarenta", "score": 0},
+      {"text": "Hoy es viernes cinco del diciembre de mil setecientos cuarenta", "score": 0},
+      {"text": "Hoy es viernes cinco de diciembre de mil setecientos cuarenta", "score": 1},
+      {"text": "Hoy es el viernes cinco de diciembre de mil setecientos cuarenta", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

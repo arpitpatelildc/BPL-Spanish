@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella soy alta.", "score": 0},
+      {"text": "Yo soy alta.", "score": 1},
+      {"text": "Usted soy alta.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es gordo.", "score": 0},
+      {"text": "Ella es gorda.", "score": 1},
+      {"text": "Ella es gordas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellos soy bajos.", "score": 0},
+      {"text": "Ellos eres bajos.", "score": 0},
+      {"text": "Ellos son bajos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres feo.", "score": 1},
+      {"text": "Ella eres feo.", "score": 0},
+      {"text": "Ella es feo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú son jovenes.", "score": 0},
+      {"text": "Ellas son jovenes.", "score": 1},
+      {"text": "Él son jovenes.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Yo soy delgado.", "score": 1},
+      {"text": "Yo eres delgado.", "score": 0},
+      {"text": "Yo es delgado.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres guapo.", "score": 1},
+      {"text": "Ella es guapo.", "score": 0},
+      {"text": "Usted es guapo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Él eres viejo", "score": 0},
+      {"text": "Eres viejo.", "score": 1},
+      {"text": "Ella eres viejo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es bonita.", "score": 1},
+      {"text": "Ellas son bonitos.", "score": 0},
+      {"text": "Ella es bonito.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellas es inteligentes.", "score": 0},
+      {"text": "Ellas es inteligente.", "score": 0},
+      {"text": "Ellas son inteligentes.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Él es simpático.", "score": 1},
+      {"text": "Ella es simpático.", "score": 0},
+      {"text": "Ellos son simpáticas.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Yo soy rubios.", "score": 0},
+      {"text": "Yo soy rubio.", "score": 1},
+      {"text": "Yo es rubio.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Yo eres canoso.", "score": 0},
+      {"text": "Él eres canoso.", "score": 0},
+      {"text": "Tú eres canoso.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es de piel asiático.", "score": 0},
+      {"text": "Él son de piel asiática.", "score": 0},
+      {"text": "Él es de piel asiática.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú pelo es negro.", "score": 1},
+      {"text": "Tú pelo son negras.", "score": 0},
+      {"text": "Tú pelo es negra.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es pelirrojos.", "score": 0},
+      {"text": "Ella es pelirrojo.", "score": 0},
+      {"text": "Ella es pelirroja.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellos son de pelo castaño.", "score": 1},
+      {"text": "Ellas son de pelo castaños.", "score": 0},
+      {"text": "Ellos son de pelo castaños.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Yo soy blanca.", "score": 1},
+      {"text": "Yo soy blancos.", "score": 0},
+      {"text": "Yo es blanca.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Es morenos.", "score": 0},
+      {"text": "Son morenos.", "score": 1},
+      {"text": "Soy morenos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Son alto.", "score": 0},
+      {"text": "Eres alta.", "score": 1},
+      {"text": "Son alta.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres viejos.", "score": 0},
+      {"text": "Ella es viejo.", "score": 0},
+      {"text": "Ustedes son viejos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella es inteligente.", "score": 1},
+      {"text": "Ustedes es inteligente.", "score": 0},
+      {"text": "Tú es inteligente.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Usted son pelirrojos.", "score": 0},
+      {"text": "Ustedes son pelirrojos.", "score": 1},
+      {"text": "Ustedes son pelirrojo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres fea.", "score": 1},
+      {"text": "Tú es fea.", "score": 0},
+      {"text": "Tú son fea.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellos son rubias.", "score": 0},
+      {"text": "Ellos eres rubias.", "score": 0},
+      {"text": "Ellas son rubias.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

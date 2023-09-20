@@ -1,0 +1,202 @@
+[
+  {
+    "question": "¿Qué hora es?\n9:20 p.m.",
+    "answers": [
+      {"text": "Es la nueve y veinte de la noche", "score": 0},
+      {"text": "Son las nueve y dos diez de la noche", "score": 0},
+      {"text": "Son las nueve y veinte de la noche", "score": 1},
+      {"text": "Son las nueve y veinte de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n10:00 a.m.",
+    "answers": [
+      {"text": "Es la diez de la mañana", "score": 0},
+      {"text": "Son las diez de la tarde", "score": 0},
+      {"text": "Son las diez de la mañana", "score": 1},
+      {"text": "Son las una de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n7:15 a.m.",
+    "answers": [
+      {"text": "Son las siete y quince de la noche", "score": 0},
+      {"text": "Son las siete y cuarto de la mañana", "score": 1},
+      {"text": "Es la siete y cuarto de la mañana", "score": 0},
+      {"text": "Son las siete menos cuarto de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n4:30 p.m.",
+    "answers": [
+      {"text": "Son las cuatro y media de la tarde", "score": 1},
+      {"text": "Son las cuatro y treinta de la tarde", "score": 0},
+      {"text": "Son las cuatro y treinta de la mañana", "score": 0},
+      {"text": "Es la cuatro y media de la tarde", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n6:45 a.m.",
+    "answers": [
+      {"text": "Son las seis y cuarenta y cinco de la mañana", "score": 1},
+      {"text": "Son las siete menos cuarto de la mañana", "score": 1},
+      {"text": "Es la siete menos cuarto de la mañana", "score": 0},
+      {"text": "Es la seis y cuarenta y cinco de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n1:00 p.m.",
+    "answers": [
+      {"text": "Son las una de la tarde", "score": 0},
+      {"text": "Es la una de la noche", "score": 0},
+      {"text": "Es la una de la tarde", "score": 1},
+      {"text": "Son las una de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n2:40 p.m.",
+    "answers": [
+      {"text": "Son las dos y cuarenta de la tarde", "score": 1},
+      {"text": "Es la tres menos veinte de la noche", "score": 0},
+      {"text": "Son las dos y cuarenta de la mañana", "score": 0},
+      {"text": "Son las tres menos veinte de la tarde", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n12:00 a.m.",
+    "answers": [
+      {"text": "Son las doce de la noche", "score": 0},
+      {"text": "Es el mediodía", "score": 0},
+      {"text": "Son las doce de la mañana", "score": 1},
+      {"text": "Es la medianoche", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n8:55 p.m.",
+    "answers": [
+      {"text": "Son las ocho y cincuenta y cinco de la noche", "score": 1},
+      {"text": "Son las nueve menos cinco de la noche", "score": 1},
+      {"text": "Son las ocho y cincuenta y cinco de la tarde", "score": 0},
+      {"text": "Es la nueve menos cinco de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n9:50 a.m.",
+    "answers": [
+      {"text": "Es la nueve y cincuenta de la mañana", "score": 0},
+      {"text": "Son las nueve menos diez de la mañana", "score": 0},
+      {"text": "Son las diez y cincuenta de la tarde", "score": 0},
+      {"text": "Son las diez menos diez de la mañana", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n11:25 a.m.",
+    "answers": [
+      {"text": "Son las diez y uno y veinte y cinco de la mañana", "score": 0},
+      {"text": "Son las once y veinticinco de la mañana", "score": 1},
+      {"text": "Son las once y veinticinco de la tarde", "score": 0},
+      {"text": "Es la once y veinte y cinco de la noche", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n1:15 a.m.",
+    "answers": [
+      {"text": "Es el uno y cuarto de la mañana", "score": 0},
+      {"text": "Es la una y cuarto de la mañana", "score": 1},
+      {"text": "Son las una y quince de la mañana", "score": 0},
+      {"text": "Son las una y cuarto de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n3:39 p.m.",
+    "answers": [
+      {"text": "Son las tres y treinta y nueve de la tarde", "score": 1},
+      {"text": "Son las tres y treinta y nueve de la noche", "score": 0},
+      {"text": "Es la cuatro menos veintiuno de la noche", "score": 0},
+      {"text": "Son las cuatro menos veintiuno de la tarde", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n4:15 p.m.",
+    "answers": [
+      {"text": "Son las tres menos cuarto de la tarde", "score": 0},
+      {"text": "Son las cinco y cuarto de la tarde", "score": 0},
+      {"text": "Es la cuatro menos cuarto de la noche", "score": 0},
+      {"text": "Son las cuatro y cuarto de la tarde", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n7:25 a.m.",
+    "answers": [
+      {"text": "Son las siete y veinticinco de la mañana", "score": 1},
+      {"text": "Es la siete menos cuarto de la mañana", "score": 0},
+      {"text": "Son las ocho y veinticinco de la mañana", "score": 0},
+      {"text": "Son las siete y treinta y ocho de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\n3:30 p.m.",
+    "answers": [
+      {"text": "Son las cuatro y treinta de la tarde", "score": 0},
+      {"text": "Son las tres y media de la tarde", "score": 1},
+      {"text": "Es la tres y media de la noche", "score": 0},
+      {"text": "Son las tres y media de la mañana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las seis y cuarenta de la mañana",
+    "answers": [
+      {"text": "7:40 p.m.", "score": 0},
+      {"text": "6:20 a.m.", "score": 0},
+      {"text": "5:20 a.m.", "score": 0},
+      {"text": "6:40 a.m.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las ocho y diez de la noche",
+    "answers": [
+      {"text": "9:10 p.m.", "score": 0},
+      {"text": "8:10 p.m.", "score": 1},
+      {"text": "10:08 p.m.", "score": 0},
+      {"text": "7:50 p.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las cuatro y doce de la tarde",
+    "answers": [
+      {"text": "4:12 p.m.", "score": 1},
+      {"text": "12:04 p.m.", "score": 0},
+      {"text": "3:48 p.m.", "score": 0},
+      {"text": "4:02 p.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "¿Qué hora es?\nSon las diez menos cuarto de la noche",
+    "answers": [
+      {"text": "10:15 p.m.", "score": 0},
+      {"text": "9:45 p.m.", "score": 1},
+      {"text": "11:15 p.m.", "score": 0},
+      {"text": "10:45 p.m.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

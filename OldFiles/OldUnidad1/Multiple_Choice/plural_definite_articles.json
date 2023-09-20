@@ -1,0 +1,122 @@
+[
+    {
+      "question": "What is the definite article for trenes?",
+      "answers": [
+        {"text": "Los", "score": 1},
+        {"text": "Las", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for bicicletas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for motocicletas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for restaurantes?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for teatros?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for museos?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for baños?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for duchas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for piscinas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for profesores?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for estudiantes?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for empleados?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for ciervos?",
+        "answers": [
+          {"text": "Los", "score": 1},
+          {"text": "Las", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for vacas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the definite article for gallinas?",
+        "answers": [
+          {"text": "Los", "score": 0},
+          {"text": "Las", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }
+]

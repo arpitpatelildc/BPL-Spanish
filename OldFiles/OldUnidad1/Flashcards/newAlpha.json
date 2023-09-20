@@ -1,0 +1,212 @@
+[
+  {
+    "Text": "a (a)",
+    "Click": "See example word",
+    "Example": "agua",
+    "Path": "assets/audio/1/4 A.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "b (be)",
+    "Click": "See example word",
+    "Example": "bota",
+    "Path": "assets/audio/1/5 B.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "c (ce)",
+    "Click": "See example word",
+    "Example": "casa",
+    "Path": "assets/audio/1/6 C.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "ch (che)",
+    "Click": "See example word",
+    "Example": "chico",
+    "Path": "assets/audio/1/7 Ch.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "d (de)",
+    "Click": "See example word",
+    "Example": "dinero",
+    "Path": "assets/audio/1/8 D.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "e (e)",
+    "Click": "See example word",
+    "Example": "elefante",
+    "Path": "assets/audio/1/9 E.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "f (efe)",
+    "Click": "See example word",
+    "Example": "foto",
+    "Path": "assets/audio/1/10 F.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "g (ge)",
+    "Click": "See example word",
+    "Example": "gato",
+    "Path": "assets/audio/1/11 G.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "h (ache)",
+    "Click": "See example word",
+    "Example": "hola",
+    "Path": "assets/audio/1/12 H.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "i (i)",
+    "Click": "See example word",
+    "Example": "iguana",
+    "Path": "assets/audio/1/13 I.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "j (jota)",
+    "Click": "See example word",
+    "Example": "jefe",
+    "Path": "assets/audio/1/14 J.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "k (ca)",
+    "Click": "See example word",
+    "Example": "kilo",
+    "Path": "assets/audio/1/15 K.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "l (ele)",
+    "Click": "See example word",
+    "Example": "luna",
+    "Path": "assets/audio/1/16 L.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "ll (elle)",
+    "Click": "See example word",
+    "Example": "llama",
+    "Path": "assets/audio/1/17 LL.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "m (eme)",
+    "Click": "See example word",
+    "Example": "mano",
+    "Path": "assets/audio/1/18 M.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "n (ene)",
+    "Click": "See example word",
+    "Example": "niño",
+    "Path": "assets/audio/1/19 N.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "ñ (eñe)",
+    "Click": "See example word",
+    "Example": "español",
+    "Path": "assets/audio/1/20 Ñ.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "o (o)",
+    "Click": "See example word",
+    "Example": "oso",
+    "Path": "assets/audio/1/21 O.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "p (p)",
+    "Click": "See example word",
+    "Example": "pelo",
+    "Path": "assets/audio/1/22 P.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "q (cu)",
+    "Click": "See example word",
+    "Example": "queso",
+    "Path": "assets/audio/1/23 Q.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "r (ere)",
+    "Click": "See example word",
+    "Example": "ratón",
+    "Path": "assets/audio/1/24 R.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "rr (erre)",
+    "Click": "See example word",
+    "Example": "carro",
+    "Path": "assets/audio/1/25 RR.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "s (ese)",
+    "Click": "See example word",
+    "Example": "silla",
+    "Path": "assets/audio/1/26 S.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "t (te)",
+    "Click": "See example word",
+    "Example": "taza",
+    "Path": "assets/audio/1/27 T.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "u (u)",
+    "Click": "See example word",
+    "Example": "uva",
+    "Path": "assets/audio/1/28 U.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "v (ve)",
+    "Click": "See example word",
+    "Example": "vaso",
+    "Path": "assets/audio/1/29 V.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "w (doble ve)",
+    "Click": "See example word",
+    "Example": "whiskey",
+    "Path": "assets/audio/1/30 WW.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "x (equis)",
+    "Click": "See example word",
+    "Example": "examen",
+    "Path": "assets/audio/1/31 X.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "y (ye or i griega)",
+    "Click": "See example word",
+    "Example": "yo",
+    "Path": "assets/audio/1/32 Y.mp3",
+    "ExamplePath": ""
+  },
+  {
+    "Text": "z (zeta)",
+    "Click": "See example word",
+    "Example": "zapato",
+    "Path": "assets/audio/1/33 Z.mp3",
+    "ExamplePath": ""
+  }
+]

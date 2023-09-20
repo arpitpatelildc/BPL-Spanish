@@ -1,0 +1,302 @@
+[
+  {
+    "question": "la casa es ",
+    "answers": [
+      {"text": "morado", "score": 0},
+      {"text": "morada", "score": 1},
+      {"text": "morados", "score": 0},
+      {"text": "moradas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las bicicletas son ",
+    "answers": [
+      {"text": "rojo", "score": 0},
+      {"text": "roja", "score": 0},
+      {"text": "rojos", "score": 0},
+      {"text": "rojas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el libro es",
+    "answers": [
+      {"text": "azul", "score": 1},
+      {"text": "azulo", "score": 0},
+      {"text": "azules", "score": 0},
+      {"text": "azulos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los gatos son ",
+    "answers": [
+      {"text": "marrón", "score": 0},
+      {"text": "marron", "score": 0},
+      {"text": "marrones", "score": 1},
+      {"text": "marrónes", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los niños son ",
+    "answers": [
+      {"text": "feliz", "score": 0},
+      {"text": "felizo", "score": 0},
+      {"text": "felices", "score": 1},
+      {"text": "felicos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el perro es ",
+    "answers": [
+      {"text": "lindo", "score": 1},
+      {"text": "linda", "score": 0},
+      {"text": "lindos", "score": 0},
+      {"text": "lindas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el niño es limpio ",
+    "answers": [
+      {"text": "limpio", "score": 1},
+      {"text": "limpia", "score": 0},
+      {"text": "limpios", "score": 0},
+      {"text": "limpias", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "mis amigos son ",
+    "answers": [
+      {"text": "alto", "score": 0},
+      {"text": "alta", "score": 0},
+      {"text": "altos", "score": 1},
+      {"text": "altas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las piscinas son ",
+    "answers": [
+      {"text": "divertido", "score": 0},
+      {"text": "divertida", "score": 0},
+      {"text": "divertidos", "score": 0},
+      {"text": "divertidas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las nubes son ",
+    "answers": [
+      {"text": "blanco", "score": 0},
+      {"text": "blanca", "score": 0},
+      {"text": "blancos", "score": 0},
+      {"text": "blancas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los estudiantes son",
+    "answers": [
+      {"text": "inteligente", "score": 0},
+      {"text": "inteligento", "score": 0},
+      {"text": "inteligentes", "score": 1},
+      {"text": "inteligentos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el empleado es ",
+    "answers": [
+      {"text": "dedicado ", "score": 1},
+      {"text": "dedicada", "score": 0},
+      {"text": "dedicados", "score": 0},
+      {"text": "dedicadas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los ciervos son ",
+    "answers": [
+      {"text": "tranquilo", "score": 0},
+      {"text": "tranquila", "score": 0},
+      {"text": "tranquilos", "score": 1},
+      {"text": "tranquilas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la vaca es",
+    "answers": [
+      {"text": "grande", "score": 1},
+      {"text": "granda", "score": 0},
+      {"text": "grandes", "score": 0},
+      {"text": "grandas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las gallinas son ",
+    "answers": [
+      {"text": "útil", "score": 0},
+      {"text": "útila", "score": 0},
+      {"text": "útiles", "score": 1},
+      {"text": "útilas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el carro es ",
+    "answers": [
+      {"text": "rápido", "score": 1},
+      {"text": "rápida", "score": 0},
+      {"text": "rápidos", "score": 0},
+      {"text": "rápidas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los cuadros son ",
+    "answers": [
+      {"text": "hermoso", "score": 0},
+      {"text": "hermosa", "score": 0},
+      {"text": "hermosos", "score": 1},
+      {"text": "hermosas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las naranjas son ",
+    "answers": [
+      {"text": "delicioso", "score": 0},
+      {"text": "deliciosa", "score": 0},
+      {"text": "deliciosos", "score": 0},
+      {"text": "deliciosas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los zapatos son ",
+    "answers": [
+      {"text": "bueno", "score": 0},
+      {"text": "buena", "score": 0},
+      {"text": "buenos", "score": 1},
+      {"text": "buenas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el vestido es ",
+    "answers": [
+      {"text": "largo", "score": 1},
+      {"text": "larga", "score": 0},
+      {"text": "largos", "score": 0},
+      {"text": "largas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las velas son ",
+    "answers": [
+      {"text": "pequeñas", "score": 1},
+      {"text": "pequeños", "score": 0},
+      {"text": "pequenas", "score": 0},
+      {"text": "pequenos", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los vasos son ",
+    "answers": [
+      {"text": "pesado", "score": 0},
+      {"text": "pesada", "score": 0},
+      {"text": "pesados", "score": 1},
+      {"text": "pesadas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el oso es ",
+    "answers": [
+      {"text": "lento", "score": 1},
+      {"text": "lenta", "score": 0},
+      {"text": "lentos", "score": 0},
+      {"text": "lentas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el papá es ",
+    "answers": [
+      {"text": "cariñoso", "score": 1},
+      {"text": "cariñosa", "score": 0},
+      {"text": "cariñosos", "score": 0},
+      {"text": "cariñosas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los gatos son ",
+    "answers": [
+      {"text": "negro", "score": 0},
+      {"text": "negra", "score": 0},
+      {"text": "negros", "score": 1},
+      {"text": "negras", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los ojos son ",
+    "answers": [
+      {"text": "verdo", "score": 0},
+      {"text": "verde", "score": 0},
+      {"text": "verdos", "score": 0},
+      {"text": "verdes", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la amiga es ",
+    "answers": [
+      {"text": "alegra", "score": 0},
+      {"text": "alegre", "score": 1},
+      {"text": "alegras", "score": 0},
+      {"text": "alegres", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el perro es  ",
+    "answers": [
+      {"text": "amarillo", "score": 1},
+      {"text": "amarilla", "score": 0},
+      {"text": "amarillos", "score": 0},
+      {"text": "amarillas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los plátanos son ",
+    "answers": [
+      {"text": "verdo", "score": 0},
+      {"text": "verde", "score": 0},
+      {"text": "verdos", "score": 0},
+      {"text": "verdes", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la mesa es ",
+    "answers": [
+      {"text": "bajo", "score": 0},
+      {"text": "baja", "score": 1},
+      {"text": "bajos", "score": 0},
+      {"text": "bajas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

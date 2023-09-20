@@ -1,0 +1,332 @@
+[
+    {
+      "question": "What is the masculine plural form for Argentinans?",
+      "answers": [
+        {"text": "Argentino", "score": 0},
+        {"text": "Argentinos", "score": 1},
+        {"text": "Argentina", "score": 0},
+        {"text": "Argentinas", "score": 0}
+      ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singlular form for Argentinans?",
+        "answers": [
+          {"text": "Argentino", "score": 1},
+          {"text": "Argentinos", "score": 0},
+          {"text": "Argentina", "score": 0},
+          {"text": "Argentinas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singlular form for Argentinans?",
+        "answers": [
+          {"text": "Argentino", "score": 0},
+          {"text": "Argentinos", "score": 0},
+          {"text": "Argentina", "score": 1},
+          {"text": "Argentinas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for Argentinans?",
+        "answers": [
+          {"text": "Argentino", "score": 0},
+          {"text": "Argentinos", "score": 0},
+          {"text": "Argentina", "score": 0},
+          {"text": "Argentinas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singlular form for Bolivians?",
+        "answers": [
+          {"text": "Boliviano", "score": 1},
+          {"text": "Bolivianos", "score": 0},
+          {"text": "Boliviana", "score": 0},
+          {"text": "Bolivianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for Bolivians?",
+        "answers": [
+          {"text": "Boliviano", "score": 0},
+          {"text": "Bolivianos", "score": 1},
+          {"text": "Boliviana", "score": 0},
+          {"text": "Bolivianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singlular form for Bolivians?",
+        "answers": [
+          {"text": "Boliviano", "score": 0},
+          {"text": "Bolivianos", "score": 0},
+          {"text": "Boliviana", "score": 1},
+          {"text": "Bolivianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for Bolivians?",
+        "answers": [
+          {"text": "Boliviano", "score": 0},
+          {"text": "Bolivianos", "score": 0},
+          {"text": "Boliviana", "score": 0},
+          {"text": "Bolivianas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singlular form for Chileans?",
+        "answers": [
+          {"text": "Chileno", "score": 1},
+          {"text": "Chilenos", "score": 0},
+          {"text": "Chilena", "score": 0},
+          {"text": "Chilenas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singlular form for Chileans?",
+        "answers": [
+          {"text": "Chileno", "score": 0},
+          {"text": "Chilenos", "score": 0},
+          {"text": "Chilena", "score": 1},
+          {"text": "Chilenas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for Colombians?",
+        "answers": [
+          {"text": "Colombiano", "score": 0},
+          {"text": "Colombianos", "score": 1},
+          {"text": "Colombiana", "score": 0},
+          {"text": "Colombianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for Colombians?",
+        "answers": [
+          {"text": "Colombiano", "score": 0},
+          {"text": "Colombianos", "score": 0},
+          {"text": "Colombiana", "score": 0},
+          {"text": "Colombianas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for Costa Ricans?",
+        "answers": [
+          {"text": "Costarricense", "score": 0},
+          {"text": "Costarricenses", "score": 0},
+          {"text": "Costarricense", "score": 0},
+          {"text": "Costarricenses", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singular form for Costa Ricans?",
+        "answers": [
+          {"text": "Costarricense", "score": 0},
+          {"text": "Costarricenses", "score": 0},
+          {"text": "Costarricense", "score": 1},
+          {"text": "Costarricenses", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singular form for people from the Dominican Republic?",
+        "answers": [
+          {"text": "Dominicano", "score": 0},
+          {"text": "Dominicanos", "score": 0},
+          {"text": "Dominicana", "score": 1},
+          {"text": "Dominicanas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from the Dominican Republic?",
+        "answers": [
+          {"text": "Dominicano", "score": 0},
+          {"text": "Dominicanos", "score": 1},
+          {"text": "Dominicana", "score": 0},
+          {"text": "Dominicanas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from Ecuador?",
+        "answers": [
+          {"text": "Ecuatoriano", "score": 0},
+          {"text": "Ecuatorianos", "score": 1},
+          {"text": "Ecuatoriana", "score": 0},
+          {"text": "Ecuatorianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from Ecuador?",
+        "answers": [
+          {"text": "Ecuatoriano", "score": 1},
+          {"text": "Ecuatorianos", "score": 0},
+          {"text": "Ecuatoriana", "score": 0},
+          {"text": "Ecuatorianas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from Guatemala?",
+        "answers": [
+          {"text": "Guatemaltero", "score": 1},
+          {"text": "Guatemalteros", "score": 0},
+          {"text": "Guatemaltera", "score": 0},
+          {"text": "Guatemalteras", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singular form for people from Guatemala?",
+        "answers": [
+          {"text": "Guatemaltero", "score": 0},
+          {"text": "Guatemalteros", "score": 0},
+          {"text": "Guatemaltera", "score": 1},
+          {"text": "Guatemalteras", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for people from Honduras?",
+        "answers": [
+          {"text": "Hondereño", "score": 0},
+          {"text": "Hondereños", "score": 0},
+          {"text": "Hondereña", "score": 0},
+          {"text": "Hondereñas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from Honduras?",
+        "answers": [
+          {"text": "Hondereño", "score": 0},
+          {"text": "Hondereños", "score": 1},
+          {"text": "Hondereña", "score": 0},
+          {"text": "Hondereñas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for people from México?",
+        "answers": [
+          {"text": "Mexicano", "score": 0},
+          {"text": "Mexicanos", "score": 0},
+          {"text": "Mexicana", "score": 0},
+          {"text": "Mexicanas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from México?",
+        "answers": [
+          {"text": "Mexicano", "score": 1},
+          {"text": "Mexicanos", "score": 0},
+          {"text": "Mexicana", "score": 0},
+          {"text": "Mexicanas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from Nicaragua?",
+        "answers": [
+          {"text": "Nicaraguense", "score": 1},
+          {"text": "Nicaraguenses", "score": 0},
+          {"text": "Nicaraguense", "score": 0},
+          {"text": "Nicaraguenses", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from Nicaragua?",
+        "answers": [
+          {"text": "Nicaraguense", "score": 0},
+          {"text": "Nicaraguenses", "score": 1},
+          {"text": "Nicaraguense", "score": 0},
+          {"text": "Nicaraguenses", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for people from Nicaragua?",
+        "answers": [
+          {"text": "Nicaraguense", "score": 0},
+          {"text": "Nicaraguenses", "score": 0},
+          {"text": "Nicaraguense", "score": 0},
+          {"text": "Nicaraguenses", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine plural form for people from Panamá?",
+        "answers": [
+          {"text": "Panameño", "score": 0},
+          {"text": "Panameños", "score": 0},
+          {"text": "Panameña", "score": 0},
+          {"text": "Panameñas", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from Panamá?",
+        "answers": [
+          {"text": "Panameño", "score": 1},
+          {"text": "Panameños", "score": 0},
+          {"text": "Panameña", "score": 0},
+          {"text": "Panameñas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine singular form for people from Paraguay?",
+        "answers": [
+          {"text": "Paragueyo", "score": 1},
+          {"text": "Paragueyos", "score": 0},
+          {"text": "Paragueya", "score": 0},
+          {"text": "Paragueyas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from Paraguay?",
+        "answers": [
+          {"text": "Paragueyo", "score": 0},
+          {"text": "Paragueyos", "score": 1},
+          {"text": "Paragueya", "score": 0},
+          {"text": "Paragueyas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the masculine plural form for people from Perú?",
+        "answers": [
+          {"text": "Perano", "score": 0},
+          {"text": "Peranos", "score": 1},
+          {"text": "Perana", "score": 0},
+          {"text": "Peranas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the feminine singular form for people from Perú?",
+        "answers": [
+          {"text": "Perano", "score": 0},
+          {"text": "Peranos", "score": 0},
+          {"text": "Perana", "score": 1},
+          {"text": "Peranas", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }
+]

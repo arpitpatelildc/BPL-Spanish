@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Choose the best option to fill in the blank:\nLa madre de mi madre es mi _____.",
+    "answers": [
+      {"text": "prima", "score": 0},
+      {"text": "abuela", "score": 1},
+      {"text": "tía", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa madre de mi _____ es mi suegra.",
+    "answers": [
+      {"text": "esposo", "score": 1},
+      {"text": "padre", "score": 0},
+      {"text": "tío", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEl padre de me esposo es mi _____.",
+    "answers": [
+      {"text": "hermano", "score": 0},
+      {"text": "tío", "score": 0},
+      {"text": "suegro", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi padre es el suegro de mi _____.",
+    "answers": [
+      {"text": "esposo", "score": 1},
+      {"text": "hijo", "score": 0},
+      {"text": "hermano", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi hermana es la _____ de mi primo",
+    "answers": [
+      {"text": "madre", "score": 0},
+      {"text": "prima", "score": 1},
+      {"text": "hermana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi sobrino es el _____ de mi hermana.",
+    "answers": [
+      {"text": "hermano", "score": 0},
+      {"text": "hijo", "score": 1},
+      {"text": "padre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hija de mi hermano es mi _____.",
+    "answers": [
+      {"text": "sobrina", "score": 1},
+      {"text": "hermana", "score": 0},
+      {"text": "madre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hija de mi suegro es mi _____.",
+    "answers": [
+      {"text": "esposa", "score": 1},
+      {"text": "hermana", "score": 0},
+      {"text": "hija", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hermana de mi madre es mi _____.",
+    "answers": [
+      {"text": "abuela", "score": 0},
+      {"text": "hermana", "score": 0},
+      {"text": "tía", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEl _____ de mi padre es mi tío.",
+    "answers": [
+      {"text": "abuelo", "score": 0},
+      {"text": "hermano", "score": 1},
+      {"text": "tío", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMis tías son las _____ de mis primas.",
+    "answers": [
+      {"text": "madres", "score": 1},
+      {"text": "abuelas", "score": 0},
+      {"text": "hermanas", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hija de mi esposa es mi _____.",
+    "answers": [
+      {"text": "suegra", "score": 0},
+      {"text": "hermana", "score": 0},
+      {"text": "hija", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hermana de mi esposa es mi _____.",
+    "answers": [
+      {"text": "prima", "score": 0},
+      {"text": "suegra", "score": 0},
+      {"text": "cuñada", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi cuñada es el hermana de mi _____.",
+    "answers": [
+      {"text": "abuela", "score": 0},
+      {"text": "madre", "score": 0},
+      {"text": "esposa", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEl esposo de mi tía es mi _____.",
+    "answers": [
+      {"text": "tío", "score": 1},
+      {"text": "abuelo", "score": 0},
+      {"text": "hermano", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi tía es la _____ de mi primo.",
+    "answers": [
+      {"text": "hermana", "score": 0},
+      {"text": "madre", "score": 1},
+      {"text": "hija", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi madre es la _____ de mis primos.",
+    "answers": [
+      {"text": "madre", "score": 0},
+      {"text": "tía", "score": 1},
+      {"text": "abuela", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi _____ es el tío de mis primas.",
+    "answers": [
+      {"text": "padre", "score": 1},
+      {"text": "abuelo", "score": 0},
+      {"text": "esposo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi tío es el hermano de mi madre, y el _____ de mi padre.",
+    "answers": [
+      {"text": "cuñado", "score": 1},
+      {"text": "primo", "score": 0},
+      {"text": "padre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa _____ de mi madre es mi tía.",
+    "answers": [
+      {"text": "sobrina", "score": 0},
+      {"text": "madre", "score": 0},
+      {"text": "hermana", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa _____ de mi hermano es mi sobrina.",
+    "answers": [
+      {"text": "sobrina", "score": 0},
+      {"text": "hija", "score": 1},
+      {"text": "hermana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hija de mi hermana es mi ______.",
+    "answers": [
+      {"text": "tía", "score": 0},
+      {"text": "prima", "score": 0},
+      {"text": "sobrina", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi hermana es la _____ de mi hijo.",
+    "answers": [
+      {"text": "prima", "score": 0},
+      {"text": "tía", "score": 1},
+      {"text": "madre", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nSoy la _____ de mi prima.",
+    "answers": [
+      {"text": "madre", "score": 0},
+      {"text": "abuela", "score": 0},
+      {"text": "prima", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nSoy la _____ de mi sobrina.",
+    "answers": [
+      {"text": "tía", "score": 1},
+      {"text": "abuela", "score": 0},
+      {"text": "hermana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

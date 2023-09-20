@@ -1,0 +1,67 @@
+[
+    {
+       "Question":"maleta",
+       "Answer":"suitcase",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"taxi",
+       "Answer":"taxi",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"boleto",
+       "Answer":"tickets",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"puente",
+        "Answer":"bridge",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"centro",
+       "Answer":"center",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"comida",
+       "Answer":"meal",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"agua",
+       "Answer":"water",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"cuenta",
+       "Answer":"bill",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"vino",
+       "Answer":"wine",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"cerveza",
+       "Answer":"beer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"trago",
+       "Answer":"drink",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"postre",
+       "Answer":"dessert",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"propina",
+       "Answer":"tip",
+       "Path" : "assets/images/bpl_Logo.png"
+    }
+]

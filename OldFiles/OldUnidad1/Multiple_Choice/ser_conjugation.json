@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the correct ser conjugation for yo?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "sois", "score": 0},
+        {"text": "son", "score": 0},
+        {"text": "soy", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for tú?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "es", "score": 0},
+        {"text": "eres", "score": 1},
+        {"text": "sois", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for él?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "es", "score": 1},
+        {"text": "eres", "score": 0},
+        {"text": "sois", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for ella?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "es", "score": 1},
+        {"text": "son", "score": 0},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for usted (ud.)?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "es", "score": 1},
+        {"text": "eres", "score": 0},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for nosotros?",
+        "answers": [
+        {"text": "somos", "score": 1},
+        {"text": "sois", "score": 0},
+        {"text": "son", "score": 0},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for vosotros?",
+        "answers": [
+        {"text": "eres", "score": 0},
+        {"text": "sois", "score": 1},
+        {"text": "son", "score": 0},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for ellos?",
+        "answers": [
+        {"text": "eres", "score": 0},
+        {"text": "sois", "score": 0},
+        {"text": "son", "score": 1},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for ellas?",
+        "answers": [
+        {"text": "somos", "score": 0},
+        {"text": "es", "score": 0},
+        {"text": "son", "score": 1},
+        {"text": "soy", "score": 0}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    },
+    {
+        "question": "What is the correct ser conjugation for ustedes (uds.)?",
+        "answers": [
+        {"text": "es", "score": 0},
+        {"text": "eres", "score": 0},
+        {"text": "sois", "score": 0},
+        {"text": "son", "score": 1}
+        ],
+      "path": "assets/images/cerebrillo.png"
+    }
+]

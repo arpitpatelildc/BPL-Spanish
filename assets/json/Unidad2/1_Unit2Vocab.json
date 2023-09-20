@@ -1,0 +1,183 @@
+[
+    {
+        "Question":"a la derecha",
+        "Answer":"on the right",
+        "Path" : "assets/images/Chapter2_Preposition_Images/derecha.JPEG",
+        "Audio": "assets/audio/unit2-vocab/01 - on the right  a la derecha.mp3"
+    },
+    {
+        "Question":"a la izquierda",
+        "Answer":"on the left",
+        "Path" : "assets/images/Chapter2_Preposition_Images/izquierda.JPEG",
+        "Audio": "assets/audio/unit2-vocab/02 - on the left  a la izquierda.mp3"
+    },
+    {
+        "Question":"derecho",
+        "Answer":"straight",
+        "Path" : "assets/images/bpl_Logo.png",
+        "Audio": "assets/audio/unit2-vocab/03 - straight  derecho.mp3"
+    },
+    {
+        "Question":"en frente (de)",
+        "Answer":"in front (of)",
+        "Path" : "assets/images/Chapter2_Preposition_Images/frente.JPEG",
+        "Audio": "assets/audio/unit2-vocab/04 - in front of en frente de.mp3"
+    },
+    {
+        "Question":"detrás (de) - atrás (de)",
+        "Answer":"behind",
+        "Path" : "assets/images/Chapter2_Preposition_Images/detras.JPEG",
+        "Audio": "assets/audio/unit2-vocab/05 - behind detras de.mp3"
+    },
+    {
+        "Question":"al lado (de)",
+        "Answer":"beside",
+        "Path" : "assets/images/Chapter2_Preposition_Images/al_lado.JPEG",
+        "Audio": "assets/audio/unit2-vocab/06 - beside al lado .mp3"
+    },
+    {
+        "Question":"encima (de)",
+        "Answer":"on",
+        "Path" : "assets/images/Chapter2_Preposition_Images/encima.JPEG",
+        "Audio": "assets/audio/unit2-vocab/07 - on encima.mp3"
+    },
+    {
+        "Question":"debajo (de)",
+        "Answer":"under",
+        "Path" : "assets/images/Chapter2_Preposition_Images/debajo.JPEG",
+        "Audio": "assets/audio/unit2-vocab/08 - under  debajo.mp3"
+    },
+    {
+        "Question":"la entrada",
+        "Answer":"entrance",
+        "Path" : "assets/images/bpl_Logo.png",
+        "Audio": "assets/audio/unit2-vocab/09 - entrance la entrada.mp3"
+    },
+    {
+        "Question":"la puerta",
+        "Answer":"door",
+        "Path" : "assets/images/Unit2_Vocab/Door.png",
+        "Audio": "assets/audio/unit2-vocab/10 - door la puerta.mp3"
+    },
+    {
+        "Question":"la ventana",
+        "Answer":"window",
+        "Path" : "assets/images/Unit2_Vocab/Window.jpg",
+        "Audio": "assets/audio/unit2-vocab/11 - window la ventana.mp3"
+    },
+    {
+        "Question":"el perchero",
+        "Answer":"coat rack",
+        "Path" : "assets/images/Unit2_Vocab/Coat-rack.jpg",
+        "Audio": "assets/audio/unit2-vocab/12 - coat rack el perchero.mp3"
+    },
+    {
+        "Question":"el espejo",
+        "Answer":"mirror",
+        "Path" : "assets/images/Unit2_Vocab/Mirror.jpg",
+        "Audio": "assets/audio/unit2-vocab/13 - mirror el espejo.mp3"
+    },
+    {
+        "Question":"la decoración",
+        "Answer":"decor",
+        "Path" : "assets/images/Unit2_Vocab/Decor.jpeg",
+        "Audio": "assets/audio/unit2-vocab/14 - decor la decoracion.mp3"
+    },
+    {
+        "Question":"la sala",
+        "Answer":"living room",
+        "Path" : "assets/images/Unit2_Vocab/Living-room.jpg",
+        "Audio": "assets/audio/unit2-vocab/15 - living room la sala.mp3"
+    },
+    {
+        "Question":"el sofá",
+        "Answer":"sofa",
+        "Path" : "assets/images/Unit2_Vocab/Sofa.jpg",
+        "Audio": "assets/audio/unit2-vocab/16 - sola el sofa.mp3"
+    },
+    {
+        "Question":"la lámpara",
+        "Answer":"lamp",
+        "Path" : "assets/images/Unit2_Vocab/Lamp.jpg",
+        "Audio": "assets/audio/unit2-vocab/17 - lamp la lampara.mp3"
+    },
+    {
+        "Question": "la planta",
+        "Answer": "plant",
+        "Path": "assets/images/Unit2_Vocab/Plant.jpg",
+        "Audio": "assets/audio/unit2-vocab/18 - plant la planta.mp3"
+    },
+    {
+        "Question": "el sillón",
+        "Answer": "couch",
+        "Path": "assets/images/Unit2_Vocab/Sofa.jpg",
+        "Audio": "assets/audio/unit2-vocab/19 - couch el sillon.mp3"
+    },
+    {
+        "Question": "la mesa de centro",
+        "Answer": "coffee table",
+        "Path": "assets/images/Unit2_Vocab/Coffee-table.jpg",
+        "Audio": "assets/audio/unit2-vocab/20 - coffee table la mesa de centro.mp3"
+    },
+    {
+        "Question": "el baño",
+        "Answer": "bathroom",
+        "Path": "assets/images/Unit2_Vocab/Bathroom.png",
+        "Audio": "assets/audio/unit2-vocab/21 - bathroom el bano.mp3"
+    },
+    {
+        "Question": "la toalla",
+        "Answer": "towel",
+        "Path": "assets/images/Unit2_Vocab/Towels.jpg",
+        "Audio": "assets/audio/unit2-vocab/22 - towel la toalla.mp3"
+    },
+    {
+        "Question": "el inodoro",
+        "Answer": "toilet",
+        "Path": "assets/images/Unit2_Vocab/Toilet.png",
+        "Audio": "assets/audio/unit2-vocab/23 - toilet el inodoro.mp3"
+    },
+    {
+        "Question": "el lavamanos",
+        "Answer": "bathroom sink",
+        "Path": "assets/images/Unit2_Vocab/Bathroom-sink.png",
+        "Audio": "assets/audio/unit2-vocab/24 - bathroom sink el lavamanos.mp3"
+    },
+    {
+        "Question": "el papel higienico",
+        "Answer": "toilet paper",
+        "Path": "assets/images/Unit2_Vocab/Toilet-paper.jpg",
+        "Audio": "assets/audio/unit2-vocab/25 - toilet paper el papel higienico.mp3"
+    },
+    {
+        "Question": "el pasillo",
+        "Answer": "hallway",
+        "Path": "assets/images/Unit2_Vocab/Hallway.jpg",
+        "Audio": "assets/audio/unit2-vocab/26 - hallway el pasillo.mp3"
+    },
+    {
+        "Question": "la habitación",
+        "Answer": "bedroom",
+        "Path": "assets/images/Unit2_Vocab/Bedroom.jpg",
+        "Audio": "assets/audio/unit2-vocab/27 - bedroom la habitacion.mp3"
+    },
+    {
+        "Question": "la cocina",
+        "Answer": "kitchen",
+        "Path": "assets/images/Unit2_Vocab/Kitchen.jpg",
+        "Audio": "assets/audio/unit2-vocab/28 - kitchen la cocina.mp3"
+    },
+    {
+        "Question": "el patio",
+        "Answer": "patio",
+        "Path": "assets/images/Unit2_Vocab/Patio.jpg",
+        "Audio": "assets/audio/unit2-vocab/29 - patio el patio.mp3"
+    },
+    {
+        "Question": "la oficina/el estudio",
+        "Answer": "office/studio",
+        "Path": "assets/images/Unit2_Vocab/Office.png",
+        "Audio": "assets/audio/unit2-vocab/30 - office studio la oficina el estudio.mp3"
+    }
+
+]

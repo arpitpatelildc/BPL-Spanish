@@ -1,0 +1,127 @@
+[
+    {
+       "Question":"Abogado/a",
+       "Answer":"Lawyer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Enfermero/a",
+       "Answer":"Nurse",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Médico",
+       "Answer":"Doctor",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Agente inmobiliario/a",
+        "Answer":"Real estate agent",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Profesor/a",
+       "Answer":"Teacher",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Dentista",
+       "Answer":"Dentist",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Veterinario/a",
+       "Answer":"Veterinarian",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Policia",
+       "Answer":"Police",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Terapeuta",
+       "Answer":"Therapist",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Arquitecto/a",
+       "Answer":"Architect",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Diseñador/a",
+       "Answer":"Designer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Psicologo/a",
+       "Answer":"Psychologist",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Ingeniero/a",
+       "Answer":"Engineer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Consultor/a",
+       "Answer":"Consultant",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Instructor/a",
+       "Answer":"Instructor",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Constructor/a",
+       "Answer":"Constructor (construction worker)",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Contador/a",
+       "Answer":"Accountant",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Periodista",
+       "Answer":"Journalist",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Bailarín/a",
+       "Answer":"Dancer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Escritor/a",
+       "Answer":"Writer",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Actor / Actriz",
+       "Answer":"Actor / Actress",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Plomero/a",
+       "Answer":"Plumber",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Electricista",
+       "Answer":"Electrical technician",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Peluquero/a",
+       "Answer":"Barber",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+       "Question":"Vendedor/a",
+       "Answer":"Seller (vendor)",
+       "Path" : "assets/images/bpl_Logo.png"
+    }
+]

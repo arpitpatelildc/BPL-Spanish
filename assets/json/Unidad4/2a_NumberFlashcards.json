@@ -1,0 +1,307 @@
+[
+  {
+  "Question":"cero",
+  "Answer":"zero (0)",
+  "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"uno",
+    "Answer":"one (1)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dos",
+    "Answer":"two (2)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"tres",
+    "Answer":"three (3)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cuatro",
+    "Answer":"four (4)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cinco",
+    "Answer":"five (5)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"seis",
+    "Answer":"six (6)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"siete",
+    "Answer":"seven (7)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"ocho",
+    "Answer":"eight (8)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"nueve",
+    "Answer":"nine (9)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"diez",
+    "Answer":"ten (10)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"once",
+    "Answer":"eleven (11)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"doce",
+    "Answer":"twelve (12)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"trece",
+    "Answer":"thirteen (13)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"catorce",
+    "Answer":"fourteen (14)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"quince",
+    "Answer":"fifteen (15)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dieciséis",
+    "Answer":"sixteen (16)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"diecisiete",
+    "Answer":"seventeen (17)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dieciocho",
+    "Answer":"eighteen (18)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"diecinueve",
+    "Answer":"nineteen (19)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veinte",
+    "Answer":"twenty (20)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintiuno",
+    "Answer":"twenty one (21)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintidós",
+    "Answer":"twenty two (22)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintitrés",
+    "Answer":"twenty three (23)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veinticuatro",
+    "Answer":"twenty four (24)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veinticinco",
+    "Answer":"twenty five (25)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintiséis",
+    "Answer":"twenty six (26)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintisiete",
+    "Answer":"twenty seven (27)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintiocho",
+    "Answer":"twenty eight (28)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"veintinueve",
+    "Answer":"twenty nine (29)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta",
+    "Answer":"thirty (30)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y uno",
+    "Answer":"thirty one (31)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y dos",
+    "Answer":"thirty two (32)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y tres",
+    "Answer":"thirty three (33)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y cuatro",
+    "Answer":"thirty four (34)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y cinco",
+    "Answer":"thirty five (35)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y seis",
+    "Answer":"thirty six (36)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y siete",
+    "Answer":"thirty seven (37)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y ocho",
+    "Answer":"thirty eight (38)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"treinta y nueve",
+    "Answer":"thirty nine (39)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cuarenta",
+    "Answer":"fourty (40)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cincuenta",
+    "Answer":"fifty (50)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"sesenta",
+    "Answer":"sixty (60)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"setenta",
+    "Answer":"seventy (70)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"ochenta",
+    "Answer":"eighty (80)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"noventa",
+    "Answer":"ninety (90)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cien",
+    "Answer":"one hundred (100)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"ciento uno",
+    "Answer":"one hundred and one (101)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"doscientos/as",
+    "Answer":"two hundred (200)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"doscientos uno",
+    "Answer":"two hundred and one (201)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"trescientos",
+    "Answer":"three hundred (300)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"cuatrocientos",
+    "Answer":"four hundred (400)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"quinientos",
+    "Answer":"five hundred (500)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"seiscientos",
+    "Answer":"six hundred (600)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"setecientos",
+    "Answer":"seven hundred (700)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"ochocientos",
+    "Answer":"eight hundred (800)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"novecientos",
+    "Answer":"nine hundred (900)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"mil (1.000)",
+    "Answer":"one thousand (1,000)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"mil uno (1.001)",
+    "Answer":"one thousand and one (1,001)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dos mil (2.000)",
+    "Answer":"two thousand (2,000)",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"dos mil uno (2.001)",
+    "Answer":"two thousand and one (2,001)",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

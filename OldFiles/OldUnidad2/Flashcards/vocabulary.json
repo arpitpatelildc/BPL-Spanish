@@ -1,0 +1,153 @@
+[
+    {
+        "Question":"a la derecha",
+        "Answer":"on the right",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"a la izquierda",
+        "Answer":"on the left",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"derecho",
+        "Answer":"straight",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"en frente (de)",
+        "Answer":"in front (of)",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"detrás (de) - atrás (de)",
+        "Answer":"behind",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"al lado (de)",
+        "Answer":"beside",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"encima (de)",
+        "Answer":"on",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"debajo (de)",
+        "Answer":"under",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la entrada",
+        "Answer":"entrance",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la puerta",
+        "Answer":"door",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la ventana",
+        "Answer":"window",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"el perchero",
+        "Answer":"coat rack",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"el espejo",
+        "Answer":"mirror",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la decoración",
+        "Answer":"decor",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la sala",
+        "Answer":"living room",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"el sofá",
+        "Answer":"sofa",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"la lámpara",
+        "Answer":"lamp",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la planta",
+        "Answer": "plant",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el sillón",
+        "Answer": "couch",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la mesa de centro",
+        "Answer": "coffee table",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el baño",
+        "Answer": "bathroom",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la toalla",
+        "Answer": "towel",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el inodoro",
+        "Answer": "toilet",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el lavamanos",
+        "Answer": "bathroom sink",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el papel higienico",
+        "Answer": "toilet paper",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el pasillo",
+        "Answer": "hallway",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la habitación",
+        "Answer": "bedroom",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la cocina",
+        "Answer": "kitchen",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "el patio",
+        "Answer": "patio",
+        "Path": "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question": "la oficina/el estudio",
+        "Answer": "office/studio",
+        "Path": "assets/images/bpl_Logo.png"
+    }
+
+]

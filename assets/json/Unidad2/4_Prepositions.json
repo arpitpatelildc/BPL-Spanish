@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "debajo del cubo", "score": 0},
+      {"text": "a la derecha del cubo", "score": 1},
+      {"text": "en frente del cubo", "score": 0}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/derecha.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "a la izquierda del cubo", "score": 1},
+      {"text": "encima del cubo", "score": 0},
+      {"text": "detrás del cubo", "score": 0}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/izquierda.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "detrás del cubo", "score": 0},
+      {"text": "al lado del cubo", "score": 0},
+      {"text": "en frente del cubo", "score": 1}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/frente.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "a la derecha del cubo", "score": 0},
+      {"text": "detras del cubo", "score": 1},
+      {"text": "debajo del cubo", "score": 0}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/detras.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "debajo del cubo", "score": 1},
+      {"text": "encima del cubo", "score": 0},
+      {"text": "en frente del cubo", "score": 0}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/debajo.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "al lado del cubo", "score": 0},
+      {"text": "a la derecha del cubo", "score": 0},
+      {"text": "encima del cubo", "score": 1}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/encima.JPEG"
+  },
+  {
+    "question": "Where is Cerebrillo?",
+    "answers": [
+      {"text": "debajo del cubo", "score": 0},
+      {"text": "al lado del cubo", "score": 1},
+      {"text": "en frente del cubo", "score": 0}
+    ],
+    "path": "assets/images/Chapter2_Preposition_Images/al_lado.JPEG"
+  }
+]

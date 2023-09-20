@@ -1,0 +1,62 @@
+[
+   {
+      "Question":"el aeropuerto",
+      "Answer":"airport"
+   },
+   {
+      "Question":"el agua",
+      "Answer":"water"
+   },
+   {
+      "Question":"el autobús",
+      "Answer":"bus"
+   },
+   {
+      "Question":"el automóvil",
+      "Answer":"car"
+   },
+   {
+      "Question":"el avión",
+      "Answer":"airplane"
+   },
+   {
+      "Question":"la bandera",
+      "Answer":"flag"
+   },
+   {
+      "Question":"la camioneta",
+      "Answer":"truck"
+   },
+   {
+      "Question":"la camiseta",
+      "Answer":"t-shirt"
+   },
+   {
+      "Question":"la cartera",
+      "Answer":"wallet"
+   },
+   {
+      "Question":"la casa",
+      "Answer":"house"
+   },
+   {
+      "Question":"el cerebro",
+      "Answer":"brain"
+   },
+   {
+      "Question":"el cuadro",
+      "Answer":"painting"
+   },
+   {
+      "Question":"el cuanderno",
+      "Answer":"notebook"
+   },
+   {
+      "Question":"el día",
+      "Answer":"day"
+   },
+   {
+      "Question":"el edificio",
+      "Answer":"building"
+   }
+]

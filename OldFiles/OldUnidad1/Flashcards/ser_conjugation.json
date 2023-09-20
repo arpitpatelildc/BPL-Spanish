@@ -1,0 +1,52 @@
+[
+    {
+       "Question":"Conjugated version of yo",
+       "Answer":"soy",
+       "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of tú (informal)",
+        "Answer":"eres",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of él",
+        "Answer":"es",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of élla",
+        "Answer":"es",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of usted (ud.)",
+        "Answer":"es",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of nosotros",
+        "Answer":"somos",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of vosotros",
+        "Answer":"sois",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of ellos",
+        "Answer":"son",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of ellas",
+        "Answer":"son",
+        "Path" : "assets/images/bpl_Logo.png"
+    },
+    {
+        "Question":"Conjugated version of ustedes (uds.)",
+        "Answer":"son",
+        "Path" : "assets/images/bpl_Logo.png"
+    }
+]

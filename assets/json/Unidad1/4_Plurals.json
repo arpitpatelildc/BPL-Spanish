@@ -1,0 +1,302 @@
+[
+  {
+    "question": "los trenes",
+    "answers": [
+      {"text": "el trene", "score": 0},
+      {"text": "la trene", "score": 0},
+      {"text": "el tren", "score": 1},
+      {"text": "la tren", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la bicicleta",
+    "answers": [
+      {"text": "los biciletos", "score": 0},
+      {"text": "las biciletes", "score": 0},
+      {"text": "las biciclets", "score": 0},
+      {"text": "las bicicletas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las motocicletas",
+    "answers": [
+      {"text": "la motociclet", "score": 0},
+      {"text": "la motocicleta", "score": 1},
+      {"text": "el motocicleta", "score": 0},
+      {"text": "el motocicleto", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los restaurantes",
+    "answers": [
+      {"text": "el restauranta", "score": 0},
+      {"text": "la restaurante", "score": 0},
+      {"text": "el restaurante", "score": 1},
+      {"text": "la restuarant", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los teatros",
+    "answers": [
+      {"text": "el teatro", "score": 1},
+      {"text": "la teatro", "score": 0},
+      {"text": "el teatros", "score": 0},
+      {"text": "la teatre", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el museo",
+    "answers": [
+      {"text": "los musos", "score": 0},
+      {"text": "las museas", "score": 0},
+      {"text": "los museos", "score": 1},
+      {"text": "los musees", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el baño",
+    "answers": [
+      {"text": "las baños", "score": 0},
+      {"text": "los baños", "score": 1},
+      {"text": "el baños", "score": 0},
+      {"text": "la bañas", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la ducha",
+    "answers": [
+      {"text": "las duchs", "score": 0},
+      {"text": "las duches", "score": 0},
+      {"text": "las duchos", "score": 0},
+      {"text": "las duchas", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las piscinas",
+    "answers": [
+      {"text": "los piscin", "score": 0},
+      {"text": "el piscina", "score": 0},
+      {"text": "la piscina", "score": 1},
+      {"text": "las piscina", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el profesor",
+    "answers": [
+      {"text": "los profesors", "score": 0},
+      {"text": "las profesors", "score": 0},
+      {"text": "los profesores", "score": 1},
+      {"text": "las profesors", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la estudiante",
+    "answers": [
+      {"text": "las estudiantas", "score": 0},
+      {"text": "las estudiantes", "score": 1},
+      {"text": "los estudiantos", "score": 0},
+      {"text": "los estudiantes", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los empleados",
+    "answers": [
+      {"text": "el empleade", "score": 0},
+      {"text": "el empleada", "score": 0},
+      {"text": "el emplead", "score": 0},
+      {"text": "el empleado", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los ciervos",
+    "answers": [
+      {"text": "la ciervo", "score": 0},
+      {"text": "la cierva", "score": 0},
+      {"text": "el cierv", "score": 0},
+      {"text": "el ciervo", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la vaca",
+    "answers": [
+      {"text": "las vacas", "score": 1},
+      {"text": "los vacas", "score": 0},
+      {"text": "las vacs", "score": 0},
+      {"text": "las vaces", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las gallinas",
+    "answers": [
+      {"text": "la galline", "score": 0},
+      {"text": "la gallin", "score": 0},
+      {"text": "la gallina", "score": 1},
+      {"text": "el gallina", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el camión",
+    "answers": [
+      {"text": "los camiónes", "score": 0},
+      {"text": "los camiones", "score": 1},
+      {"text": "las camionas", "score": 0},
+      {"text": "las camiones", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los árboles",
+    "answers": [
+      {"text": "el arbol", "score": 0},
+      {"text": "el árbol", "score": 1},
+      {"text": "el árbole", "score": 0},
+      {"text": "el arbole", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el teléfono",
+    "answers": [
+      {"text": "los teléfons", "score": 0},
+      {"text": "las teléfones", "score": 0},
+      {"text": "los teléfonos", "score": 1},
+      {"text": "los teléfones", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la canción",
+    "answers": [
+      {"text": "las canciónes", "score": 0},
+      {"text": "los canciónes", "score": 0},
+      {"text": "las cancions", "score": 0},
+      {"text": "las canciones", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el tenedor",
+    "answers": [
+      {"text": "los tenedors", "score": 0},
+      {"text": "las tenedors", "score": 0},
+      {"text": "los tenedores", "score": 1},
+      {"text": "las tenedores", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las servilletas",
+    "answers": [
+      {"text": "la servillet", "score": 0},
+      {"text": "la servilleta", "score": 1},
+      {"text": "la servillete", "score": 0},
+      {"text": "el servilleta", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los aceites",
+    "answers": [
+      {"text": "el aceit", "score": 0},
+      {"text": "la aceita", "score": 0},
+      {"text": "la aceite", "score": 0},
+      {"text": "el aceite", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "las paredes",
+    "answers": [
+      {"text": "la pared", "score": 1},
+      {"text": "el pared", "score": 0},
+      {"text": "la pareda", "score": 0},
+      {"text": "el paredo", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la alfombra",
+    "answers": [
+      {"text": "los alfombres", "score": 0},
+      {"text": "las alfombres", "score": 0},
+      {"text": "los alfombras", "score": 0},
+      {"text": "las alfombras", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los diplomas",
+    "answers": [
+      {"text": "la diploma", "score": 0},
+      {"text": "el diplom", "score": 0},
+      {"text": "el diploma", "score": 1},
+      {"text": "la diplome", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el sofá",
+    "answers": [
+      {"text": "los sofases", "score": 1},
+      {"text": "los sofs", "score": 0},
+      {"text": "los sofes", "score": 0},
+      {"text": "los sofá", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "la mano",
+    "answers": [
+      {"text": "los manos", "score": 0},
+      {"text": "las manos", "score": 1},
+      {"text": "los manes", "score": 0},
+      {"text": "los mans", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los peluches",
+    "answers": [
+      {"text": "la pelucha", "score": 0},
+      {"text": "el pelucha", "score": 0},
+      {"text": "la peluche", "score": 0},
+      {"text": "el peluche", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "los elefantes",
+    "answers": [
+      {"text": "la elefante", "score": 0},
+      {"text": "el elefante", "score": 1},
+      {"text": "la elefanta", "score": 0},
+      {"text": "el elefanto", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "el labial",
+    "answers": [
+      {"text": "las labiales", "score": 0},
+      {"text": "los labialos", "score": 0},
+      {"text": "las labialas", "score": 0},
+      {"text": "los labiales", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

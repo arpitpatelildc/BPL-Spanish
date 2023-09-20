@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Fill in the blanks:\n\n _____ botella _____ blanco/a",
+    "answers": [
+      {"text": "la, es", "score": 1},
+      {"text": "la, son", "score": 0},
+      {"text": "el, son", "score": 0},
+      {"text": "el, es", "score": 0}
+    ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ bandera _____ blanco/a",
+      "answers": [
+        {"text": "la, es", "score": 1},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 0}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ bolígrafo _____ blanco/a",
+      "answers": [
+        {"text": "la, es", "score": 0},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 1}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ nubes _____ azul",
+      "answers": [
+        {"text": "las, es", "score": 0},
+        {"text": "las, son", "score": 1},
+        {"text": "los, son", "score": 0},
+        {"text": "los, es", "score": 0}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ olas _____ azul",
+      "answers": [
+        {"text": "las, es", "score": 0},
+        {"text": "las, son", "score": 1},
+        {"text": "los, son", "score": 0},
+        {"text": "los, es", "score": 0}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ ojo _____ azul",
+      "answers": [
+        {"text": "la, es", "score": 0},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 1}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ avión _____ amarillo/a",
+      "answers": [
+        {"text": "la, es", "score": 0},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 1}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ automóvil _____ amarillo/a",
+      "answers": [
+        {"text": "la, es", "score": 0},
+        {"text": "la, son", "score": 0},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 1}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ bananas _____ amarillo/a",
+      "answers": [
+        {"text": "las, es", "score": 0},
+        {"text": "las, son", "score": 1},
+        {"text": "los, son", "score": 0},
+        {"text": "los, es", "score": 0}
+      ]
+  },
+  {
+      "question": "Fill in the blanks:\n\n _____ gato _____ gris",
+      "answers": [
+        {"text": "la, es", "score": 0},
+        {"text": "la, son", "score": 1},
+        {"text": "el, son", "score": 0},
+        {"text": "el, es", "score": 0}
+      ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question": "Choose the best option to fill in the blank:\nSoy la _____ de mi sobrina.",
+    "answers": [
+      {"text": "tía", "score": 1},
+      {"text": "abuela", "score": 0},
+      {"text": "hermana", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ abogada.",
+    "answers": [
+      {"text": "soy una", "score": 1},
+      {"text": "eres un", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cómo se llama usted?\"",
+    "answers": [
+      {"text": "Se llama Serafina.", "score": 0},
+      {"text": "Te llamas Serafina.", "score": 0},
+      {"text": "Me llamo Serafina.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEl _____ de mi padre es mi tío.",
+    "answers": [
+      {"text": "abuelo", "score": 0},
+      {"text": "hermano", "score": 1},
+      {"text": "tío", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nÉl _____ _____ peluquero.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "soy un", "score": 0},
+      {"text": "es una", "score": 0},
+      {"text": "es un", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo (tener) _____.",
+    "answers": [
+      {"text": "tiene", "score": 0},
+      {"text": "tienes", "score": 0},
+      {"text": "tengo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nSoy la _____ de mi prima.",
+    "answers": [
+      {"text": "madre", "score": 0},
+      {"text": "abuela", "score": 0},
+      {"text": "prima", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ella soy alta.", "score": 0},
+      {"text": "Yo soy alta.", "score": 1},
+      {"text": "Usted soy alta.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Usted son pelirrojos.", "score": 0},
+      {"text": "Ustedes son pelirrojos.", "score": 1},
+      {"text": "Ustedes son pelirrojo.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa madre de mi madre es mi _____.",
+    "answers": [
+      {"text": "prima", "score": 0},
+      {"text": "abuela", "score": 1},
+      {"text": "tía", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ el pelo largo.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres viejos.", "score": 0},
+      {"text": "Ella es viejo.", "score": 0},
+      {"text": "Ustedes son viejos.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEl padre de me esposo es mi _____.",
+    "answers": [
+      {"text": "hermano", "score": 0},
+      {"text": "tío", "score": 0},
+      {"text": "suegro", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Tú eres negros.", "score": 1},
+      {"text": "Tú eres negras.", "score": 0},
+      {"text": "Tú eres negra.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nLa hija de mi hermana es mi ______.",
+    "answers": [
+      {"text": "tía", "score": 0},
+      {"text": "prima", "score": 0},
+      {"text": "sobrina", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Su pelo es castaño.", "score": 1},
+      {"text": "Sus pelos son castaños.", "score": 0},
+      {"text": "Sus pelos son castaños.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ los ojos verdes.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Ellos son rubias.", "score": 0},
+      {"text": "Ellos eres rubias.", "score": 0},
+      {"text": "Ellas son rubias.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl (llevar) _____.",
+    "answers": [
+      {"text": "llevo", "score": 0},
+      {"text": "llevas", "score": 0},
+      {"text": "lleva", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nMi _____ es el tío de mis primas.",
+    "answers": [
+      {"text": "padre", "score": 1},
+      {"text": "abuelo", "score": 0},
+      {"text": "esposo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú _____ 50 años.",
+    "answers": [
+      {"text": "llevas", "score": 0},
+      {"text": "tienes", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla (tener) _____.",
+    "answers": [
+      {"text": "tienen", "score": 0},
+      {"text": "tiene", "score": 1},
+      {"text": "tengo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es su nombre?\"",
+    "answers": [
+      {"text": "Su nombre es Pedro.", "score": 0},
+      {"text": "Mi nombre es Pedro.", "score": 1},
+      {"text": "Tu nombre es Pedro.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl _____ el pelo canoso.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Which of the following is an appropriate response to \"¿Cuál es el nombre de su mamá?\"",
+    "answers": [
+      {"text": "Mi nombre es Pepa.", "score": 0},
+      {"text": "Tu nombre es Pepa.", "score": 0},
+      {"text": "Su nombre es Pepa.", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nYo _____ _____ enfermero.",
+    "answers": [
+      {"text": "soy una", "score": 0},
+      {"text": "eres un", "score": 0},
+      {"text": "soy un", "score": 1},
+      {"text": "eres una", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct version of the sentence:",
+    "answers": [
+      {"text": "Es morenos.", "score": 0},
+      {"text": "Son morenos.", "score": 1},
+      {"text": "Soy morenos.", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the correct words to fill in the blanks:\nElla _____ _____ policia.",
+    "answers": [
+      {"text": "son una", "score": 0},
+      {"text": "son un", "score": 0},
+      {"text": "es un", "score": 0},
+      {"text": "es una", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]

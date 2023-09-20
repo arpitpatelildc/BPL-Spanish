@@ -1,0 +1,477 @@
+[
+  {
+    "Question":"El abuelo",
+    "Answer":"Grandpa",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/01 - Granpa el abuelo.mp3"
+  },
+  {
+    "Question": "La abuela",
+    "Answer": "Grandma",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/02 - Grandma La abuela.mp3"
+  },
+  {
+    "Question": "El nieto",
+    "Answer": "Grandson",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/03 - grandson el nieto.mp3"
+  },
+  {
+    "Question": "La nieta",
+    "Answer": "Granddaughter",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/04 - Grandaughter la nieta.mp3"
+  },
+  {
+    "Question": "El esposo",
+    "Answer": "Husband",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/05 - husband el esposo.mp3"
+  },
+  {
+    "Question": "La esposa",
+    "Answer": "Wife",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/06 - wife la esposa.mp3"
+  },
+  {
+    "Question": "El hijo",
+    "Answer": "Son",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/07 - son el hijo.mp3"
+  },
+  {
+    "Question": "La hija",
+    "Answer": "Daughter",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/08 - daughter la hija.mp3"
+  },
+  {
+    "Question": "El hermano",
+    "Answer": "Brother",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/09 - brother el hermano.mp3"
+  },
+  {
+    "Question": "La hermana ",
+    "Answer": "Sister",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/10 - sister la hermana.mp3"
+  },
+  {
+    "Question": "El primo",
+    "Answer": "Cousin (masculine)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/11 - cousin el primo.mp3"
+  },
+  {
+    "Question": "La prima",
+    "Answer": "Cousin (feminine)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/12 - cousin la prima.mp3"
+
+  },
+  {
+    "Question": "El tío",
+    "Answer": "Uncle",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/13 - uncle el tio.mp3"
+  },
+  {
+    "Question": "La tía",
+    "Answer": "Aunt",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/14 - aunt la tia.mp3"
+  },
+  {
+    "Question": "El sobrino",
+    "Answer": "Nephew",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/15 - nephew el sobrino.mp3"
+  },
+  {
+    "Question": "La sobrina",
+    "Answer": "Niece",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/16 - niece la sobrina.mp3"
+  },
+  {
+    "Question": "El cuñado",
+    "Answer": "Brother-in-law",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/17 - brother in law cunado.mp3"
+  },
+  {
+    "Question": "La cuñada",
+    "Answer": "Sister-in-law",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/18 - sister in law la cunada.mp3"
+  },
+  {
+    "Question": "El suegro",
+    "Answer": "Father-in-law",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/19 - father in law  el suegro.mp3"
+  },
+  {
+    "Question": "La suegra",
+    "Answer": "Mother-in-law",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/20 - mother  in law la suegra.mp3"
+  },
+  {
+    "Question": "alto/a",
+    "Answer": "tall",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/21 - tall alto a.mp3"
+  },
+  {
+    "Question": "bajo/a",
+    "Answer": "short",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/22 - short bajo baja.mp3"
+  },
+  {
+    "Question": "gordo/a",
+    "Answer": "fat",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/23 - fat gordo a.mp3"
+  },
+  {
+    "Question": "delgado/a",
+    "Answer": "thin",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/24 - thin delgado a.mp3"
+  },
+  {
+    "Question": "feo/a",
+    "Answer": "ugly",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/25 - ugly feo a.mp3"
+  },
+  {
+    "Question": "guapo/a",
+    "Answer": "handsome/beautiful",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/26 - handsome beautiful guapo a.mp3"
+  },
+  {
+    "Question": "joven",
+    "Answer": "young",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/27 - young joven.mp3"
+  },
+  {
+    "Question": "viejo/a",
+    "Answer": "old",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/28 - old viejo vieja.mp3"
+  },
+  {
+    "Question": "bonito/a",
+    "Answer": "pretty",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/29 - pretty bonito a.mp3"
+  },
+  {
+    "Question": "simpático/a",
+    "Answer": "nice",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/30 - nice simpatico a.mp3"
+  },
+  {
+    "Question": "inteligente",
+    "Answer": "smart",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/31 - intelligent inteligente.mp3"
+  },
+  {
+    "Question": "negro",
+    "Answer": "black",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/32 - black negro.mp3"
+  },
+  {
+    "Question": "rubio/a",
+    "Answer": "blond (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/33 - blond rubio a.mp3"
+  },
+  {
+    "Question": "castaño/a",
+    "Answer": "brown (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/34 - brown castano a.mp3"
+  },
+  {
+    "Question": "pelirrojo/a",
+    "Answer": "red (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/35 - red hair pelirrojo a .mp3"
+  },
+  {
+    "Question": "canoso/a",
+    "Answer": "gray (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/36 - gray hair canoso a .mp3"
+  },
+  {
+    "Question": "blanco/a",
+    "Answer": "white (skin)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/37 - white skin blanco a .mp3"
+  },
+  {
+    "Question": "negro/a",
+    "Answer": "black (skin)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/38 - black skin negro a .mp3"
+  },
+  {
+    "Question": "asiático/a",
+    "Answer": "asian (skin)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/39 - asian asiatico a.mp3"
+  },
+  {
+    "Question": "moreno/a",
+    "Answer": "brown (skin)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/40 - brown skin moreno a.mp3"
+  },
+  {
+    "Question": "largo",
+    "Answer": "long (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/41 - long hair largo.mp3"
+  },
+  {
+    "Question": "corto",
+    "Answer": "short (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/42 - short hair corto.mp3"
+  },
+  {
+    "Question": "rizado",
+    "Answer": "curly (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/43 - curly hair rizado.mp3"
+  },
+  {
+    "Question": "liso",
+    "Answer": "straight (hair)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/44 - staight hair liso.mp3"
+  },
+  {
+    "Question": "verdes",
+    "Answer": "green (eyes)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/45 - green eyes verdes.mp3"
+  },
+  {
+    "Question": "azules",
+    "Answer": "blue (eyes)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/46 - blue eyes azules.mp3"
+  },
+  {
+    "Question": "marrones",
+    "Answer": "brown (eyes)",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/47 - brown eyes marrones.mp3"
+  },
+  {
+    "Question": "gafas",
+    "Answer": "glasses",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/48 - glasses gafas.mp3"
+  },
+  {
+    "Question": "bigote",
+    "Answer": "mustache",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/49 - mustache bigote.mp3"
+  },
+  {
+    "Question": "barba",
+    "Answer": "beard",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/50 - beard barba.mp3"
+  },
+  {
+    "Question": "abogado/a",
+    "Answer": "lawyer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/51 - lawyer abogado a.mp3"
+  },
+  {
+    "Question": "enfermero/a",
+    "Answer": "nurse",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/52 - nurse enfermero a.mp3"
+  },
+  {
+    "Question": "médico/a",
+    "Answer": "doctor",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/53 - doctor medico a .mp3"
+  },
+  {
+    "Question": "agente",
+    "Answer": "agent",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/54 - agent agente.mp3"
+  },
+  {
+    "Question": "immbilario/a",
+    "Answer": "real estate",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/55 - real estate imobilario a.mp3"
+  },
+  {
+    "Question": "profesor/a",
+    "Answer": "teacher",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/56 - professor profesor a.mp3"
+  },
+  {
+    "Question": "dentista",
+    "Answer": "dentist",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/57 - dentist dentista.mp3"
+  },
+  {
+    "Question": "veterinario/a",
+    "Answer": "veterinarian",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/58 - veterinarian veterinario a.mp3"
+  },
+  {
+    "Question": "policia",
+    "Answer": "police",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/59 - police policia.mp3"
+  },
+  {
+    "Question": "terapeuta",
+    "Answer": "therapist",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/60 - therapist terapeuta.mp3"
+  },
+  {
+    "Question": "arquitecto/a",
+    "Answer": "architect",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/61 - architect arquitecto a.mp3"
+  },
+  {
+    "Question": "diseñador/a",
+    "Answer": "designer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/62 - designer disenador a.mp3"
+  },
+  {
+    "Question": "psicologo/a",
+    "Answer": "psychologist",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/63 - psychologist psicologo a.mp3"
+  },
+  {
+    "Question": "ingeniero/a",
+    "Answer": "engineer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/64 - engineer ingeniero a.mp3"
+  },
+  {
+    "Question": "consultor/a",
+    "Answer": "consultant",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/65 - consultant consultor a .mp3"
+  },
+  {
+    "Question": "instructor/a",
+    "Answer": "instructor",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/66 - instructor a.mp3"
+  },
+  {
+    "Question": "constructor/a",
+    "Answer": "builder",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/67 - constructor constructor a.mp3"
+  },
+  {
+    "Question": "contador/a",
+    "Answer": "accountant",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/68 - accountant contador a.mp3"
+  },
+  {
+    "Question": "periodista",
+    "Answer": "journalist",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/69 - journalist periodista.mp3"
+  },
+  {
+    "Question": "bailarín/a",
+    "Answer": "dancer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/70 - dancer bailarin a.mp3"
+  },
+  {
+    "Question": "escritor/a",
+    "Answer": "writer",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/71 - writer escritor escritora.mp3"
+  },
+  {
+    "Question": "plomero/a",
+    "Answer": "plumber",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/72 - plumber plomero a.mp3"
+  },
+  {
+    "Question": "actor/actríz",
+    "Answer": "actor/actress",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/73 - actor actress actor actriz.mp3"
+  },
+  {
+    "Question": "electricista",
+    "Answer": "electrician",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/74 - electrician electricista.mp3"
+  },
+  {
+    "Question": "peluquero/a",
+    "Answer": "hairdresser",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/75 - hairdresser peluquero peluquera.mp3"
+  },
+  {
+    "Question": "vendedor/a",
+    "Answer": "seller",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/76 - seller vendedor a.mp3"
+  },
+  {
+    "Question": "piloto",
+    "Answer": "pilot",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/77 - pilot piloto.mp3"
+  },
+  {
+    "Question": "madre",
+    "Answer": "mother",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/78 - motherr madre.mp3"
+  },
+  {
+    "Question": "padre",
+    "Answer": "father",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit3-vocab/79 - father padre.mp3"
+  }
+]

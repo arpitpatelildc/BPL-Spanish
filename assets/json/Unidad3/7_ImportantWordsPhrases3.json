@@ -1,0 +1,72 @@
+[
+  {
+    "Question": "¿Cómo va todo?",
+    "Answer": "How is everything?",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Bien, gracias",
+    "Answer": "Good, thanks",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Hasta pronto",
+    "Answer": "See you soon",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Nos vemos",
+    "Answer": "See you",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "No te preocupes",
+    "Answer": "Don't worry",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "No hay problema",
+    "Answer": "No problem",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Buena suerte!",
+    "Answer": "Good luck",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Chévere!",
+    "Answer": "Great!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Fantástico!",
+    "Answer": "Fantastic!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Increíble!",
+    "Answer": "Incredible!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "No importa",
+    "Answer": "No matter",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Qué bien!",
+    "Answer": "How great!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Qué mal...!",
+    "Answer": "How awful!",
+    "Path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Qué pena...!",
+    "Answer": "What a pity!",
+    "Path": "assets/images/bpl_Logo.png"
+  }
+]

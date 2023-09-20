@@ -1,0 +1,912 @@
+[
+  {
+    "question": "__ avión",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ autobús",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ automóvil",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ aeropuertos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__  parque",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ oficinas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ casa",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ edificios",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ habitaciónes",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ niños",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ hombre",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mujer",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ perro",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ tortugas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ gato",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ sombreros",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ huevo",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ tesoros",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cerebros",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ plato",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cuadernos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cuadro",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ manos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ foto",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ motos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mariposas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cartera",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mesas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ ventana",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ camisetas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ bandera",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ camionetas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ días",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mediodía",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mapas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ sofás",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ planetas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ agua",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ manos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ clima",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cocina",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ papá",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ problemas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ idioma",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ escaleras",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mapas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ sofá",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ lámpara",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ camas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ niños",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ escritorio",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ vasos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ baño",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ libro",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ vela",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ música",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ teléfono",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ pelo",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ camión",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ canción",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ árbol",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ lenguajes",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ paredes",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ gatos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ merienda",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ fotos",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ peluches",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ iguana",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ perros",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ uñas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cabeza",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ papel",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cuadros",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ campana",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ collares",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ tarjeta",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ diplomas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ carta",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cargadores",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cortina",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ elefante",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ tenedores",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 1},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cucharas",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 1}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ servilleta",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ cuchillo",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ alfombra",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ piel",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ labial",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ mantequilla",
+    "answers": [
+      {"text": "el", "score": 0},
+      {"text": "la", "score": 1},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ pan",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  },
+  {
+    "question": "__ aceite",
+    "answers": [
+      {"text": "el", "score": 1},
+      {"text": "la", "score": 0},
+      {"text": "los", "score": 0},
+      {"text": "las", "score": 0}
+    ],
+    "path": "assets/images/cerebrillo.png"
+  }
+]

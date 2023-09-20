@@ -1,0 +1,52 @@
+[
+  {
+    "Question": "Buenos días",
+    "Answer": "Good morning",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Buenas tardes",
+    "Answer": "Good afternoon",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Buenas noches",
+    "Answer": "Good night",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¿Qué tal?",
+    "Answer": "What's up?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¿Cómo le va? - Bien, gracias",
+    "Answer": "How is it going? - Good, thank you",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¿De dónde es usted? - Yo soy de _____",
+    "Answer": "Where are you from? - I am from _____",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Mucho gusto",
+    "Answer": "Nice to meet you",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "¡Hasta luego!",
+    "Answer": "See you later!",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Hasta pronto",
+    "Answer": "See you soon",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question": "Nos vemos",
+    "Answer": "See you",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

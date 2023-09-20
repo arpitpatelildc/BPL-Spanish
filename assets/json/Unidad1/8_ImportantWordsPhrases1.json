@@ -1,0 +1,90 @@
+[
+  {
+    "Question":"¿Qué?",
+    "Answer":"What?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/2 What.mp3"
+  },
+  {
+    "Question":"¿Qué tal?",
+    "Answer":"What's up?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Cuándo?",
+    "Answer":"When?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/3 When.mp3"
+  },
+  {
+    "Question":"¿Cuando es la fiesta?",
+    "Answer":"When the party?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Dónde?",
+    "Answer":"Where?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/4 Where.mp3"
+  },
+  {
+    "Question":" ¿ Dónde es la clase?",
+    "Answer":"Where is the class?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Cómo?",
+    "Answer":"How?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/5 how.mp3"
+  },
+  {
+    "Question":"¿Cómo se llama?",
+    "Answer":"What is your name?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Cuál?",
+    "Answer":"Which",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/6 which.mp3"
+  },
+  {
+    "Question":"¿Cuál es su apellido?",
+    "Answer":"What is your last name?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Por qué? ",
+    "Answer":"Why?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/7 why.mp3"
+  },
+  {
+    "Question": "Porque ",
+    "Answer":"Because",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Quién?",
+    "Answer":"Who?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/8 who.mp3"
+  },
+  {
+    "Question":"¿Quién es el jefe?",
+    "Answer":"Who is the boss?",
+    "Path" : "assets/images/bpl_Logo.png"
+  },
+  {
+    "Question":"¿Cuánto? ",
+    "Answer":"How much?",
+    "Path" : "assets/images/bpl_Logo.png",
+    "Audio": "assets/audio/unit1-phrases/9 how much.mp3"
+  },
+  {
+    "Question":"¿Cuánto cuesta?",
+    "Answer":"How much does it cost?",
+    "Path" : "assets/images/bpl_Logo.png"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Choose the best option to fill in the blank:\nYo (tener) _____.",
+    "answers": [
+      {"text": "tiene", "score": 0},
+      {"text": "tienes", "score": 0},
+      {"text": "tengo", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo (llevar) _____.",
+    "answers": [
+      {"text": "llevo", "score": 1},
+      {"text": "llevan", "score": 0},
+      {"text": "llevas", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú (tener) _____.",
+    "answers": [
+      {"text": "tengo", "score": 0},
+      {"text": "tiene", "score": 0},
+      {"text": "tienes", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú (llevar) _____.",
+    "answers": [
+      {"text": "llevas", "score": 1},
+      {"text": "lleva", "score": 0},
+      {"text": "llevan", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl (tener) _____.",
+    "answers": [
+      {"text": "tienen", "score": 0},
+      {"text": "tienes", "score": 0},
+      {"text": "tiene", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl (llevar) _____.",
+    "answers": [
+      {"text": "llevo", "score": 0},
+      {"text": "llevas", "score": 0},
+      {"text": "lleva", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla (tener) _____.",
+    "answers": [
+      {"text": "tienen", "score": 0},
+      {"text": "tiene", "score": 1},
+      {"text": "tengo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla (llevar) _____.",
+    "answers": [
+      {"text": "llevas", "score": 0},
+      {"text": "lleva", "score": 1},
+      {"text": "llevan", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllos (tener) _____.",
+    "answers": [
+      {"text": "tienen", "score": 1},
+      {"text": "tengo", "score": 0},
+      {"text": "tiene", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllos (llevar) _____.",
+    "answers": [
+      {"text": "llevas", "score": 0},
+      {"text": "llevan", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllas (tener) _____.",
+    "answers": [
+      {"text": "tiene", "score": 0},
+      {"text": "tienen", "score": 1},
+      {"text": "tienes", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllas (llevar) _____.",
+    "answers": [
+      {"text": "llevo", "score": 0},
+      {"text": "lleva", "score": 0},
+      {"text": "llevan", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUsted (tener) _____.",
+    "answers": [
+      {"text": "tengo", "score": 0},
+      {"text": "tienes", "score": 0},
+      {"text": "tiene", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUsted (llevar) _____.",
+    "answers": [
+      {"text": "lleva", "score": 1},
+      {"text": "llevas", "score": 0},
+      {"text": "llevan", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUstedes (tener) _____.",
+    "answers": [
+      {"text": "tengo", "score": 0},
+      {"text": "tienen", "score": 1},
+      {"text": "tienes", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUstedes (llevar) _____.",
+    "answers": [
+      {"text": "llevo", "score": 0},
+      {"text": "llevan", "score": 1},
+      {"text": "llevas", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ el pelo largo.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú _____ pelo castaño.",
+    "answers": [
+      {"text": "llevas", "score": 0},
+      {"text": "tienes", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ los ojos verdes.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUstedes _____ los ojos marrones.",
+    "answers": [
+      {"text": "tienen", "score": 1},
+      {"text": "llevan", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú _____ el pelo corto.",
+    "answers": [
+      {"text": "tienes", "score": 1},
+      {"text": "llevas", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ 30 años.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllos _____ pelo negro.",
+    "answers": [
+      {"text": "llevan", "score": 0},
+      {"text": "tienen", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nYo _____ los ojos azules.",
+    "answers": [
+      {"text": "tengo", "score": 1},
+      {"text": "llevo", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUstedes _____ el pelo rubio.",
+    "answers": [
+      {"text": "llevan", "score": 0},
+      {"text": "tienen", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla _____ 12 años.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllos _____ los ojos negros.",
+    "answers": [
+      {"text": "llevan", "score": 0},
+      {"text": "tienen", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl _____ el pelo pelirrojo.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla _____ gafas.",
+    "answers": [
+      {"text": "lleva", "score": 1},
+      {"text": "tiene", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUsted _____ un bigote.",
+    "answers": [
+      {"text": "tiene", "score": 0},
+      {"text": "lleva", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú _____ 53 años.",
+    "answers": [
+      {"text": "tienes", "score": 1},
+      {"text": "llevas", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nUsted _____ el pelo liso.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nEllos _____ barbas.",
+    "answers": [
+      {"text": "tienen", "score": 0},
+      {"text": "llevan", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nElla _____ el pelo rizado.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nÉl _____ el pelo canoso.",
+    "answers": [
+      {"text": "tiene", "score": 1},
+      {"text": "lleva", "score": 0}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  },
+  {
+    "question": "Choose the best option to fill in the blank:\nTú _____ 50 años.",
+    "answers": [
+      {"text": "llevas", "score": 0},
+      {"text": "tienes", "score": 1}
+    ],
+    "path": "assets/images/bpl_Logo.png"
+  }
+]
