@@ -21,6 +21,20 @@ class Units extends StatefulWidget {
 
 class _UnitsState extends State<Units> {
   @override
+  void initState() {
+    super.initState();
+    prefCheck();
+  }
+
+  String email = "sifBPL@gmail.com";
+
+  prefCheck() async {
+    SharedPreferences pref = await SharedPreferences.getInstance();
+    email = pref.getString("email") ?? "sifBPL@gmail.com";
+    setState(() {});
+  }
+
+  @override
   // The widget being built here is the entire screen, and the body: ListWidget() creates an inner widget that is the list of Units (ToC).
   Widget build(BuildContext context) {
     return Scaffold(
@@ -118,6 +132,15 @@ class _UnitsState extends State<Units> {
                     "assets/images/BPL_Logo.jpeg",
                   ),
                 ),
+              ),
+              SizedBox(height: 10),
+              Text(
+                email,
+                style: TextStyle(
+                  fontSize: subtitleFontSize,
+                  fontStyle: FontStyle.italic,
+                ),
+                textAlign: TextAlign.center,
               ),
               SizedBox(height: 40),
               Text(

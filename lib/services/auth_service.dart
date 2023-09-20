@@ -27,6 +27,7 @@ class AuthService {
       UserCredential userRef = await _auth.signInWithEmailAndPassword(
           email: email, password: password);
       pref.setString("userId", userRef.user!.uid);
+      pref.setString("email", userRef.user!.email.toString());
       final Map<String, dynamic> data = {};
       NavigationUtils.pushAndRemoveUntil(context, AppRoutes.routeUnit,
           arguments: data);
@@ -62,6 +63,7 @@ class AuthService {
       final CollectionReference users =
           FirebaseFirestore.instance.collection('users');
       pref.setString("userId", userCredential.user!.uid);
+      pref.setString("email", userCredential.user!.email.toString());
       try {
         await users.doc(userCredential.user!.uid).set({
           'email': email,
