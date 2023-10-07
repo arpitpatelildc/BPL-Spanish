@@ -38,16 +38,6 @@ class AppColors {
   static const Color smile8Bg = Color(0xFFA5C774);
   static const Color smile9Bg = Color(0xFF789054);
   static const Color smile10Bg = Color(0xFF586D39);
-  //smile1 = #F25460
-  // smile2 = #FC6349
-  // smile3 = #FF8641
-  // smile4 = #FFA834
-  // smile5 = #FFCC20
-  // smile6 = #E7E989
-  // smile7 = #C1E989
-  // smile8 = #A5C774
-  // smile9 = #789054
-  // smile10 = #586D39
 
   static const Color bgGrey = Color(0xFFe6e6e6);
 /// e6e6e6   /// f2f2f2

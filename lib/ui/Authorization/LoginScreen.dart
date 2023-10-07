@@ -1,20 +1,16 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:sif_book/constant/Constant.dart';
 import 'package:sif_book/startup/globals.dart';
 import 'package:sif_book/utils/resources/color_utils.dart';
-import 'package:sif_book/utils/resources/image_utils.dart';
 import 'package:sif_book/utils/resources/size_utils.dart';
 import 'package:sif_book/utils/resources/style_utils.dart';
 import 'package:sif_book/utils/route/navigation.dart';
 import 'package:sif_book/utils/validations/utils.dart';
 import 'package:sif_book/widget/CustomTextfield.dart';
 import 'package:sif_book/widget/LoadingSplashScreen.dart';
-
 import '../../../widget/ScreenListener.dart';
-import '../../../widget/progress_dialog.dart';
 import '../../services/auth_service.dart';
 
 class LoginScreen extends ScreenListener {

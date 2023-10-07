@@ -1,8 +1,18 @@
 import 'dart:async';
+import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sif_book/constant/Constant.dart';
+import 'package:sif_book/ui/SubscribeScreen.dart';
+import 'package:sif_book/ui/constant.dart';
+import 'package:sif_book/ui/native_dialog.dart';
+import 'package:sif_book/ui/paywall.dart';
+import 'package:sif_book/ui/singletons_data.dart';
+import 'package:sif_book/ui/store_config.dart';
+import 'package:sif_book/ui/styles.dart';
 import 'package:sif_book/utils/route/navigation.dart';
 import '../units/unit1.dart';
 import '../units/unit2.dart';
@@ -23,7 +33,47 @@ class _UnitsState extends State<Units> {
   @override
   void initState() {
     super.initState();
+    initPlatformState();
     prefCheck();
+  }
+
+  Future<void> initPlatformState() async {
+
+    // Enable debug logs before calling `configure`.
+    await Purchases.setLogLevel(LogLevel.debug);
+
+    /*
+    - appUserID is nil, so an anonymous ID will be generated automatically by the Purchases SDK. Read more about Identifying Users here: https://docs.revenuecat.com/docs/user-ids
+
+    - observerMode is false, so Purchases will automatically handle finishing transactions. Read more about Observer Mode here: https://docs.revenuecat.com/docs/observer-mode
+    */
+    var pref = await SharedPreferences.getInstance();
+
+    var email =pref.getString("email");
+    PurchasesConfiguration configuration;
+    if (StoreConfig.isForAmazonAppstore()) {
+      configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
+        ..appUserID = email
+        ..observerMode = false;
+    } else {
+      configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
+        ..appUserID = email
+        ..observerMode = false;
+    }
+    await Purchases.configure(configuration);
+
+    appData.appUserID = await Purchases.appUserID;
+
+    Purchases.addCustomerInfoUpdateListener((customerInfo) async {
+      appData.appUserID = await Purchases.appUserID;
+
+      CustomerInfo customerInfo = await Purchases.getCustomerInfo();
+      EntitlementInfo? entitlement =
+      customerInfo.entitlements.all[entitlementID];
+      appData.entitlementIsActive = entitlement?.isActive ?? false;
+
+      setState(() {});
+    });
   }
 
   String email = "sifBPL@gmail.com";
@@ -238,6 +288,109 @@ class _ListWidgetState extends State<ListWidget> {
     'Origen y Nacionalidad, Dinero\n(Origin and Nationality, Money)'
   ];
 
+  void perfomMagic(index,) async {
+    // setState(() {
+    //   _isLoading = true;
+    // });
+
+    CustomerInfo customerInfo = await Purchases.getCustomerInfo();
+
+    if (customerInfo.entitlements.all[entitlementID] != null &&
+        customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+
+      if (currentUnit == 0) {
+        currentUnit = 1;
+      }
+      if (index == 1) {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => NeuroscienceUI()))
+            .then(onGoBack);
+      } else if (index == 2) {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Unit1Activitys()))
+            .then(onGoBack);
+      } else if (index == 3) {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Unit2Activitys()))
+            .then(onGoBack);
+      } else if (index == 4) {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Unit3Activitys()))
+            .then(onGoBack);
+      } else if (index == 5) {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Unit4Activitys()))
+            .then(onGoBack);
+      } else {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Unit5Activitys()))
+            .then(onGoBack);
+      }
+      // setState(() {
+      //   _isLoading = false;
+      // });
+    } else {
+      Offerings? offerings;
+      try {
+        offerings = await Purchases.getOfferings();
+      } on PlatformException catch (e) {
+        await showDialog(
+            context: context,
+            builder: (BuildContext context) => ShowDialogToDismiss(
+                title: "Error",
+                content: e.message ?? "Unknown error",
+                buttonText: 'OK'));
+      }
+
+      // setState(() {
+      //   _isLoading = false;
+      // });
+
+      if (offerings == null || offerings.current == null) {
+        // offerings are empty, show a message to your user
+        await showDialog(
+            context: context,
+            builder: (BuildContext context) => ShowDialogToDismiss(
+                title: "Error",
+                content: "Unknown error",
+                buttonText: 'OK'));
+      } else {
+        // current offering is available, show paywall
+        await showModalBottomSheet(
+          useRootNavigator: true,
+          isDismissible: true,
+          isScrollControlled: true,
+          backgroundColor: kColorBackground,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(25.0)),
+          ),
+          context: context,
+          builder: (BuildContext context) {
+            return StatefulBuilder(
+                builder: (BuildContext context, StateSetter setModalState) {
+                  return Paywall(
+                    offering: offerings!.current!,
+                  );
+                });
+          },
+        );
+      }
+    }
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -257,80 +410,37 @@ class _ListWidgetState extends State<ListWidget> {
           shrinkWrap: true,
           itemBuilder: (BuildContext context, int index) {
             if (index == 0) {
-              return Container(
-                  child: Padding(
+              return Padding(
                 padding: EdgeInsets.fromLTRB(25.0, 25.0, 25.0, 25.0),
                 child: Text(
-                  'Welcome to the SIF Language School App! Visit https://siflanguageschool.com/ to learn more.\n\nClick on anything with an unlocked symbol to get started. As you progress, more tiles will be unlocked. Happy learning!',
+              'Welcome to the SIF Language School App! Visit https://siflanguageschool.com/ to learn more.\n\nClick on anything with an unlocked symbol to get started. As you progress, more tiles will be unlocked. Happy learning!',
+              textAlign: TextAlign.left,
+              style:
+                  TextStyle(fontSize: subtitleFontSize - 1, color: sifBlue),
+                ),
+              );
+            } else {
+              return ListTile(
+                leading: CircleAvatar(
+                    backgroundImage: AssetImage(asestImages[index])),
+                title: Text(
+                  titles[index],
+                  textAlign: TextAlign.left,
+                  style: TextStyle(fontSize: titleFontSize, color: sifGreen),
+                ),
+                subtitle: Text(
+                  subTitles[index],
                   textAlign: TextAlign.left,
                   style:
-                      TextStyle(fontSize: subtitleFontSize - 1, color: sifBlue),
+                      TextStyle(fontSize: subtitleFontSize, color: sifGreen),
                 ),
-              ));
-            } else {
-              return Container(
-                child: ListTile(
-                  leading: CircleAvatar(
-                      backgroundImage: AssetImage(asestImages[index])),
-                  title: Text(
-                    titles[index],
-                    textAlign: TextAlign.left,
-                    style: TextStyle(fontSize: titleFontSize, color: sifGreen),
-                  ),
-                  subtitle: Text(
-                    subTitles[index],
-                    textAlign: TextAlign.left,
-                    style:
-                        TextStyle(fontSize: subtitleFontSize, color: sifGreen),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                  trailing: (currentUnit >= index - 1) ? unlocked : locked,
-                  selected: (currentUnit >= index - 1) ? true : false,
-                  enabled: (currentUnit >= index - 1) ? true : false,
-                  onTap: () {
-                    if (currentUnit == 0) {
-                      currentUnit = 1;
-                    }
-
-                    if (index == 1) {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => NeuroscienceUI()))
-                          .then(onGoBack);
-                    } else if (index == 2) {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Unit1Activitys()))
-                          .then(onGoBack);
-                    } else if (index == 3) {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Unit2Activitys()))
-                          .then(onGoBack);
-                    } else if (index == 4) {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Unit3Activitys()))
-                          .then(onGoBack);
-                    } else if (index == 5) {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Unit4Activitys()))
-                          .then(onGoBack);
-                    } else {
-                      Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Unit5Activitys()))
-                          .then(onGoBack);
-                    }
-                  },
-                ),
+                visualDensity: VisualDensity(vertical: -4),
+                trailing: (currentUnit >= index - 1) ? unlocked : locked,
+                selected: (currentUnit >= index - 1) ? true : false,
+                enabled: (currentUnit >= index - 1) ? true : false,
+                onTap: () {
+                  perfomMagic(index);
+                },
               );
             }
           }),
@@ -518,4 +628,5 @@ class _ListWidgetState extends State<ListWidget> {
   FutureOr onGoBack(dynamic value) {
     setState(() {});
   }
+
 }

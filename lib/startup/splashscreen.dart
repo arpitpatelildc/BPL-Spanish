@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sif_book/ui/Authorization/LoginScreen.dart';
@@ -22,8 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   checkPref() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    alreadyLoggedIn = sharedPreferences.getString("userId") != null ||
-            sharedPreferences.getString("userId") != ""
+    alreadyLoggedIn = sharedPreferences.getString("userId") != null
         ? true
         : false;
     setState(() {});
@@ -33,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return SplashScreenView(
       // navigateRoute: const Chapters(),
-      navigateRoute: alreadyLoggedIn ? Units() : LoginScreen(),
+      navigateRoute: alreadyLoggedIn == true ? Units() : LoginScreen(),
       duration: 3500,
       imageSize: 500,
       // imageSrc: 'assets/images/workbook_Cover.JPG',

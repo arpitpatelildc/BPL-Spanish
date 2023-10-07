@@ -1,7 +1,12 @@
 import 'dart:convert';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:purchases_flutter/purchases_flutter.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sif_book/ui/constant.dart';
+import 'package:sif_book/ui/store_config.dart';
 import 'startup/splashscreen.dart';
 import 'startup/globals.dart';
 import 'utils/route/navigation.dart';
@@ -155,6 +160,21 @@ void main() async {
   Unit5_4r = json.decode(Unit5_4);
   Unit5_5r = json.decode(Unit5_5);
 
+  if (Platform.isIOS || Platform.isMacOS) {
+    StoreConfig(
+      store: Store.appStore,
+      apiKey: appleApiKey,
+    );
+  } else if (Platform.isAndroid) {
+    // Run the app passing --dart-define=AMAZON=true
+    StoreConfig(
+      store: Store.playStore,
+      apiKey: googleApiKey,
+    );
+  }
+
+  // await _configureSDK();
+
   runApp(const MyApp());
 }
 
@@ -175,3 +195,28 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//
+// Future<void> _configureSDK() async {
+//   // Enable debug logs before calling `configure`.
+//   await Purchases.setLogLevel(LogLevel.debug);
+//
+//   /*
+//     - appUserID is nil, so an anonymous ID will be generated automatically by the Purchases SDK. Read more about Identifying Users here: https://docs.revenuecat.com/docs/user-ids
+//
+//     - observerMode is false, so Purchases will automatically handle finishing transactions. Read more about Observer Mode here: https://docs.revenuecat.com/docs/observer-mode
+//     */
+//   var pref = await SharedPreferences.getInstance();
+//
+//   var email =pref.getString("email");
+//   PurchasesConfiguration configuration;
+//   if (StoreConfig.isForAmazonAppstore()) {
+//     configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
+//       ..appUserID = email
+//       ..observerMode = false;
+//   } else {
+//     configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
+//       ..appUserID = email
+//       ..observerMode = false;
+//   }
+//   await Purchases.configure(configuration);
+// }
