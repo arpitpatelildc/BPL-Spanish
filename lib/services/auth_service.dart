@@ -26,8 +26,13 @@ class AuthService {
       var pref = await SharedPreferences.getInstance();
       UserCredential userRef = await _auth.signInWithEmailAndPassword(
           email: email, password: password);
+      final CollectionReference users =
+      FirebaseFirestore.instance.collection('users');
+      var userData = await users.doc(userRef.user!.uid).get();
       pref.setString("userId", userRef.user!.uid);
       pref.setString("email", userRef.user!.email.toString());
+      pref.setString("firstName", userData["firstName"]);
+      pref.setString("lastName", userData["surName"]);
       final Map<String, dynamic> data = {};
       NavigationUtils.pushAndRemoveUntil(context, AppRoutes.routeUnit,
           arguments: data);
@@ -64,6 +69,8 @@ class AuthService {
           FirebaseFirestore.instance.collection('users');
       pref.setString("userId", userCredential.user!.uid);
       pref.setString("email", userCredential.user!.email.toString());
+      pref.setString("firstName", firstName.toString());
+      pref.setString("lastName", surName.toString());
       try {
         await users.doc(userCredential.user!.uid).set({
           'email': email,
