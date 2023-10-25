@@ -369,9 +369,9 @@ class _LoginScreenState extends ScreenListenerState<ScreenListener> {
     var checkUserExist = await AuthService().doesUserExist(txtEmail.text);
     debugPrint('${txtEmail.text},${txtPassword.text}');
     if (checkUserExist) {
-      bool check = await AuthService()
+      bool? check = await AuthService()
           .signInWithEmailAndPassword(context, txtEmail.text, txtPassword.text);
-      isLoading = check;
+      isLoading = check ?? false;
       setState(() {});
     } else {
       isLoading = false;

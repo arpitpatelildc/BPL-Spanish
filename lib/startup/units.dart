@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:intl/intl.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sif_book/constant/Constant.dart';
@@ -27,6 +28,9 @@ class Units extends StatefulWidget {
 }
 
 class _UnitsState extends State<Units> {
+  bool isLoading = false;
+  EntitlementInfo? entitlement;
+
   @override
   void initState() {
     super.initState();
@@ -60,11 +64,14 @@ class _UnitsState extends State<Units> {
       appData.appUserID = await Purchases.appUserID;
 
       CustomerInfo customerInfo = await Purchases.getCustomerInfo();
-      EntitlementInfo? entitlement =
-          customerInfo.entitlements.all[entitlementID];
+      entitlement = customerInfo.entitlements.all[entitlementID];
       appData.entitlementIsActive = entitlement?.isActive ?? false;
-
-      setState(() {});
+      if (customerInfo.entitlements.all[entitlementID] != null &&
+          customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+        isSubscribed = true;
+      } else {
+        isSubscribed = false;
+      }
     });
   }
 
@@ -78,14 +85,21 @@ class _UnitsState extends State<Units> {
     email = pref.getString("email") ?? "sifBPL@gmail.com";
     firstName = pref.getString("firstName") ?? "";
     surName = pref.getString("lastName") ?? "";
-    CustomerInfo customerInfo = await Purchases.getCustomerInfo();
-    if (customerInfo.entitlements.all[entitlementID] != null &&
-        customerInfo.entitlements.all[entitlementID]?.isActive == true) {
-      isSubscribed = true;
-    } else {
-      isSubscribed = false;
-    }
     setState(() {});
+  }
+
+  expireDate(inputDateString) {
+    DateTime dateTime = DateTime.parse(inputDateString);
+    String formattedDate = DateFormat('dd-MM-yyyy').format(dateTime);
+    return "Expired on: $formattedDate";
+  }
+
+  productIdentifier(String identifier){
+    if(identifier.contains("monthly")){
+      return "Subscription Type: Monthly";
+    }else if(identifier.contains("half_yearly")){
+      return "Subscription Type: Half Yearly";
+    }
   }
 
   @override
@@ -111,51 +125,62 @@ class _UnitsState extends State<Units> {
                 backgroundImage: AssetImage('assets/images/BPL_Logo.jpeg'),
               ),
             ),
-            if(!isSubscribed)
-            ListTile(
-              leading: Icon(Icons.star),
-              title: Text('Subscribe'),
-              onTap: () async {
-                Offerings? offerings;
-                try {
-                  offerings = await Purchases.getOfferings();
-                } on PlatformException catch (e) {
-                  await showDialog(
-                  context: context,
-                  builder: (BuildContext context) => ShowDialogToDismiss(
-                      title: "Error",
-                      content: e.message ?? "Unknown error",
-                      buttonText: 'OK'));
-                }
-
-                if (offerings == null || offerings.current == null) {
-                  // offerings are empty, show a message to your user
-                  // await showDialog(
-                  //     context: context,
-                  //     builder: (BuildContext context) => ShowDialogToDismiss(
-                  //         title: "Error", content: "Unknown error", buttonText: 'OK'));
-                } else {
-                  // current offering is available, show paywall
-                  bool isSub = await Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => PayWall(
-                        offering: offerings!.current!,
-                      ),
-                    ),
-                  );
-                  if (isSub == true) {
-                    isSubscribed = isSub;
-                    setState(() {});
+            if (!isSubscribed)
+              ListTile(
+                leading: Icon(Icons.star),
+                title: Text('Subscribe'),
+                onTap: () async {
+                  Offerings? offerings;
+                  try {
+                    offerings = await Purchases.getOfferings();
+                  } on PlatformException catch (e) {
+                    await showDialog(
+                        context: context,
+                        builder: (BuildContext context) => ShowDialogToDismiss(
+                            title: "Error",
+                            content: e.message ?? "Unknown error",
+                            buttonText: 'OK'));
                   }
-                }
-              },
-            ),
-            if(isSubscribed) ListTile(
-              leading: Icon(Icons.check),
-              title: Text('Subscribed'),
-              enabled: false,
-            ),
+
+                  if (offerings == null || offerings.current == null) {
+                    // offerings are empty, show a message to your user
+                    // await showDialog(
+                    //     context: context,
+                    //     builder: (BuildContext context) => ShowDialogToDismiss(
+                    //         title: "Error", content: "Unknown error", buttonText: 'OK'));
+                  } else {
+                    // current offering is available, show paywall
+                    bool isSub = await Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PayWall(
+                          offering: offerings!.current!,
+                        ),
+                      ),
+                    );
+                    if (isSub == true) {
+                      isSubscribed = isSub;
+                      setState(() {});
+                    }
+                  }
+                },
+              ),
+            if (isSubscribed)
+              ListTile(
+                leading: Icon(Icons.check),
+                title: Text('Subscribed'),
+                subtitle: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(entitlement?.expirationDate != null
+                        ? expireDate(entitlement?.expirationDate)
+                        : "",textAlign: TextAlign.start,),
+                    Text(entitlement?.productIdentifier != null?productIdentifier(entitlement?.productIdentifier ?? "")  :"",textAlign: TextAlign.start,)
+                  ],
+                ),
+                enabled: false,
+              ),
             ListTile(
               onTap: () async {
                 await _auth.signOut();
@@ -252,6 +277,8 @@ class _UnitsState extends State<Units> {
   void perfomMagic(
     index,
   ) async {
+    isLoading = true;
+    setState(() {});
     CustomerInfo customerInfo = await Purchases.getCustomerInfo();
 
     if (customerInfo.entitlements.all[entitlementID] != null &&
@@ -284,12 +311,15 @@ class _UnitsState extends State<Units> {
                 MaterialPageRoute(builder: (context) => const Unit5Activitys()))
             .then(onGoBack);
       }
-    } else
-    {
+      isLoading = false;
+      setState(() {});
+    } else {
       Offerings? offerings;
       try {
         offerings = await Purchases.getOfferings();
       } on PlatformException catch (e) {
+        isLoading = false;
+        setState(() {});
         await showDialog(
             context: context,
             builder: (BuildContext context) => ShowDialogToDismiss(
@@ -319,6 +349,7 @@ class _UnitsState extends State<Units> {
         } else {
           isSubscribed = true;
         }
+        isLoading = false;
         setState(() {});
       }
     }
@@ -366,7 +397,11 @@ class _UnitsState extends State<Units> {
                   style: TextStyle(fontSize: subtitleFontSize, color: sifGreen),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
-                trailing: (currentUnit >= index - 1) ? unlocked : locked,
+                trailing: isSubscribed
+                    ? (currentUnit >= index - 1)
+                        ? unlocked
+                        : locked
+                    : locked,
                 selected: (currentUnit >= index - 1) ? true : false,
                 enabled: (currentUnit >= index - 1) ? true : false,
                 onTap: () {
