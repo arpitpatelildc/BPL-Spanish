@@ -151,25 +151,32 @@ class _PayWallState extends State<PayWall> {
                       height: MediaQuery.of(context).size.height * 0.05,
                       child: ElevatedButton(
                         onPressed: () async {
-                          isLoading = true;
-                          setState(() {});
-                          try {
-                            CustomerInfo customerInfo =
-                                await Purchases.purchasePackage(widget
-                                    .offering.availablePackages[selectedIndex]);
-                            EntitlementInfo? entitlement =
-                                customerInfo.entitlements.all[entitlementID];
-                            appData.entitlementIsActive =
-                                entitlement?.isActive ?? false;
-                            SharedPreferences pref =
-                                await SharedPreferences.getInstance();
-                            pref.setBool("isSubscribed", true);
-                          } catch (e) {
-                            print(e);
+                          if(selectedIndex < 2) {
+                            isLoading = true;
+                            setState(() {});
+                            try {
+                              CustomerInfo customerInfo =
+                              await Purchases.purchasePackage(widget
+                                  .offering.availablePackages[selectedIndex]);
+                              EntitlementInfo? entitlement =
+                              customerInfo.entitlements.all[entitlementID];
+                              appData.entitlementIsActive =
+                                  entitlement?.isActive ?? false;
+                              SharedPreferences pref =
+                              await SharedPreferences.getInstance();
+                              pref.setBool("isSubscribed", true);
+                            } catch (e) {
+                              print(e);
+                            }
+                            isLoading = false;
+                            setState(() {});
+                            Navigator.pop(context, true);
+                          } else{
+                            final snackBar = SnackBar(
+                              content: Text('Select the package to continue'),
+                            );
+                            ScaffoldMessenger.of(context).showSnackBar(snackBar);
                           }
-                          isLoading = false;
-                          setState(() {});
-                          Navigator.pop(context, true);
                         },
                         style: ButtonStyle(
                           shape:
@@ -184,14 +191,6 @@ class _PayWallState extends State<PayWall> {
                         ),
                       ),
                     ),
-                    // TextButton(
-                    //   onPressed: () {
-                    //     Purchases.restorePurchases();
-                    //   },
-                    //   child: Text(
-                    //     "Restore",
-                    //   ),
-                    // ),
                   ],
                 ),
               ],

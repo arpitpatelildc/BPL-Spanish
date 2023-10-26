@@ -1,4 +1,6 @@
 import 'dart:async';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -183,6 +185,62 @@ class _UnitsState extends State<Units> {
               ),
             ListTile(
               onTap: () async {
+                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/about-us/about-sif"))) {
+                  throw Exception('Could not launch https://siflanguageschool.com/about-us/about-sif');
+                }
+              },
+              leading: Icon(Icons.info),
+              title: Text('About Us'),
+            ),
+            ListTile(
+              onTap: () async {
+                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/contact-us"))) {
+                  throw Exception('Could not launch https://siflanguageschool.com/contact-us');
+                }
+              },
+              leading: Icon(Icons.quick_contacts_mail_rounded),
+              title: Text('Contact Us'),
+            ),
+            ListTile(
+              onTap: () async {
+                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/privacy"))) {
+                  throw Exception('Could not launch https://siflanguageschool.com/privacy');
+                }
+              },
+              leading: Icon(Icons.privacy_tip_sharp),
+              title: Text('Privacy Policy'),
+            ),
+            ListTile(
+              onTap: () async {
+                showDialog(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return AlertDialog(
+                      title: Text('Delete Account'),
+                      content: Text('Are you sure you want to delete your account?'),
+                      actions: <Widget>[
+                        TextButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          child: Text('Cancel'),
+                        ),
+                        TextButton(
+                          onPressed: () {
+                            deleteUserAccount(); // Call the function to delete the user account
+                          },
+                          child: Text('Confirm'),
+                        ),
+                      ],
+                    );
+                  },
+                );
+              },
+              leading: Icon(Icons.delete),
+              title: Text('Delete Account'),
+            ),
+            ListTile(
+              onTap: () async {
                 await _auth.signOut();
                 SharedPreferences pref = await SharedPreferences.getInstance();
                 pref.clear();
@@ -347,7 +405,7 @@ class _UnitsState extends State<Units> {
         if (isSub == true) {
           isSubscribed = true;
         } else {
-          isSubscribed = true;
+          isSubscribed = false;
         }
         isLoading = false;
         setState(() {});
@@ -415,5 +473,64 @@ class _UnitsState extends State<Units> {
 
   FutureOr onGoBack(dynamic value) {
     setState(() {});
+  }
+
+  Future<void> deleteUserAccount() async {
+    User? user = _auth.currentUser;
+
+    final CollectionReference users =
+    FirebaseFirestore.instance.collection('users');
+    var pref = await SharedPreferences.getInstance();
+
+
+    if (user != null) {
+      // Delete user data from Firebase Storage
+      await users.doc(pref.getString("userId")).delete();
+
+      // Delete the user from Firebase Authentication
+      deleteAccount();
+      print('User data deleted from Firebase Storage and user removed from Firebase Authentication');
+      pref.clear();
+      Navigator.of(context).pop();
+      Map<String, dynamic> arg = {};
+      NavigationUtils.pushAndRemoveUntil(
+        context,
+        AppRoutes.routeLogin,
+        arguments: arg,
+      );
+    }
+  }
+
+  Future<void> deleteAccount() async {
+    try {
+      await FirebaseAuth.instance.currentUser!.delete();
+
+    } on FirebaseAuthException catch (e) {
+
+      if (e.code == "requires-recent-login") {
+        await _reauthenticateAndDelete();
+      } else {
+        // Handle other Firebase exceptions
+      }
+    } catch (e) {
+      // Handle general exception
+    }
+  }
+
+  Future<void> _reauthenticateAndDelete() async {
+    try {
+      final providerData = _auth.currentUser?.providerData.first;
+
+      if (AppleAuthProvider().providerId == providerData!.providerId) {
+        await _auth.currentUser!
+            .reauthenticateWithProvider(AppleAuthProvider());
+      } else if (GoogleAuthProvider().providerId == providerData.providerId) {
+        await _auth.currentUser!
+            .reauthenticateWithProvider(GoogleAuthProvider());
+      }
+      await _auth.currentUser?.delete();
+    } catch (e) {
+      // Handle exceptions
+    }
   }
 }

@@ -57,7 +57,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
   Widget build(BuildContext context) {
     SizeConfigs().init(context);
 
-    return Column(
+    return Stack(
       children: [
         Scaffold(
             backgroundColor: AppColors.white,
