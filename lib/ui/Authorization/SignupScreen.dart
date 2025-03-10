@@ -1,9 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:sif_book/constant/Constant.dart';
+import 'package:sif_book/startup/WebViewScreen.dart';
 import 'package:sif_book/startup/globals.dart';
 import 'package:sif_book/utils/resources/color_utils.dart';
 import 'package:sif_book/utils/resources/size_utils.dart';
@@ -92,90 +92,104 @@ class _SignupScreenState extends State<SignupScreen> {
       children: [
         Scaffold(
             backgroundColor: AppColors.white,
-            appBar: AppBar(
+           appBar: AppBar(
               centerTitle: true,
+              backgroundColor: sifBlue,
+              toolbarHeight: headerHeight,
               title: Text(
                 AppStrings.signupWithEmail,
-                style: TextStyle(color: AppColors.white),
+                style: TextStyle(
+                  fontSize: headerFontSize,
+                  color: Colors.white,
+                ),
               ),
+              iconTheme: IconThemeData(color: Colors.white),
             ),
             body: Form(
               key: _formKey,
               child: SafeArea(
                   child: GestureDetector(
-                onTap: () {
-                  FocusScope.of(context).requestFocus(FocusNode());
-                },
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: SingleChildScrollView(
-                        padding: EdgeInsets.symmetric(
-                            horizontal: padding16, vertical: padding10),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                    onTap: () {
+                      FocusScope.of(context).requestFocus(FocusNode());
+                    },
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Expanded(
+                          child: SingleChildScrollView(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: padding16, vertical: padding10),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                titleFirstname(),
-                                firstNameTextfield(),
-                                errorFname != ""
-                                    ? Text(
-                                        errorFname,
-                                        style: TextStyle(color: AppColors.red),
-                                      )
-                                    : Container(
-                                        height: 0,
-                                      ),
-                                titleSurname(),
-                                surnameTextfield(),
-                                errorSname != ""
-                                    ? Text(
-                                        errorSname,
-                                        style: TextStyle(color: AppColors.red),
-                                      )
-                                    : Container(
-                                        height: 0,
-                                      ),
-                                titleEmail(),
-                                emailTextfield(),
-                                errorEmail != ""
-                                    ? Text(
-                                        errorEmail,
-                                        style: TextStyle(color: AppColors.red),
-                                      )
-                                    : Container(
-                                        height: 0,
-                                      ),
-                                titlePassword(),
-                                passwordTextfield(),
-                                errorPassword != ""
-                                    ? Text(
-                                        errorPassword,
-                                        style: TextStyle(color: AppColors.red),
-                                      )
-                                    : Container(
-                                        height: 0,
-                                      ),
-                                SizedBox(
-                                  height: getHeight(size10),
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    titleFirstname(),
+                                    firstNameTextfield(),
+                                    errorFname != ""
+                                        ? Text(
+                                      errorFname,
+                                      style: TextStyle(color: AppColors.red),
+                                    )
+                                        : Container(
+                                      height: 0,
+                                    ),
+                                    titleSurname(),
+                                    surnameTextfield(),
+                                    errorSname != ""
+                                        ? Text(
+                                      errorSname,
+                                      style: TextStyle(color: AppColors.red),
+                                    )
+                                        : Container(
+                                      height: 0,
+                                    ),
+                                    titleEmail(),
+                                    emailTextfield(),
+                                    errorEmail != ""
+                                        ? Text(
+                                      errorEmail,
+                                      style: TextStyle(color: AppColors.red),
+                                    )
+                                        : Container(
+                                      height: 0,
+                                    ),
+                                    titlePassword(),
+                                    passwordTextfield(),
+                                    errorPassword != ""
+                                        ? Text(
+                                      errorPassword,
+                                      style: TextStyle(color: AppColors.red),
+                                    )
+                                        : Container(
+                                      height: 0,
+                                    ),
+                                    SizedBox(
+                                      height: getHeight(size10),
+                                    ),
+                                  ],
                                 ),
                               ],
                             ),
-                          ],
+                          ),
                         ),
-                      ),
+                        SizedBox(height: getHeight(size10)),
+                        KeyboardVisibilityBuilder(builder: (context, visible) {
+                          return visible ? SizedBox() : Column(
+                            children: [
+                              termsConditios(),
+                              SizedBox(height: getHeight(size18)),
+                            ],
+                          );
+                        }),
+                        signupButton(),
+                        SizedBox(height: getHeight(size10)),
+                      ],
                     ),
-                    SizedBox(height: getHeight(size10)),
-                    signupButton(),
-                    SizedBox(height: getHeight(size10)),
-                  ],
-                ),
-              )),
+                  )),
             )),
         if (isLoading) LoadingSplashScreen(),
       ],
@@ -374,7 +388,7 @@ class _SignupScreenState extends State<SignupScreen> {
           }
         },
         suffixIcon:
-            /* widget.fromEdit
+        /* widget.fromEdit
             ? Container(
             child: GestureDetector(
                 onTap: () async {
@@ -397,7 +411,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   style: smallAppColorSemiboldTextStyle,
                 )))
             :*/
-            SizedBox(
+        SizedBox(
           width: getWidth(size35),
           child: IconButton(
             splashRadius: radius1,
@@ -422,92 +436,92 @@ class _SignupScreenState extends State<SignupScreen> {
 
   Widget signupButton() {
     return txtFirstname!.text == "" ||
-            txtSurname!.text == "" ||
-            txtEmail!.text == "" ||
-            txtPassword!.text == "" ||
-            isEnable == false
+        txtSurname!.text == "" ||
+        txtEmail!.text == "" ||
+        txtPassword!.text == "" ||
+        isEnable == false
         ? Container(
-            padding: EdgeInsets.symmetric(horizontal: padding16),
+        padding: EdgeInsets.symmetric(horizontal: padding16),
+        alignment: Alignment.bottomCenter,
+        child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(radius12),
+              color: AppColors.loginButtonColor,
+            ),
+            height: getHeight(size50),
             alignment: Alignment.bottomCenter,
-            child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(radius12),
-                  color: AppColors.loginButtonColor,
+            child: Center(
+              key: Key('btnSignupTap'),
+              child: Text(
+                AppStrings.btnSignup,
+                style: TextStyle(
+                  fontStyle: FontStyle.normal,
+                  fontFamily: AppFontFamily.appFont,
+                  fontWeight: FontWeight.w600,
+                  fontSize: getFont(size14),
+                  color: AppColors.grey,
                 ),
-                height: getHeight(size50),
-                alignment: Alignment.bottomCenter,
-                child: Center(
-                  key: Key('btnSignupTap'),
-                  child: Text(
-                    AppStrings.btnSignup,
-                    style: TextStyle(
-                      fontStyle: FontStyle.normal,
-                      fontFamily: AppFontFamily.appFont,
-                      fontWeight: FontWeight.w600,
-                      fontSize: getFont(size14),
-                      color: AppColors.grey,
-                    ),
-                  ),
-                )))
+              ),
+            )))
         : Container(
-            padding: EdgeInsets.symmetric(horizontal: padding16),
-            alignment: Alignment.bottomCenter,
-            child: GestureDetector(
-              onTap: () {
-                // form validation
-                bool flag = true;
-                if (_formKey.currentState!.validate()) {
-                  if (txtFirstname!.text.toString().trim() == "") {
-                    setState(() {
-                      errorFname = AppStrings.errorFirstname;
-                      flag = false;
-                    });
-                  }
-                  if (txtSurname!.text.toString().trim() == "") {
-                    setState(() {
-                      errorSname = AppStrings.errorSurname;
-                      flag = false;
-                    });
-                  }
-                  if (Utils.isEmailValid(txtEmail!.text.toString().trim())) {
-                    setState(() {
-                      errorEmail = AppStrings.errorValidEmail;
-                      flag = false;
-                    });
-                  }
-                  if (Utils.validatePassword(
-                          txtPassword!.text.toString().trim()) !=
-                      null) {
-                    setState(() {
-                      errorPassword = AppStrings.errorValidPassword;
-                      flag = false;
-                    });
-                  }
-                  if (flag) {
-                    signup();
-                  }
-                }
-              },
-              child: Container(
-                  height: getHeight(size50),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(radius12),
-                    color: sifBlue,
+        padding: EdgeInsets.symmetric(horizontal: padding16),
+        alignment: Alignment.bottomCenter,
+        child: GestureDetector(
+          onTap: () {
+            // form validation
+            bool flag = true;
+            if (_formKey.currentState!.validate()) {
+              if (txtFirstname!.text.toString().trim() == "") {
+                setState(() {
+                  errorFname = AppStrings.errorFirstname;
+                  flag = false;
+                });
+              }
+              if (txtSurname!.text.toString().trim() == "") {
+                setState(() {
+                  errorSname = AppStrings.errorSurname;
+                  flag = false;
+                });
+              }
+              if (Utils.isEmailValid(txtEmail!.text.toString().trim())) {
+                setState(() {
+                  errorEmail = AppStrings.errorValidEmail;
+                  flag = false;
+                });
+              }
+              if (Utils.validatePassword(
+                  txtPassword!.text.toString().trim()) !=
+                  null) {
+                setState(() {
+                  errorPassword = AppStrings.errorValidPassword;
+                  flag = false;
+                });
+              }
+              if (flag) {
+                signup();
+              }
+            }
+          },
+          child: Container(
+              height: getHeight(size50),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(radius12),
+                color: sifBlue,
+              ),
+              alignment: Alignment.bottomCenter,
+              child: Center(
+                child: Text(
+                  AppStrings.btnSignup,
+                  style: TextStyle(
+                    fontStyle: FontStyle.normal,
+                    fontFamily: AppFontFamily.appFont,
+                    fontWeight: FontWeight.w600,
+                    fontSize: getFont(size14),
+                    color: AppColors.white,
                   ),
-                  alignment: Alignment.bottomCenter,
-                  child: Center(
-                    child: Text(
-                      AppStrings.btnSignup,
-                      style: TextStyle(
-                        fontStyle: FontStyle.normal,
-                        fontFamily: AppFontFamily.appFont,
-                        fontWeight: FontWeight.w600,
-                        fontSize: getFont(size14),
-                        color: AppColors.white,
-                      ),
-                    ),
-                  )),
-            ));
+                ),
+              )),
+        ));
   }
 
   // signup Usign Firebase
@@ -537,4 +551,34 @@ class _SignupScreenState extends State<SignupScreen> {
       ScaffoldMessenger.of(context).showSnackBar(snackBar);
     }
   }
+
+  Widget termsConditios() {
+    return RichText(
+      text: TextSpan(
+        style: extrasmallBlackRegularTextStyle,
+        children: <TextSpan>[
+          TextSpan(
+            text: "By signing up with Spanish BPL you agree to our ",
+            style: extrasmallBlackRegularTextStyle,
+          ),
+          TextSpan(
+              text: "Privacy Policy",
+              style: extrasmallAppcolorSemiBoldTextStyle,
+              recognizer: TapGestureRecognizer()
+                ..onTap = () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => WebViewScreen(
+                        title: "Privacy Policy",
+                        webUrl: "https://siflanguageschool.com/privacy",
+                      ),
+                    ),
+                  );
+                }),
+        ],
+      ),
+    );
+  }
+
 }

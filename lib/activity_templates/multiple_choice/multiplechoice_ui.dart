@@ -110,10 +110,17 @@ class _MultipleChoiceUIState extends State<MultipleChoiceUI> {
           backgroundColor: sifBlue,
         ),
         appBar: AppBar(
-          title: Text('Multiple Choice',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: headerFontSize)),
+          backgroundColor: sifBlue,
           toolbarHeight: headerHeight,
+          title: Text(
+            'Multiple Choice',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: headerFontSize,
+              color: Colors.white,
+            ),
+          ),
+          iconTheme: IconThemeData(color: Colors.white),
         ),
         body: Center(
           child: (_index < widget.questions.length

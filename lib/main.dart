@@ -166,7 +166,6 @@ void main() async {
       apiKey: appleApiKey,
     );
   } else if (Platform.isAndroid) {
-    // Run the app passing --dart-define=AMAZON=true
     StoreConfig(
       store: Store.playStore,
       apiKey: googleApiKey,

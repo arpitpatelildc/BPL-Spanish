@@ -14,12 +14,17 @@ class _NeuroscienceUIState extends State<NeuroscienceUI> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: sifBlue,
+        toolbarHeight: headerHeight,
         title: Text(
           'BPL® Method',
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: headerFontSize),
+          style: TextStyle(
+            fontSize: headerFontSize,
+            color: Colors.white,
+          ),
         ),
-        toolbarHeight: headerHeight,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: //Padding(
           //padding: EdgeInsets.fromLTRB(25, 0, 0, 0),
@@ -55,7 +60,7 @@ class _ListWidgetState extends State<ListWidget> {
         body: Padding(
             padding: EdgeInsets.fromLTRB(25.0, 0.0, 0.0, 0.0),
             child: Scrollbar(
-                isAlwaysShown: true,
+                thumbVisibility: true,
                 thickness: 10,
                 radius: Radius.circular(5),
                 child: Padding(
@@ -187,7 +192,7 @@ class _ListWidgetState extends State<ListWidget> {
                         ]),
                         children: [
                           Text(
-                            'Our normal attention span is around 15 minutes. We focus for a short time and then our minds begin to wander. This is a natural process, but when it happens the student can get lost and will be unable to retain new information. With the BPL® system, our teachers are trained to recognize this and bring the student’s attention back to the classroom.\n',
+                            'Our normal attention span is around 15 minutes. We focus for a short time and then our minds begin to wander. This is a natural process, but when it happens the student can get lost and will be unable to retain new information. With the BPL® system, our teachers are trained to recognize this and bring the student\'s attention back to the classroom.\n',
                             textAlign: TextAlign.left,
                             style: TextStyle(fontSize: subtitleFontSize),
                           ),

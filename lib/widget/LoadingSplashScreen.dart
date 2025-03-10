@@ -5,7 +5,9 @@ import '../utils/resources/image_utils.dart';
 import 'hexagon_dots/hexagon_dots.dart';
 
 class LoadingSplashScreen extends StatefulWidget {
-  const LoadingSplashScreen() : super();
+
+  final Color? color;
+  const LoadingSplashScreen( {super.key, this.color});
 
   @override
   _LoadingSplashScreenState createState() => _LoadingSplashScreenState();
@@ -15,7 +17,7 @@ class _LoadingSplashScreenState extends State<LoadingSplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.white.withOpacity(0.25),
+      backgroundColor: widget.color ?? AppColors.white.withOpacity(0.25),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Center(

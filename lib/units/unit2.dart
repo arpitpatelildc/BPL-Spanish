@@ -22,13 +22,20 @@ class _Unit2ActivitysState extends State<Unit2Activitys> {
       body: Center(
         child: Scaffold(
             appBar: AppBar(
-              title: Text('Unidad 2',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: headerFontSize)),
+              backgroundColor: sifBlue,
               toolbarHeight: headerHeight,
+              title: Text(
+                'Unidad 2',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: headerFontSize,
+                  color: Colors.white,
+                ),
+              ),
+              iconTheme: IconThemeData(color: Colors.white),
             ),
             body: Scrollbar(
-              isAlwaysShown: true,
+              thumbVisibility: true,
               child: ListWidget(),
               thickness: 10,
               radius: Radius.circular(5),
@@ -231,7 +238,6 @@ class _ListWidgetState extends State<ListWidget> {
         //         ),
         //         trailing: unlocked,
         //         selected: true,
-        //         enabled: true,
         //         //IMPLEMENT
         //         onTap: () {
         //           i=11;
@@ -259,7 +265,6 @@ class _ListWidgetState extends State<ListWidget> {
         //         ),
         //         trailing: unlocked,
         //         selected: true,
-        //         enabled: true,
         //         //IMPLEMENT
         //         onTap: () {
         //           i=12;
@@ -285,7 +290,6 @@ class _ListWidgetState extends State<ListWidget> {
         //         ),
         //         trailing: unlocked,
         //         selected: true,
-        //         enabled: true,
         //         //IMPLEMENT
         //         onTap: () {
         //           i=13;
@@ -312,7 +316,6 @@ class _ListWidgetState extends State<ListWidget> {
         //         ),
         //         trailing: unlocked,
         //         selected: true,
-        //         enabled: true,
         //         //IMPLEMENT
         //         onTap: () {
         //           i=14;

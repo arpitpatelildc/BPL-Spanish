@@ -1,6 +1,9 @@
 import 'dart:async';
+import 'dart:developer';
+import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:sif_book/startup/WebViewScreen.dart';
+import 'package:sif_book/ui/PayWall.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,6 +17,7 @@ import 'package:sif_book/ui/native_dialog.dart';
 import 'package:sif_book/ui/singletons_data.dart';
 import 'package:sif_book/ui/store_config.dart';
 import 'package:sif_book/utils/route/navigation.dart';
+import 'package:sif_book/widget/LoadingSplashScreen.dart';
 import '../units/unit1.dart';
 import '../units/unit2.dart';
 import '../units/unit3.dart';
@@ -43,38 +47,52 @@ class _UnitsState extends State<Units> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<void> initPlatformState() async {
-    // Enable debug logs before calling `configure`.
-    await Purchases.setLogLevel(LogLevel.debug);
-    var pref = await SharedPreferences.getInstance();
+    try {
+      // Enable debug logs before calling `configure`.
+      await Purchases.setLogLevel(LogLevel.debug);
+      var pref = await SharedPreferences.getInstance();
 
-    var email = pref.getString("email");
-    PurchasesConfiguration configuration;
-    if (StoreConfig.isForAmazonAppstore()) {
-      configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
-        ..appUserID = email
-        ..observerMode = false;
-    } else {
-      configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
-        ..appUserID = email
-        ..observerMode = false;
-    }
-    await Purchases.configure(configuration);
+      var email = pref.getString("email");
+      PurchasesConfiguration configuration;
+      if (StoreConfig.isForAmazonAppstore()) {
+        configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
+          ..appUserID = null
+          ..purchasesAreCompletedBy = const PurchasesAreCompletedByRevenueCat();
+      } else {
+        configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
+          ..appUserID = null
+          ..purchasesAreCompletedBy = const PurchasesAreCompletedByRevenueCat();
+      }
+      await Purchases.configure(configuration);
 
-    appData.appUserID = await Purchases.appUserID;
+      // Move restore purchases here, after configuration
+      await restorePurchases();
 
-    Purchases.addCustomerInfoUpdateListener((customerInfo) async {
       appData.appUserID = await Purchases.appUserID;
 
-      CustomerInfo customerInfo = await Purchases.getCustomerInfo();
-      entitlement = customerInfo.entitlements.all[entitlementID];
-      appData.entitlementIsActive = entitlement?.isActive ?? false;
-      if (customerInfo.entitlements.all[entitlementID] != null &&
-          customerInfo.entitlements.all[entitlementID]?.isActive == true) {
-        isSubscribed = true;
-      } else {
-        isSubscribed = false;
-      }
-    });
+      Purchases.addCustomerInfoUpdateListener((customerInfo) async {
+        appData.appUserID = await Purchases.appUserID;
+
+        CustomerInfo customerInfo = await Purchases.getCustomerInfo();
+        entitlement = customerInfo.entitlements.all[entitlementID];
+        appData.entitlementIsActive = entitlement?.isActive ?? false;
+
+        log("Check 1");
+        if (customerInfo.entitlements.all[entitlementID] != null &&
+            customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+          log("Check 2");
+          isSubscribed = true;
+          setState(() {});
+        } else {
+          log("Check 3");
+          isSubscribed = false;
+          setState(() {});
+        }
+      });
+    } catch (e) {
+      print('Error initializing purchases: $e');
+      // Handle initialization error appropriately
+    }
   }
 
   String email = "sifBPL@gmail.com";
@@ -96,211 +114,308 @@ class _UnitsState extends State<Units> {
     return "Expired on: $formattedDate";
   }
 
-  productIdentifier(String identifier){
-    if(identifier.contains("monthly")){
+  productIdentifier(String identifier) {
+    log(identifier);
+    if (identifier.contains("monthly")) {
       return "Subscription Type: Monthly";
-    }else if(identifier.contains("half_yearly")){
+    } else if (identifier.contains("half_yearly")) {
       return "Subscription Type: Half Yearly";
+    } else if (identifier.contains("annual")) {
+      return "Subscription Type: Annual";
+    } else if (identifier.contains("quarterly")) {
+      return "Subscription Type: Quarterly";
+    } else if (identifier.contains("weekly")) {
+      return "Subscription Type: Weekly";
+    } else if (identifier.contains("life")) {
+      return "Subscription Type: Life time";
+    } else {
+      return "Unknown Subscription Type";
     }
   }
 
   @override
   // The widget being built here is the entire screen, and the body: ListWidget() creates an inner widget that is the list of Units (ToC).
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Unit Selection',
-          textAlign: TextAlign.center,
-          style: TextStyle(fontSize: headerFontSize),
-        ),
-        toolbarHeight: headerHeight,
-      ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: [
-            UserAccountsDrawerHeader(
-              accountName: Text('$firstName $surName'),
-              accountEmail: Text(email),
-              currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage('assets/images/BPL_Logo.jpeg'),
+    return Stack(
+      children: [
+        Scaffold(
+          appBar: AppBar(
+            backgroundColor: sifBlue,
+            toolbarHeight: headerHeight,
+            title: Text(
+              'Unit Selection',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: headerFontSize,
+                color: Colors.white,
               ),
             ),
-            if (!isSubscribed)
-              ListTile(
-                leading: Icon(Icons.star),
-                title: Text('Subscribe'),
-                onTap: () async {
-                  Offerings? offerings;
-                  try {
-                    offerings = await Purchases.getOfferings();
-                  } on PlatformException catch (e) {
-                    await showDialog(
-                        context: context,
-                        builder: (BuildContext context) => ShowDialogToDismiss(
-                            title: "Error",
-                            content: e.message ?? "Unknown error",
-                            buttonText: 'OK'));
-                  }
+            iconTheme: IconThemeData(color: Colors.white),
+          ),
+          drawer: Drawer(
+            child: ListView(
+              padding: EdgeInsets.zero,
+              children: [
+                UserAccountsDrawerHeader(
+                  decoration: BoxDecoration(
+                    color: sifBlue,
+                  ),
+                  accountName: Text('$firstName $surName'),
+                  accountEmail: Text(email),
+                  currentAccountPicture: CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/BPL_Logo.jpeg'),
+                  ),
+                ),
+                if (!isSubscribed)
+                  ListTile(
+                    leading: Icon(Icons.star),
+                    title: Text('Subscribe'),
+                    onTap: () async {
+                      Offerings? offerings;
+                      try {
+                        offerings = await Purchases.getOfferings();
+                      } on PlatformException catch (e) {
+                        await showDialog(
+                            context: context,
+                            builder: (BuildContext context) =>
+                                ShowDialogToDismiss(
+                                    title: "Error",
+                                    content: e.message ?? "Unknown error",
+                                    buttonText: 'OK'));
+                      }
 
-                  if (offerings == null || offerings.current == null) {
-                    // offerings are empty, show a message to your user
-                    // await showDialog(
-                    //     context: context,
-                    //     builder: (BuildContext context) => ShowDialogToDismiss(
-                    //         title: "Error", content: "Unknown error", buttonText: 'OK'));
-                  } else {
-                    // current offering is available, show paywall
-                    bool isSub = await Navigator.push(
+                      if (offerings == null || offerings.current == null) {
+                        // offerings are empty, show a message to your user
+                        // await showDialog(
+                        //     context: context,
+                        //     builder: (BuildContext context) => ShowDialogToDismiss(
+                        //         title: "Error", content: "Unknown error", buttonText: 'OK'));
+                      } else {
+                        // current offering is available, show paywall
+                        bool? isSub = await showModalBottomSheet(
+                          useRootNavigator: true,
+                          isDismissible: true,
+                          isScrollControlled: true,
+                          backgroundColor: kColorBackground,
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.vertical(
+                                top: Radius.circular(25.0)),
+                          ),
+                          context: context,
+                          builder: (BuildContext context) {
+                            return StatefulBuilder(builder:
+                                (BuildContext context,
+                                    StateSetter setModalState) {
+                              return Paywall(
+                                offering: offerings!.current!,
+                                isLoading: (value) {
+                                  isLoading = value;
+                                  setState(() {});
+                                },
+                              );
+                            });
+                          },
+                        );
+
+                        // await Navigator.push(
+                        //   context,
+                        //   MaterialPageRoute(
+                        //     builder: (context) => PayWall(
+                        //       offering: offerings!.current!,
+                        //     ),
+                        //   ),
+                        // );
+                        if (isSub == true) {
+                          isSubscribed = isSub!;
+                          setState(() {});
+                        }
+                      }
+                    },
+                  ),
+                if (isSubscribed)
+                  ListTile(
+                    leading: Icon(Icons.check),
+                    title: Text('Subscribed'),
+                    subtitle: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          entitlement?.expirationDate != null
+                              ? expireDate(entitlement?.expirationDate)
+                              : "",
+                          textAlign: TextAlign.start,
+                        ),
+                        Text(
+                          entitlement?.productIdentifier != null
+                              ? productIdentifier(
+                                  entitlement?.productIdentifier ?? "")
+                              : "",
+                          textAlign: TextAlign.start,
+                        )
+                      ],
+                    ),
+                    enabled: false,
+                  ),
+                ListTile(
+                  onTap: () async {
+                    Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => PayWall(
-                          offering: offerings!.current!,
+                        builder: (context) => WebViewScreen(
+                          title: "About Us",
+                          webUrl:
+                              "https://siflanguageschool.com/about-us/about-sif",
                         ),
                       ),
                     );
-                    if (isSub == true) {
-                      isSubscribed = isSub;
-                      setState(() {});
-                    }
-                  }
-                },
-              ),
-            if (isSubscribed)
-              ListTile(
-                leading: Icon(Icons.check),
-                title: Text('Subscribed'),
-                subtitle: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(entitlement?.expirationDate != null
-                        ? expireDate(entitlement?.expirationDate)
-                        : "",textAlign: TextAlign.start,),
-                    Text(entitlement?.productIdentifier != null?productIdentifier(entitlement?.productIdentifier ?? "")  :"",textAlign: TextAlign.start,)
-                  ],
+                  },
+                  leading: Icon(Icons.info),
+                  title: Text('About Us'),
                 ),
-                enabled: false,
-              ),
-            ListTile(
-              onTap: () async {
-                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/about-us/about-sif"))) {
-                  throw Exception('Could not launch https://siflanguageschool.com/about-us/about-sif');
-                }
-              },
-              leading: Icon(Icons.info),
-              title: Text('About Us'),
-            ),
-            ListTile(
-              onTap: () async {
-                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/contact-us"))) {
-                  throw Exception('Could not launch https://siflanguageschool.com/contact-us');
-                }
-              },
-              leading: Icon(Icons.quick_contacts_mail_rounded),
-              title: Text('Contact Us'),
-            ),
-            ListTile(
-              onTap: () async {
-                if (!await launchUrl(Uri.parse("https://siflanguageschool.com/privacy"))) {
-                  throw Exception('Could not launch https://siflanguageschool.com/privacy');
-                }
-              },
-              leading: Icon(Icons.privacy_tip_sharp),
-              title: Text('Privacy Policy'),
-            ),
-            ListTile(
-              onTap: () async {
-                showDialog(
-                  context: context,
-                  builder: (BuildContext context) {
-                    return AlertDialog(
-                      title: Text('Delete Account'),
-                      content: Text('Are you sure you want to delete your account?'),
-                      actions: <Widget>[
-                        TextButton(
-                          onPressed: () {
-                            Navigator.of(context).pop();
-                          },
-                          child: Text('Cancel'),
+                // if (Platform.isAndroid)
+                //   ListTile(
+                //     onTap: () async {
+                //       Navigator.push(
+                //         context,
+                //         MaterialPageRoute(
+                //           builder: (context) => WebViewScreen(
+                //             title: "Contact Us",
+                //             webUrl: "https://siflanguageschool.com/contact-us",
+                //           ),
+                //         ),
+                //       );
+                //     },
+                //     leading: Icon(Icons.quick_contacts_mail_rounded),
+                //     title: Text('Contact Us'),
+                //   ),
+                ListTile(
+                  onTap: () async {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => WebViewScreen(
+                          title: "Privacy Policy",
+                          webUrl: "https://siflanguageschool.com/privacy",
                         ),
-                        TextButton(
-                          onPressed: () {
-                            deleteUserAccount(); // Call the function to delete the user account
-                          },
-                          child: Text('Confirm'),
-                        ),
-                      ],
+                      ),
                     );
                   },
-                );
-              },
-              leading: Icon(Icons.delete),
-              title: Text('Delete Account'),
+                  leading: Icon(Icons.privacy_tip_sharp),
+                  title: Text('Privacy Policy'),
+                ),
+                ListTile(
+                  onTap: () async {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => WebViewScreen(
+                          title: "Terms of Services",
+                          webUrl:
+                              "https://siflanguageschool.com/terms-and-conditions-and-privacy-policy",
+                        ),
+                      ),
+                    );
+                  },
+                  leading: Icon(Icons.miscellaneous_services),
+                  title: Text('Terms of Services'),
+                ),
+                ListTile(
+                  onTap: () async {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: Text('Delete Account'),
+                          content: Text(
+                              'Are you sure you want to delete your account?'),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
+                              child: Text('Cancel'),
+                            ),
+                            TextButton(
+                              onPressed: () {
+                                deleteUserAccount(); // Call the function to delete the user account
+                              },
+                              child: Text('Confirm'),
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  },
+                  leading: Icon(Icons.delete),
+                  title: Text('Delete Account'),
+                ),
+                ListTile(
+                  onTap: () async {
+                    await _auth.signOut();
+                    SharedPreferences pref =
+                        await SharedPreferences.getInstance();
+                    pref.clear();
+                    Navigator.of(context).pop();
+                    Map<String, dynamic> arg = {};
+                    NavigationUtils.pushAndRemoveUntil(
+                      context,
+                      AppRoutes.routeLogin,
+                      arguments: arg,
+                    );
+                  },
+                  leading: Icon(Icons.logout),
+                  title: Text('Sign out'),
+                ),
+              ],
             ),
-            ListTile(
-              onTap: () async {
-                await _auth.signOut();
-                SharedPreferences pref = await SharedPreferences.getInstance();
-                pref.clear();
-                Navigator.of(context).pop();
-                Map<String, dynamic> arg = {};
-                NavigationUtils.pushAndRemoveUntil(
-                  context,
-                  AppRoutes.routeLogin,
-                  arguments: arg,
-                );
+          ),
+          body: Center(
+            child: Scaffold(
+                body: Scrollbar(
+              thumbVisibility: true,
+              child: ListWidget(),
+              thickness: 10,
+              radius: Radius.circular(5),
+            )),
+          ),
+          floatingActionButton: Row(children: [
+            FloatingActionButton(
+              heroTag: "zoomOut",
+              mini: true,
+              onPressed: () {
+                fontSizeAdjust(false);
+                Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => super.widget));
               },
-              leading: Icon(Icons.logout),
-              title: Text('Sign out'),
+              child: Icon(
+                Icons.zoom_out,
+                size: 32.0,
+              ),
             ),
-          ],
+            FloatingActionButton(
+              heroTag: "zoomIn",
+              mini: true,
+              onPressed: () {
+                fontSizeAdjust(true);
+                Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => super.widget));
+              },
+              child: Icon(
+                Icons.zoom_in,
+                size: 32.0,
+              ),
+            ),
+          ]),
+          floatingActionButtonLocation:
+              FloatingActionButtonLocation.miniStartDocked,
         ),
-      ),
-      body: Center(
-        child: Scaffold(
-            body: Scrollbar(
-          isAlwaysShown: true,
-          child: ListWidget(),
-          thickness: 10,
-          radius: Radius.circular(5),
-        )),
-      ),
-      floatingActionButton: Row(children: [
-        FloatingActionButton(
-          heroTag: "zoomOut",
-          mini: true,
-          onPressed: () {
-            fontSizeAdjust(false);
-            Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (BuildContext context) => super.widget));
-          },
-          child: Icon(
-            Icons.zoom_out,
-            size: 32.0,
-          ),
-        ),
-        FloatingActionButton(
-          heroTag: "zoomIn",
-          mini: true,
-          onPressed: () {
-            fontSizeAdjust(true);
-            Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (BuildContext context) => super.widget));
-          },
-          child: Icon(
-            Icons.zoom_in,
-            size: 32.0,
-          ),
-        ),
-      ]),
-      floatingActionButtonLocation:
-          FloatingActionButtonLocation.miniStartDocked,
+        if (isLoading) LoadingSplashScreen(),
+      ],
     );
   }
 
@@ -385,6 +500,7 @@ class _UnitsState extends State<Units> {
                 content: e.message ?? "Unknown error",
                 buttonText: 'OK'));
       }
+      debugPrint('movieTitle: $offerings');
 
       if (offerings == null || offerings.current == null) {
         // offerings are empty, show a message to your user
@@ -394,14 +510,37 @@ class _UnitsState extends State<Units> {
         //         title: "Error", content: "Unknown error", buttonText: 'OK'));
       } else {
         // current offering is available, show paywall
-        bool? isSub = await Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => PayWall(
-              offering: offerings!.current!,
-            ),
+        bool? isSub = await showModalBottomSheet(
+          useRootNavigator: true,
+          isDismissible: true,
+          isScrollControlled: true,
+          backgroundColor: kColorBackground,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(25.0)),
           ),
+          context: context,
+          builder: (BuildContext context) {
+            return StatefulBuilder(
+                builder: (BuildContext context, StateSetter setModalState) {
+              return Paywall(
+                offering: offerings!.current!,
+                isLoading: (value) {
+                  isLoading = value;
+                  setState(() {});
+                },
+              );
+            });
+          },
         );
+
+        // await Navigator.push(
+        //   context,
+        //   MaterialPageRoute(
+        //     builder: (context) => PayWall(
+        //       offering: offerings!.current!,
+        //     ),
+        //   ),
+        // );
         if (isSub == true) {
           isSubscribed = true;
         } else {
@@ -479,9 +618,8 @@ class _UnitsState extends State<Units> {
     User? user = _auth.currentUser;
 
     final CollectionReference users =
-    FirebaseFirestore.instance.collection('users');
+        FirebaseFirestore.instance.collection('users');
     var pref = await SharedPreferences.getInstance();
-
 
     if (user != null) {
       // Delete user data from Firebase Storage
@@ -489,7 +627,8 @@ class _UnitsState extends State<Units> {
 
       // Delete the user from Firebase Authentication
       deleteAccount();
-      print('User data deleted from Firebase Storage and user removed from Firebase Authentication');
+      print(
+          'User data deleted from Firebase Storage and user removed from Firebase Authentication');
       pref.clear();
       Navigator.of(context).pop();
       Map<String, dynamic> arg = {};
@@ -504,9 +643,7 @@ class _UnitsState extends State<Units> {
   Future<void> deleteAccount() async {
     try {
       await FirebaseAuth.instance.currentUser!.delete();
-
     } on FirebaseAuthException catch (e) {
-
       if (e.code == "requires-recent-login") {
         await _reauthenticateAndDelete();
       } else {
@@ -531,6 +668,36 @@ class _UnitsState extends State<Units> {
       await _auth.currentUser?.delete();
     } catch (e) {
       // Handle exceptions
+    }
+  }
+
+  Future<void> restorePurchases() async {
+    try {
+      isLoading = true;
+      setState(() {});
+
+      // Restore purchases
+      CustomerInfo restoredInfo = await Purchases.restorePurchases();
+      
+      // Check if user has active entitlements
+      entitlement = restoredInfo.entitlements.all[entitlementID];
+      appData.entitlementIsActive = entitlement?.isActive ?? false;
+      print('Platform details: ${restoredInfo}');
+      if (restoredInfo.entitlements.all[entitlementID] != null &&
+          restoredInfo.entitlements.all[entitlementID]?.isActive == true) {
+        isSubscribed = true;
+      } else {
+        isSubscribed = false;
+      }
+
+    } on PlatformException catch (e) {
+      // Error restoring purchases
+      print('Error restoring purchases: ${e.message}');
+    } finally {
+      isLoading = false;
+      if (mounted) {
+        setState(() {});
+      }
     }
   }
 }

@@ -43,8 +43,17 @@ class _DialogueUIState extends State<DialogueUI> {
           label: Text('?', style: TextStyle(fontSize: titleFontSize)),
           backgroundColor: sifBlue),
       appBar: AppBar(
-        title: const Text('Dialogue'),
+        backgroundColor: sifBlue,
         toolbarHeight: headerHeight,
+        title: Text(
+          'Dialogue',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: headerFontSize,
+            color: Colors.white,
+          ),
+        ),
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Padding(
           padding: const EdgeInsets.all(32.0),

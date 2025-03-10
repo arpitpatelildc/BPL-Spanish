@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+// import 'package:package_info_plus/package_info_plus.dart';
 import 'package:sif_book/constant/Constant.dart';
 import 'package:sif_book/utils/resources/preference_utils.dart';
 
@@ -22,10 +22,10 @@ class CustomClass {
     ]);
   }
 
-  static getPackageInfo() async {
-    PackageInfo packageInfo = await PackageInfo.fromPlatform();
-    return packageInfo;
-  }
+  // static getPackageInfo() async {
+  //   // PackageInfo packageInfo = await PackageInfo.fromPlatform();
+  //   // return packageInfo;
+  // }
 /*  // initialize Intercom
   static initializedShake() async {
     Shake.setInvokeShakeOnScreenshot(true);

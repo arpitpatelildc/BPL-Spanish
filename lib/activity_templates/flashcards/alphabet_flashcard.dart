@@ -48,10 +48,17 @@ class _AlphaFlashcardState extends State<AlphabetFlashcard> {
           label: Text('?', style: TextStyle(fontSize: titleFontSize)),
           backgroundColor: sifBlue),
       appBar: AppBar(
-        title: Text('Flashcards',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: headerFontSize)),
+        backgroundColor: sifBlue,
         toolbarHeight: headerHeight,
+        title: Text(
+          'Flashcards',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: headerFontSize,
+            color: Colors.white,
+          ),
+        ),
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: Column(

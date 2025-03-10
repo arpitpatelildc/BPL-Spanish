@@ -19,7 +19,7 @@ class _TestActivityState extends State<TestActivity> {
     setState(() {
       _counter++;
       // Some logic to 'pass' the activity.
-      if (_counter >= 5){
+      if (_counter >= 5) {
         _counter = 0;
         // If the activity # matches the target activity #, they get credit for completing the activity. (will need a way to check chapter, but IDK how for now).
         // if (widget.title.contains(lessonsComplete.toString())) {
@@ -53,7 +53,10 @@ class _TestActivityState extends State<TestActivity> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme
+                  .of(context)
+                  .textTheme
+                  .headlineLarge,
             ),
           ],
         ),

@@ -23,13 +23,20 @@ class _Unit1ActivitysState extends State<Unit1Activitys> {
       body: Center(
         child: Scaffold(
             appBar: AppBar(
-              title: Text('Unidad 1',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: headerFontSize)),
+              backgroundColor: sifBlue,
               toolbarHeight: headerHeight,
+              title: Text(
+                'Unidad 1',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: headerFontSize,
+                  color: Colors.white,
+                ),
+              ),
+              iconTheme: IconThemeData(color: Colors.white),
             ),
             body: Scrollbar(
-              isAlwaysShown: true,
+              thumbVisibility: true,
               child: ListWidget(),
               thickness: 10,
               radius: Radius.circular(5),
@@ -198,7 +205,7 @@ class _ListWidgetState extends State<ListWidget> {
                         MaterialPageRoute(
                             builder: (context) => DialogueUI(
                                 transcript: Unit1_9r,
-                                path: 'assets/audio/ch1-dialogue.mp3',
+                                path: 'assets/audio/10 - El Reencuentro.mp3',
                                 activityIndex: 8))).then(onGoBack);
                     showMaterialDialog(context, true);
                   } else if (index == 9) {

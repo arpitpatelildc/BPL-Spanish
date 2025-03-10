@@ -112,8 +112,8 @@ const MaterialColor sifOrange = MaterialColor(0xFFf36c24, orangeSwatch);
 int i = 0;
 
 // Font Size global variables
-double headerFontSize = 40.0;
-double headerHeight = 85.0;
+double headerFontSize = 35.0;
+double headerHeight = 65.0;
 double titleFontSize = 25.0;
 double subtitleFontSize = 19.0;
 double boxHeight = 120.0;
@@ -142,7 +142,7 @@ void showMaterialDialog(BuildContext context, bool start) async {
         return AlertDialog(
           title: Text(popupsJson[i]['Title'], style: TextStyle(fontSize: subtitleFontSize)),
           content: Scrollbar(
-            isAlwaysShown: true,
+            thumbVisibility: true,
             child: SingleChildScrollView(child: Text(popupsJson[i]['Content'], style: TextStyle(fontSize: subtitleFontSize))),
           ),
           actions: <Widget>[

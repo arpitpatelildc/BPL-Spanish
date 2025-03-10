@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../startup/globals.dart';
 import 'unit.dart';
 
 class UnitMenu extends StatefulWidget {
@@ -56,7 +57,19 @@ class _UnitMenuState extends State<UnitMenu> {
     return Scaffold(
       body: Center(
         child: Scaffold(
-            appBar: AppBar(title: const Text('Table of Contents')),
+            appBar: AppBar(
+              backgroundColor: sifBlue,
+              toolbarHeight: headerHeight,
+              title: Text(
+                'Table of Contents',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: headerFontSize,
+                  color: Colors.white,
+                ),
+              ),
+              iconTheme: IconThemeData(color: Colors.white),
+            ),
             body: ListView(
               children: <Widget>[
                 for (int i = 0; i < UnitMenu.titles.length; i++)

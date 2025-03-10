@@ -2,8 +2,7 @@
 const entitlementID = 'premium';
 
 //TO DO: add your subscription terms and conditions
-const footerText =
-    """""";
+const footerText = "";
 
 //TO DO: add the Apple API key for your app from the RevenueCat dashboard: https://app.revenuecat.com
 const appleApiKey = 'appl_eigPfJKxeAgerJigBjgjWaMKSqL';

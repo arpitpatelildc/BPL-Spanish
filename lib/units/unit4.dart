@@ -22,13 +22,20 @@ class _Unit4ActivitysState extends State<Unit4Activitys> {
       body: Center(
         child: Scaffold(
             appBar: AppBar(
-              title: Text('Unidad 4',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: headerFontSize)),
+              backgroundColor: sifBlue,
               toolbarHeight: headerHeight,
+              title: Text(
+                'Unidad 4',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: headerFontSize,
+                  color: Colors.white,
+                ),
+              ),
+              iconTheme: IconThemeData(color: Colors.white),
             ),
             body: Scrollbar(
-              isAlwaysShown: true,
+              thumbVisibility: true,
               child: ListWidget(),
               thickness: 10,
               radius: Radius.circular(5),

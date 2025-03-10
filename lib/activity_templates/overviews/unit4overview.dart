@@ -14,12 +14,17 @@ class _Unit4OverviewState extends State<Unit4Overview> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: sifBlue,
+        toolbarHeight: headerHeight,
         title: Text(
           'Unit 4 Overview',
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: headerFontSize),
+          style: TextStyle(
+            fontSize: headerFontSize,
+            color: Colors.white,
+          ),
         ),
-        toolbarHeight: headerHeight,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: //Padding(
           //padding: EdgeInsets.fromLTRB(25, 0, 0, 0),
@@ -52,13 +57,13 @@ class _ListWidgetState extends State<ListWidget> {
               alignment: Alignment.bottomCenter,
             )),
         body: Scrollbar(
-            isAlwaysShown: true,
+            thumbVisibility: true,
             thickness: 10,
             radius: Radius.circular(5),
             child: Padding(
                 padding: EdgeInsets.fromLTRB(25.0, 0.0, 0.0, 0.0),
                 child: Scrollbar(
-                    isAlwaysShown: true,
+                    thumbVisibility: true,
                     thickness: 10,
                     radius: Radius.circular(5),
                     child: Padding(

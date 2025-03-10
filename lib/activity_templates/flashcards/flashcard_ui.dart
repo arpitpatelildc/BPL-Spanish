@@ -41,8 +41,17 @@ class _FlashcardUIState extends State<FlashcardUI> {
           label: Text('?', style: TextStyle(fontSize: titleFontSize)),
           backgroundColor: sifBlue),
       appBar: AppBar(
-        title: const Text('Flashcards'),
+        backgroundColor: sifBlue,
         toolbarHeight: headerHeight,
+        title: Text(
+          'Flashcards',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: headerFontSize,
+            color: Colors.white,
+          ),
+        ),
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: Column(
