@@ -50,13 +50,9 @@ class _UnitsState extends State<Units> {
     var email = pref.getString("email");
     PurchasesConfiguration configuration;
     if (StoreConfig.isForAmazonAppstore()) {
-      configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
-        ..appUserID = email
-        ..observerMode = false;
+      configuration = AmazonConfiguration(StoreConfig.instance.apiKey)..appUserID = email;
     } else {
-      configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
-        ..appUserID = email
-        ..observerMode = false;
+      configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)..appUserID = email;
     }
     await Purchases.configure(configuration);
 
@@ -68,8 +64,7 @@ class _UnitsState extends State<Units> {
       CustomerInfo customerInfo = await Purchases.getCustomerInfo();
       entitlement = customerInfo.entitlements.all[entitlementID];
       appData.entitlementIsActive = entitlement?.isActive ?? false;
-      if (customerInfo.entitlements.all[entitlementID] != null &&
-          customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+      if (customerInfo.entitlements.all[entitlementID] != null && customerInfo.entitlements.all[entitlementID]?.isActive == true) {
         isSubscribed = true;
       } else {
         isSubscribed = false;
@@ -96,10 +91,10 @@ class _UnitsState extends State<Units> {
     return "Expired on: $formattedDate";
   }
 
-  productIdentifier(String identifier){
-    if(identifier.contains("monthly")){
+  productIdentifier(String identifier) {
+    if (identifier.contains("monthly")) {
       return "Subscription Type: Monthly";
-    }else if(identifier.contains("half_yearly")){
+    } else if (identifier.contains("half_yearly")) {
       return "Subscription Type: Half Yearly";
     }
   }
@@ -138,10 +133,8 @@ class _UnitsState extends State<Units> {
                   } on PlatformException catch (e) {
                     await showDialog(
                         context: context,
-                        builder: (BuildContext context) => ShowDialogToDismiss(
-                            title: "Error",
-                            content: e.message ?? "Unknown error",
-                            buttonText: 'OK'));
+                        builder: (BuildContext context) =>
+                            ShowDialogToDismiss(title: "Error", content: e.message ?? "Unknown error", buttonText: 'OK'));
                   }
 
                   if (offerings == null || offerings.current == null) {
@@ -175,10 +168,14 @@ class _UnitsState extends State<Units> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(entitlement?.expirationDate != null
-                        ? expireDate(entitlement?.expirationDate)
-                        : "",textAlign: TextAlign.start,),
-                    Text(entitlement?.productIdentifier != null?productIdentifier(entitlement?.productIdentifier ?? "")  :"",textAlign: TextAlign.start,)
+                    Text(
+                      entitlement?.expirationDate != null ? expireDate(entitlement?.expirationDate) : "",
+                      textAlign: TextAlign.start,
+                    ),
+                    Text(
+                      (entitlement?.productIdentifier ?? "").isNotEmpty ? productIdentifier(entitlement?.productIdentifier ?? "") : "",
+                      textAlign: TextAlign.start,
+                    )
                   ],
                 ),
                 enabled: false,
@@ -261,7 +258,7 @@ class _UnitsState extends State<Units> {
       body: Center(
         child: Scaffold(
             body: Scrollbar(
-          isAlwaysShown: true,
+          thumbVisibility: true,
           child: ListWidget(),
           thickness: 10,
           radius: Radius.circular(5),
@@ -273,10 +270,7 @@ class _UnitsState extends State<Units> {
           mini: true,
           onPressed: () {
             fontSizeAdjust(false);
-            Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (BuildContext context) => super.widget));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => super.widget));
           },
           child: Icon(
             Icons.zoom_out,
@@ -288,10 +282,7 @@ class _UnitsState extends State<Units> {
           mini: true,
           onPressed: () {
             fontSizeAdjust(true);
-            Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (BuildContext context) => super.widget));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => super.widget));
           },
           child: Icon(
             Icons.zoom_in,
@@ -299,8 +290,7 @@ class _UnitsState extends State<Units> {
           ),
         ),
       ]),
-      floatingActionButtonLocation:
-          FloatingActionButtonLocation.miniStartDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.miniStartDocked,
     );
   }
 
@@ -313,15 +303,7 @@ class _UnitsState extends State<Units> {
     'assets/icons/c4.png',
     'assets/icons/c5.png'
   ];
-  final List<String> titles = <String>[
-    '',
-    'BPL® Method',
-    'Unidad 1',
-    'Unidad 2',
-    'Unidad 3',
-    'Unidad 4',
-    'Unidad 5'
-  ];
+  final List<String> titles = <String>['', 'BPL® Method', 'Unidad 1', 'Unidad 2', 'Unidad 3', 'Unidad 4', 'Unidad 5'];
   final List<String> subTitles = <String>[
     '',
     'The Neuroscience behind our teaching system!',
@@ -339,35 +321,22 @@ class _UnitsState extends State<Units> {
     setState(() {});
     CustomerInfo customerInfo = await Purchases.getCustomerInfo();
 
-    if (customerInfo.entitlements.all[entitlementID] != null &&
-        customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+    if (customerInfo.entitlements.all[entitlementID] != null && customerInfo.entitlements.all[entitlementID]?.isActive == true) {
       if (currentUnit == 0) {
         currentUnit = 1;
       }
       if (index == 1) {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => NeuroscienceUI()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => NeuroscienceUI())).then(onGoBack);
       } else if (index == 2) {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Unit1Activitys()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const Unit1Activitys())).then(onGoBack);
       } else if (index == 3) {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Unit2Activitys()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const Unit2Activitys())).then(onGoBack);
       } else if (index == 4) {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Unit3Activitys()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const Unit3Activitys())).then(onGoBack);
       } else if (index == 5) {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Unit4Activitys()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const Unit4Activitys())).then(onGoBack);
       } else {
-        Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Unit5Activitys()))
-            .then(onGoBack);
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const Unit5Activitys())).then(onGoBack);
       }
       isLoading = false;
       setState(() {});
@@ -380,10 +349,7 @@ class _UnitsState extends State<Units> {
         setState(() {});
         await showDialog(
             context: context,
-            builder: (BuildContext context) => ShowDialogToDismiss(
-                title: "Error",
-                content: e.message ?? "Unknown error",
-                buttonText: 'OK'));
+            builder: (BuildContext context) => ShowDialogToDismiss(title: "Error", content: e.message ?? "Unknown error", buttonText: 'OK'));
       }
 
       if (offerings == null || offerings.current == null) {
@@ -436,14 +402,12 @@ class _UnitsState extends State<Units> {
                 child: Text(
                   'Welcome to the SIF Language School App! Visit https://siflanguageschool.com/ to learn more.\n\nClick on anything with an unlocked symbol to get started. As you progress, more tiles will be unlocked. Happy learning!',
                   textAlign: TextAlign.left,
-                  style:
-                      TextStyle(fontSize: subtitleFontSize - 1, color: sifBlue),
+                  style: TextStyle(fontSize: subtitleFontSize - 1, color: sifBlue),
                 ),
               );
             } else {
               return ListTile(
-                leading: CircleAvatar(
-                    backgroundImage: AssetImage(asestImages[index])),
+                leading: CircleAvatar(backgroundImage: AssetImage(asestImages[index])),
                 title: Text(
                   titles[index],
                   textAlign: TextAlign.left,
@@ -478,10 +442,8 @@ class _UnitsState extends State<Units> {
   Future<void> deleteUserAccount() async {
     User? user = _auth.currentUser;
 
-    final CollectionReference users =
-    FirebaseFirestore.instance.collection('users');
+    final CollectionReference users = FirebaseFirestore.instance.collection('users');
     var pref = await SharedPreferences.getInstance();
-
 
     if (user != null) {
       // Delete user data from Firebase Storage
@@ -504,9 +466,7 @@ class _UnitsState extends State<Units> {
   Future<void> deleteAccount() async {
     try {
       await FirebaseAuth.instance.currentUser!.delete();
-
     } on FirebaseAuthException catch (e) {
-
       if (e.code == "requires-recent-login") {
         await _reauthenticateAndDelete();
       } else {
@@ -522,11 +482,9 @@ class _UnitsState extends State<Units> {
       final providerData = _auth.currentUser?.providerData.first;
 
       if (AppleAuthProvider().providerId == providerData!.providerId) {
-        await _auth.currentUser!
-            .reauthenticateWithProvider(AppleAuthProvider());
+        await _auth.currentUser!.reauthenticateWithProvider(AppleAuthProvider());
       } else if (GoogleAuthProvider().providerId == providerData.providerId) {
-        await _auth.currentUser!
-            .reauthenticateWithProvider(GoogleAuthProvider());
+        await _auth.currentUser!.reauthenticateWithProvider(GoogleAuthProvider());
       }
       await _auth.currentUser?.delete();
     } catch (e) {

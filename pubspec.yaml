@@ -31,40 +31,37 @@ dependencies:
   flutter:
     sdk: flutter
   #  just_audio: ^0.9.13
-  just_audio: ^0.9.34
+  just_audio: ^0.9.46
   #  cloud_firestore: 4.4.5
 
-  audio_video_progress_bar: ^0.9.0
+  audio_video_progress_bar: ^2.0.3
   splash_screen_view: ^3.0.0
-  path_provider: ^2.0.5
+  path_provider: ^2.1.5
   flip_card: ^0.7.0 #^0.6.0
-  flutter_keyboard_visibility: 5.4.0
-  package_info_plus: 3.1.0
-  shared_preferences: 2.1.0
+  flutter_keyboard_visibility: ^6.0.0
+  package_info_plus: ^8.3.0
+  shared_preferences: ^2.5.3
   auto_size_text: 3.0.0
-  firebase_auth: ^4.9.0
+  firebase_auth: ^5.5.2
   cloud_firestore:
   firebase_core:
-  purchases_flutter: ^5.7.0
+  purchases_flutter: ^8.7.0
   intl:
-  url_launcher:
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  fluttertoast: ^8.2.2 #^8.0.8
+  url_launcher: ^6.3.1
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^2.1.4
+  build_runner: ^2.4.15
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^5.0.0
 
 dependency_overrides:
 #  platform: ^3.1.1

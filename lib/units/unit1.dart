@@ -29,7 +29,7 @@ class _Unit1ActivitysState extends State<Unit1Activitys> {
               toolbarHeight: headerHeight,
             ),
             body: Scrollbar(
-              isAlwaysShown: true,
+              thumbVisibility: true,
               child: ListWidget(),
               thickness: 10,
               radius: Radius.circular(5),

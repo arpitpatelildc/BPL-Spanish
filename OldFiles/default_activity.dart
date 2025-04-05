@@ -53,7 +53,7 @@ class _TestActivityState extends State<TestActivity> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.bodyMedium,
             ),
           ],
         ),

@@ -142,7 +142,7 @@ void showMaterialDialog(BuildContext context, bool start) async {
         return AlertDialog(
           title: Text(popupsJson[i]['Title'], style: TextStyle(fontSize: subtitleFontSize)),
           content: Scrollbar(
-            isAlwaysShown: true,
+            thumbVisibility: true,
             child: SingleChildScrollView(child: Text(popupsJson[i]['Content'], style: TextStyle(fontSize: subtitleFontSize))),
           ),
           actions: <Widget>[

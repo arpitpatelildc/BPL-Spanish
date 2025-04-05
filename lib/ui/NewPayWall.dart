@@ -4,7 +4,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sif_book/ui/constant.dart';
 import 'package:sif_book/ui/singletons_data.dart';
 import 'package:sif_book/ui/styles.dart';
+import 'package:sif_book/utils/resources/color_utils.dart';
 
+import '../startup/globals.dart';
 import '../widget/LoadingSplashScreen.dart';
 
 class PayWall extends StatefulWidget {
@@ -72,13 +74,9 @@ class _PayWallState extends State<PayWall> {
                         margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
                         padding: EdgeInsets.all(15),
                         decoration: BoxDecoration(
-                          color: selectedIndex == index
-                              ? Colors.black
-                              : Colors.white,
+                          color: selectedIndex == index ? Colors.black : Colors.white,
                           border: Border.all(
-                            color: selectedIndex == index
-                                ? Colors.black
-                                : Colors.grey,
+                            color: selectedIndex == index ? Colors.black : Colors.grey,
                           ),
                           borderRadius: BorderRadius.circular(
                             20,
@@ -96,31 +94,23 @@ class _PayWallState extends State<PayWall> {
                                     width: 20,
                                     margin: EdgeInsets.only(right: 10),
                                     decoration: BoxDecoration(
-                                      color: selectedIndex == index
-                                          ? Colors.green
-                                          : Colors.white,
+                                      color: selectedIndex == index ? Colors.green : Colors.white,
                                       shape: BoxShape.circle,
                                       border: Border.all(
-                                        color: selectedIndex == index
-                                            ? Colors.green
-                                            : Colors.grey,
+                                        color: selectedIndex == index ? Colors.green : Colors.grey,
                                       ),
                                     ),
                                     child: Icon(
                                       Icons.check,
                                       size: 14,
-                                      color: selectedIndex == index
-                                          ? Colors.white
-                                          : Colors.transparent,
+                                      color: selectedIndex == index ? Colors.white : Colors.transparent,
                                     ),
                                   ),
                                   Flexible(
                                     child: Text(
                                       myProductList[index].storeProduct.title,
                                       style: kTitleTextStyle.copyWith(
-                                        color: selectedIndex == index
-                                            ? Colors.white
-                                            : Colors.black,
+                                        color: selectedIndex == index ? Colors.white : Colors.black,
                                       ),
                                       maxLines: 1,
                                     ),
@@ -131,9 +121,7 @@ class _PayWallState extends State<PayWall> {
                             Text(
                               myProductList[index].storeProduct.priceString,
                               style: kTitleTextStyle.copyWith(
-                                color: selectedIndex == index
-                                    ? Colors.white
-                                    : Colors.black,
+                                color: selectedIndex == index ? Colors.white : Colors.black,
                               ),
                             ),
                           ],
@@ -151,43 +139,40 @@ class _PayWallState extends State<PayWall> {
                       height: MediaQuery.of(context).size.height * 0.05,
                       child: ElevatedButton(
                         onPressed: () async {
-                          if(selectedIndex < 2) {
+                          if (selectedIndex < 2) {
                             isLoading = true;
                             setState(() {});
                             try {
-                              CustomerInfo customerInfo =
-                              await Purchases.purchasePackage(widget
-                                  .offering.availablePackages[selectedIndex]);
-                              EntitlementInfo? entitlement =
-                              customerInfo.entitlements.all[entitlementID];
-                              appData.entitlementIsActive =
-                                  entitlement?.isActive ?? false;
-                              SharedPreferences pref =
-                              await SharedPreferences.getInstance();
-                              pref.setBool("isSubscribed", true);
+                              CustomerInfo customerInfo = await Purchases.purchasePackage(widget.offering.availablePackages[selectedIndex]);
+
+                                EntitlementInfo? entitlement = customerInfo.entitlements.all[entitlementID];
+                              if(entitlement != null ) {
+                                appData.entitlementIsActive = entitlement.isActive ?? false;
+                                SharedPreferences pref = await SharedPreferences.getInstance();
+                                pref.setBool("isSubscribed", true);
+                                Navigator.pop(context, true);
+                              }
                             } catch (e) {
                               print(e);
                             }
                             isLoading = false;
                             setState(() {});
-                            Navigator.pop(context, true);
-                          } else{
+                          } else {
                             final snackBar = SnackBar(
                               content: Text('Select the package to continue'),
                             );
                             ScaffoldMessenger.of(context).showSnackBar(snackBar);
                           }
                         },
-                        style: ButtonStyle(
-                          shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
-                            RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(50.0),
-                            ),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: sifBlue,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50.0),
                           ),
                         ),
                         child: Text(
                           "Continue",
+                          style: TextStyle(color: AppColors.white),
                         ),
                       ),
                     ),

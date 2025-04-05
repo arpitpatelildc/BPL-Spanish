@@ -28,7 +28,7 @@ class _Unit2ActivitysState extends State<Unit2Activitys> {
               toolbarHeight: headerHeight,
             ),
             body: Scrollbar(
-              isAlwaysShown: true,
+              thumbVisibility: true,
               child: ListWidget(),
               thickness: 10,
               radius: Radius.circular(5),

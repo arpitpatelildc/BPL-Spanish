@@ -55,7 +55,7 @@ class _ListWidgetState extends State<ListWidget> {
         body: Padding(
                 padding: EdgeInsets.fromLTRB(25.0, 0.0, 0.0, 0.0),
                 child: Scrollbar(
-                    isAlwaysShown: true,
+                    thumbVisibility: true,
                     thickness: 10,
                     radius: Radius.circular(5),
                     child: Padding(
