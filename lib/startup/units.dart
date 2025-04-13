@@ -56,11 +56,11 @@ class _UnitsState extends State<Units> {
       PurchasesConfiguration configuration;
       if (StoreConfig.isForAmazonAppstore()) {
         configuration = AmazonConfiguration(StoreConfig.instance.apiKey)
-          ..appUserID = null
+          ..appUserID = email
           ..purchasesAreCompletedBy = const PurchasesAreCompletedByRevenueCat();
       } else {
         configuration = PurchasesConfiguration(StoreConfig.instance.apiKey)
-          ..appUserID = null
+          ..appUserID = email
           ..purchasesAreCompletedBy = const PurchasesAreCompletedByRevenueCat();
       }
       await Purchases.configure(configuration);
@@ -73,16 +73,19 @@ class _UnitsState extends State<Units> {
       Purchases.addCustomerInfoUpdateListener((customerInfo) async {
         appData.appUserID = await Purchases.appUserID;
 
-      CustomerInfo customerInfo = await Purchases.getCustomerInfo();
-      entitlement = customerInfo.entitlements.all[entitlementID];
-      appData.entitlementIsActive = entitlement?.isActive ?? false;
-      if (customerInfo.entitlements.all[entitlementID] != null &&
-          customerInfo.entitlements.all[entitlementID]?.isActive == true) {
-        isSubscribed = true;
-      } else {
-        isSubscribed = false;
-      }
-    });
+        CustomerInfo customerInfo = await Purchases.getCustomerInfo();
+        entitlement = customerInfo.entitlements.all[entitlementID];
+        appData.entitlementIsActive = entitlement?.isActive ?? false;
+        if (customerInfo.entitlements.all[entitlementID] != null &&
+            customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+          isSubscribed = true;
+        } else {
+          isSubscribed = false;
+        }
+      });
+    } catch(e){
+      log(e.toString());
+    }
   }
 
   String email = "sifBPL@gmail.com";

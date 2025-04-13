@@ -71,14 +71,21 @@ class _PaywallState extends State<Paywall> {
                               customerInfo.entitlements.all[entitlementID];
                           appData.entitlementIsActive =
                               entitlement?.isActive ?? false;
+
                           SharedPreferences pref =
                               await SharedPreferences.getInstance();
+
                           pref.setBool("isSubscribed", true);
+                          if(entitlement?.isActive ?? false){
+                            Navigator.pop(context, true);
+                          }
+                          widget.isLoading(false);
                         } catch (e) {
                           print(e);
+                          widget.isLoading(false);
                         }
-                        widget.isLoading(false);
-                        Navigator.pop(context, true);
+
+
                       },
                       title: Text(
                         myProductList[index].storeProduct.title,
@@ -114,10 +121,10 @@ class _PaywallState extends State<Paywall> {
                         CustomerInfo restoredInfo =
                             await Purchases.restorePurchases();
                         restoredInfo.allExpirationDates;
-                        Navigator.pop(context);
+                        Navigator.pop(context, true);
                         DialogUtils.displayToast("Restore successfully");
                       } on PlatformException catch (e) {
-                        Navigator.pop(context);
+                        Navigator.pop(context, false);
                         DialogUtils.displayToast("${e.message}");
                       }
                     },
