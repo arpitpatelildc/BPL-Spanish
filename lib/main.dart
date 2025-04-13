@@ -7,6 +7,7 @@ import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sif_book/ui/constant.dart';
 import 'package:sif_book/ui/store_config.dart';
+import 'package:sif_book/utils/resources/color_utils.dart';
 import 'startup/splashscreen.dart';
 import 'startup/globals.dart';
 import 'utils/route/navigation.dart';
@@ -24,94 +25,54 @@ void main() async {
   popupsJson = json.decode(popups);
 
   // CHAPTER 1 JSON
-  String Unit1_1 = await rootBundle
-      .loadString('assets/json/Unidad1/1_AlphabetFlashcards.json');
-  String Unit1_2 =
-      await rootBundle.loadString('assets/json/Unidad1/2_Unit1Vocab.json');
-  String Unit1_3 = await rootBundle
-      .loadString('assets/json/Unidad1/3_DefiniteArticles.json');
-  String Unit1_4 =
-      await rootBundle.loadString('assets/json/Unidad1/4_Plurals.json');
-  String Unit1_5 =
-      await rootBundle.loadString('assets/json/Unidad1/5_Adjectives.json');
-  String Unit1_6 =
-      await rootBundle.loadString('assets/json/Unidad1/6_SerConjugations.json');
-  String Unit1_7 =
-      await rootBundle.loadString('assets/json/Unidad1/7_SerRule1.json');
-  String Unit1_8 = await rootBundle
-      .loadString('assets/json/Unidad1/8_ImportantWordsPhrases1.json');
-  String Unit1_9 =
-      await rootBundle.loadString('assets/json/Unidad1/9_Dialogue1.json');
-  String Unit1_10 = await rootBundle
-      .loadString('assets/json/Unidad1/10_FullUnit1Practice.json');
+  String Unit1_1 = await rootBundle.loadString('assets/json/Unidad1/1_AlphabetFlashcards.json');
+  String Unit1_2 = await rootBundle.loadString('assets/json/Unidad1/2_Unit1Vocab.json');
+  String Unit1_3 = await rootBundle.loadString('assets/json/Unidad1/3_DefiniteArticles.json');
+  String Unit1_4 = await rootBundle.loadString('assets/json/Unidad1/4_Plurals.json');
+  String Unit1_5 = await rootBundle.loadString('assets/json/Unidad1/5_Adjectives.json');
+  String Unit1_6 = await rootBundle.loadString('assets/json/Unidad1/6_SerConjugations.json');
+  String Unit1_7 = await rootBundle.loadString('assets/json/Unidad1/7_SerRule1.json');
+  String Unit1_8 = await rootBundle.loadString('assets/json/Unidad1/8_ImportantWordsPhrases1.json');
+  String Unit1_9 = await rootBundle.loadString('assets/json/Unidad1/9_Dialogue1.json');
+  String Unit1_10 = await rootBundle.loadString('assets/json/Unidad1/10_FullUnit1Practice.json');
 
   // Chapter 2 json
-  String Unit2_1 =
-      await rootBundle.loadString('assets/json/Unidad2/1_Unit2Vocab.json');
-  String Unit2_2 = await rootBundle
-      .loadString('assets/json/Unidad2/2_IndefiniteArticles.json');
-  String Unit2_3 =
-      await rootBundle.loadString('assets/json/Unidad2/3_PluralsUnYUna.json');
-  String Unit2_4 =
-      await rootBundle.loadString('assets/json/Unidad2/4_Prepositions.json');
-  String Unit2_5 = await rootBundle
-      .loadString('assets/json/Unidad2/5_ImportantWordsPhrases2.json');
-  String Unit2_6 =
-      await rootBundle.loadString('assets/json/Unidad2/6_Dialogue2.json');
-  String Unit2_7 = await rootBundle
-      .loadString('assets/json/Unidad2/7_FullUnit2Practice.json');
+  String Unit2_1 = await rootBundle.loadString('assets/json/Unidad2/1_Unit2Vocab.json');
+  String Unit2_2 = await rootBundle.loadString('assets/json/Unidad2/2_IndefiniteArticles.json');
+  String Unit2_3 = await rootBundle.loadString('assets/json/Unidad2/3_PluralsUnYUna.json');
+  String Unit2_4 = await rootBundle.loadString('assets/json/Unidad2/4_Prepositions.json');
+  String Unit2_5 = await rootBundle.loadString('assets/json/Unidad2/5_ImportantWordsPhrases2.json');
+  String Unit2_6 = await rootBundle.loadString('assets/json/Unidad2/6_Dialogue2.json');
+  String Unit2_7 = await rootBundle.loadString('assets/json/Unidad2/7_FullUnit2Practice.json');
 
   // Chapter 3 json upload
-  String Unit3_1 =
-      await rootBundle.loadString('assets/json/Unidad3/1_Unit3Vocab.json');
-  String Unit3_2 =
-      await rootBundle.loadString('assets/json/Unidad3/2_Family.json');
-  String Unit3_3 =
-      await rootBundle.loadString('assets/json/Unidad3/3_SerRule2.json');
-  String Unit3_4 =
-      await rootBundle.loadString('assets/json/Unidad3/4_TenerLlevar.json');
-  String Unit3_5 =
-      await rootBundle.loadString('assets/json/Unidad3/5_SayYourName.json');
-  String Unit3_6 =
-      await rootBundle.loadString('assets/json/Unidad3/6_SerRule3.json');
-  String Unit3_7 = await rootBundle
-      .loadString('assets/json/Unidad3/7_ImportantWordsPhrases3.json');
-  String Unit3_8 =
-      await rootBundle.loadString('assets/json/Unidad3/8_Dialogue3.json');
-  String Unit3_9 = await rootBundle
-      .loadString('assets/json/Unidad3/9_FullUnit3Practice.json');
+  String Unit3_1 = await rootBundle.loadString('assets/json/Unidad3/1_Unit3Vocab.json');
+  String Unit3_2 = await rootBundle.loadString('assets/json/Unidad3/2_Family.json');
+  String Unit3_3 = await rootBundle.loadString('assets/json/Unidad3/3_SerRule2.json');
+  String Unit3_4 = await rootBundle.loadString('assets/json/Unidad3/4_TenerLlevar.json');
+  String Unit3_5 = await rootBundle.loadString('assets/json/Unidad3/5_SayYourName.json');
+  String Unit3_6 = await rootBundle.loadString('assets/json/Unidad3/6_SerRule3.json');
+  String Unit3_7 = await rootBundle.loadString('assets/json/Unidad3/7_ImportantWordsPhrases3.json');
+  String Unit3_8 = await rootBundle.loadString('assets/json/Unidad3/8_Dialogue3.json');
+  String Unit3_9 = await rootBundle.loadString('assets/json/Unidad3/9_FullUnit3Practice.json');
 
   // Chapter 4 json upload
-  String Unit4_1 =
-      await rootBundle.loadString('assets/json/Unidad4/1_Unit4Vocab.json');
-  String Unit4_2a = await rootBundle
-      .loadString('assets/json/Unidad4/2a_NumberFlashcards.json');
-  String Unit4_2b =
-      await rootBundle.loadString('assets/json/Unidad4/2b_NumberMC.json');
-  String Unit4_3 =
-      await rootBundle.loadString('assets/json/Unidad4/3_SerRule4.json');
-  String Unit4_4 =
-      await rootBundle.loadString('assets/json/Unidad4/4_SerRule5.json');
-  String Unit4_5 = await rootBundle
-      .loadString('assets/json/Unidad4/5_ImportantWordsPhrases4.json');
-  String Unit4_6a =
-      await rootBundle.loadString('assets/json/Unidad4/6a_Dialogue4.json');
-  String Unit4_6b =
-      await rootBundle.loadString('assets/json/Unidad4/6b_Dialogue4MC.json');
-  String Unit4_7 = await rootBundle
-      .loadString('assets/json/Unidad4/7_FullUnit4Practice.json');
+  String Unit4_1 = await rootBundle.loadString('assets/json/Unidad4/1_Unit4Vocab.json');
+  String Unit4_2a = await rootBundle.loadString('assets/json/Unidad4/2a_NumberFlashcards.json');
+  String Unit4_2b = await rootBundle.loadString('assets/json/Unidad4/2b_NumberMC.json');
+  String Unit4_3 = await rootBundle.loadString('assets/json/Unidad4/3_SerRule4.json');
+  String Unit4_4 = await rootBundle.loadString('assets/json/Unidad4/4_SerRule5.json');
+  String Unit4_5 = await rootBundle.loadString('assets/json/Unidad4/5_ImportantWordsPhrases4.json');
+  String Unit4_6a = await rootBundle.loadString('assets/json/Unidad4/6a_Dialogue4.json');
+  String Unit4_6b = await rootBundle.loadString('assets/json/Unidad4/6b_Dialogue4MC.json');
+  String Unit4_7 = await rootBundle.loadString('assets/json/Unidad4/7_FullUnit4Practice.json');
 
   // Chapter 5 json upload
-  String Unit5_1 =
-      await rootBundle.loadString('assets/json/Unidad5/1_Unit5Vocab.json');
-  String Unit5_2 =
-      await rootBundle.loadString('assets/json/Unidad5/2_SerRule6.json');
-  String Unit5_3 =
-      await rootBundle.loadString('assets/json/Unidad5/3_CostCurrency.json');
-  String Unit5_4 =
-      await rootBundle.loadString('assets/json/Unidad5/4_AllSerRules.json');
-  String Unit5_5 = await rootBundle
-      .loadString('assets/json/Unidad5/5_FullUnit5Practice.json');
+  String Unit5_1 = await rootBundle.loadString('assets/json/Unidad5/1_Unit5Vocab.json');
+  String Unit5_2 = await rootBundle.loadString('assets/json/Unidad5/2_SerRule6.json');
+  String Unit5_3 = await rootBundle.loadString('assets/json/Unidad5/3_CostCurrency.json');
+  String Unit5_4 = await rootBundle.loadString('assets/json/Unidad5/4_AllSerRules.json');
+  String Unit5_5 = await rootBundle.loadString('assets/json/Unidad5/5_FullUnit5Practice.json');
 
   // Decoding the json files
   Unit1_1r = json.decode(Unit1_1);
@@ -188,9 +149,16 @@ class MyApp extends StatelessWidget {
       title: 'SIF Language School',
       theme: ThemeData(
         primarySwatch: sifBlue,
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(
+          backgroundColor: sifBlue,
+          surfaceTintColor: sifBlue,
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(color: AppColors.white),
+        ),
       ),
       home: const SplashScreen(),
-        onGenerateRoute: NavigationUtils.generateRoute,
+      onGenerateRoute: NavigationUtils.generateRoute,
     );
   }
 }

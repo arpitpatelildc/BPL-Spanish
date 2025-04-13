@@ -1,0 +1,2 @@
+C:/Users/Jaimin Kavathiya/AndroidStudioProjects/BPL-Spanish/android/app/.cxx/Debug/g2j1x5zc/x86/CMakeFiles/edit_cache.dir
+C:/Users/Jaimin Kavathiya/AndroidStudioProjects/BPL-Spanish/android/app/.cxx/Debug/g2j1x5zc/x86/CMakeFiles/rebuild_cache.dir

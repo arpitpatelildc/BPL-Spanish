@@ -73,26 +73,16 @@ class _UnitsState extends State<Units> {
       Purchases.addCustomerInfoUpdateListener((customerInfo) async {
         appData.appUserID = await Purchases.appUserID;
 
-        CustomerInfo customerInfo = await Purchases.getCustomerInfo();
-        entitlement = customerInfo.entitlements.all[entitlementID];
-        appData.entitlementIsActive = entitlement?.isActive ?? false;
-
-        log("Check 1");
-        if (customerInfo.entitlements.all[entitlementID] != null &&
-            customerInfo.entitlements.all[entitlementID]?.isActive == true) {
-          log("Check 2");
-          isSubscribed = true;
-          setState(() {});
-        } else {
-          log("Check 3");
-          isSubscribed = false;
-          setState(() {});
-        }
-      });
-    } catch (e) {
-      print('Error initializing purchases: $e');
-      // Handle initialization error appropriately
-    }
+      CustomerInfo customerInfo = await Purchases.getCustomerInfo();
+      entitlement = customerInfo.entitlements.all[entitlementID];
+      appData.entitlementIsActive = entitlement?.isActive ?? false;
+      if (customerInfo.entitlements.all[entitlementID] != null &&
+          customerInfo.entitlements.all[entitlementID]?.isActive == true) {
+        isSubscribed = true;
+      } else {
+        isSubscribed = false;
+      }
+    });
   }
 
   String email = "sifBPL@gmail.com";
@@ -621,6 +611,7 @@ class _UnitsState extends State<Units> {
         FirebaseFirestore.instance.collection('users');
     var pref = await SharedPreferences.getInstance();
 
+
     if (user != null) {
       // Delete user data from Firebase Storage
       await users.doc(pref.getString("userId")).delete();
@@ -643,7 +634,9 @@ class _UnitsState extends State<Units> {
   Future<void> deleteAccount() async {
     try {
       await FirebaseAuth.instance.currentUser!.delete();
+
     } on FirebaseAuthException catch (e) {
+
       if (e.code == "requires-recent-login") {
         await _reauthenticateAndDelete();
       } else {
@@ -678,7 +671,7 @@ class _UnitsState extends State<Units> {
 
       // Restore purchases
       CustomerInfo restoredInfo = await Purchases.restorePurchases();
-      
+
       // Check if user has active entitlements
       entitlement = restoredInfo.entitlements.all[entitlementID];
       appData.entitlementIsActive = entitlement?.isActive ?? false;
